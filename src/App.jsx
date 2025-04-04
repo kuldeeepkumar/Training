@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
   let color = prompt("Enter color name :");
   document.body.style.background = color;
-  console.log("Hello World");
+  
+  console.log("Writting my first code");
 
   return (
     <>
