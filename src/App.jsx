@@ -1,14 +1,17 @@
 
 import './App.css'
+import Exercise1 from './exercises/exercise1/Exercise1'
+import Exercise2 from './exercises/exercise2/Exercise2'
 
 function App() {
-  console.log("hello sania")
+
 
   return (
     <>
-     <div>
-      <h1>hello i'm here</h1>
-     </div>
+  {/* <Exercise1/> */}
+  <Exercise2/>
+  
+  
     </>
   )
 }
