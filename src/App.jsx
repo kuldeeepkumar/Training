@@ -1,14 +1,13 @@
 
 import './App.css'
+import Exercise1 from './exercises/exercise 1/Exercise1'
 
 function App() {
-console.log("hello paramveer")
+console.log("hello")
 
   return (
     <>
-<div>
-  <h1>Hello world </h1>
-</div>
+<Exercise1 />
     </>
   )
 }
