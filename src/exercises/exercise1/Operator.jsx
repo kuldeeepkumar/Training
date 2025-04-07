@@ -4,13 +4,13 @@ const Operator = () => {
   // Operators
   // Arithmetic Operators
 
-  let x = 10;
-  let y = 5;
-  console.log(x + y); // Output: 15 (Addition)
-  console.log(x - y); // Output: 5  (Subtraction)
-  console.log(x * y); // Output: 50 (Multiplication)
-  console.log(x / y); // Output: 2  (Division)
-  console.log(x % y); // Output: 0  (Modulus)
+  let a = 10;
+  let b = 5;
+  console.log(a + b); // Output: 15 (Addition)
+  console.log(a - b); // Output: 5  (Subtraction)
+  console.log(a * b); // Output: 50 (Multiplication)
+  console.log(a / b); // Output: 2  (Division)
+  console.log(a % b); // Output: 0  (Modulus)
 
   // Comparison Operators
 

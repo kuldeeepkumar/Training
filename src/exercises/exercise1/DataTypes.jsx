@@ -23,7 +23,7 @@ const DataTypes = () => {
   };
 
   // Array
-  let fruits = ["apple", "banana", "cherry"];
+  let fruits = ["banana", "apple", "cherry"];
 
   // undefined
   let car;
