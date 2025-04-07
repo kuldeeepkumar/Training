@@ -22,7 +22,7 @@ const DataTypes = () => {
     age: 30,
   };
 
-  // Array
+  // Array DT
   let fruits = ["banana", "apple", "cherry"];
 
   // undefined
