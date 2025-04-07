@@ -1,15 +1,16 @@
-import React from 'react'
-import Exercise1 from './exercises/exercises 1/Exercise1';
+import './App.css'
+ import Exercise1 from './exercises/exercise1/Exercise1'
+import Exercise2 from './exercises/exercise2/Exercise2';
 
-function App(){
-  return (
-    <>
-    <Exercise1/>
-  
-    </>
-    
-  )
-}
-
-export default Exercise1
+ 
+ function App() {
+ 
+   return (
+  <>
+  <Exercise1/>
+  <Exercise2/>
+  </>
+   )
+ }
+ export default App ;
 
