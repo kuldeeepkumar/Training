@@ -6,7 +6,7 @@ const Exercise1 = () => {
   return (
   <>
   <Opertors/>
-  </>
+  </> 
   ) 
 }
 
