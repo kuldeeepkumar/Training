@@ -1,16 +1,15 @@
+import React from 'react'
+import Exercise1 from './exercises/exercises 1/Exercise1';
 
-import './App.css'
-
-function App() {
-  console.log("hello")
-
+function App(){
   return (
     <>
-      <div> 
-        <h1>hello</h1>
-      </div>
-      </>
+    <Exercise1/>
+  
+    </>
+    
   )
 }
 
-export default App
+export default Exercise1
+
