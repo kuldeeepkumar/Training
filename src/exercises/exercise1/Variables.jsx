@@ -1,15 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Variables = () => {
-
   //here we have js variables
- let name = "palak";
- console.log(name);
+  let name = "palak";
+  console.log(name);
 
-  return (
-    <div>palak</div>
-  )
+  return <div>Variables</div>;
+};
 
-}
-
-export default Variables
+export default Variables;

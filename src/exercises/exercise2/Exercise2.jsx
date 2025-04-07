@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import ConditionalStatements from "./ConditionalStatements";
 
 const Exercise2 = () => {
   return (
-<div>Exercise2</div>
+    <>
+      <ConditionalStatements />
+    </>
+  );
+};
 
-    
-  )
-}
-
-export default Exercise2
+export default Exercise2;

@@ -1,12 +1,12 @@
 import React from 'react'
-import Variable from './Variables'
+import Variables from './Variables'
 
-const Excercise1 = () => {
+const Exercise1 = () => {
   return (
     <>
-    <Variable/>
+      <Variables/>
     </>
   )
 }
 
-export default Excercise1
+export default Exercise1

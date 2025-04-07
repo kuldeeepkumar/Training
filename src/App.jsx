@@ -1,15 +1,14 @@
-
-import './App.css'
-import Excercise1 from './exercises/exercise1/Exercise1'
+import "./App.css";
+import Exercise1 from "./exercises/exercise1/Exercise1";
+import Exercise2 from "./exercises/exercise2/Exercise2";
 
 function App() {
-  console.log("hello")
-
   return (
     <>
-   <Excercise1/>
-     </>
-  )
+      {/* <Exercise1 /> */}
+      <Exercise2 />
+    </>
+  );
 }
 
-export default App
+export default App;
