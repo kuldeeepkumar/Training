@@ -1,12 +1,13 @@
 
 import './App.css'
+import Excercise1 from './exercises/exercise1/Excercise1'
 
 function App() {
   console.log("hello")
 
   return (
     <>
-    <h1>Sumit Chaudhary</h1>
+   <Excercise1/>
      </>
   )
 }
