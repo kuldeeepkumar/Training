@@ -1,19 +1,14 @@
-import './App.css'
+import "./App.css";
+import Exercise1 from "./exercises/exercise1/Exercise1";
+import Exercise2 from "./exercises/exercise2/Exercise2";
 
 function App() {
- 
-console.log("hello anchal");
   return (
     <>
-      <div>
-      <u>hello</u>
-      <h1> hlo baljit</h1>
-      </div>
-      <p className="read-the-docs">
-          
-      </p>
+      <Exercise1 />
+      {/* <Exercise2/> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
