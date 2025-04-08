@@ -5,7 +5,7 @@ import Exercise2 from "./exercises/exercise2/Exercise2";
 function App() {
   return (
     <>
-      {/* <Exercise1 /> */}
+     <Exercise1 />
       <Exercise2 />
     </>
   );
