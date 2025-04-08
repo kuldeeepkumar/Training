@@ -3,7 +3,7 @@ import React from 'react'
 const Datatypes = () => {
       // Data types
    // String
-   let yourName = "Kuldeep";
+   let yourName = "Jaspreet kaur`";
    let greeting = "Hello";
    let sentence = `My name is ${yourName}`; // Template literals
  

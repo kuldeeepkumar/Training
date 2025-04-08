@@ -9,6 +9,8 @@ const Exercise1 = () => {
  <>
  
 <Operators/>
+<Datatypes/>
+<Variables/>
  </>
   )
 }
