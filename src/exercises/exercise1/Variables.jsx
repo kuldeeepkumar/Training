@@ -1,7 +1,7 @@
 import React from "react";
 
 const Variables = () => {
-  let name = "rahul";
+  let name = "anchal";
   const num = 10;
 
   // num = 12; // it generate error
