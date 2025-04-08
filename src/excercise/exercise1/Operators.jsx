@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Operators = () => {
-  
+
    // Arithmetic Operators
  
    let x = 10;
@@ -35,7 +35,7 @@ const Operators = () => {
    abc += 5; // a = a + 5 -> a = 15
    console.log(a); // Output: 15
  
-  
+ 
   return (
     <div>Operators</div>
   )
