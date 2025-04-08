@@ -5,7 +5,7 @@ const ConditionalStatements = () => {
   // Conditional Statements
   // -------------------------
 
-  // Example 1: if statement
+  // Example 1: if Statement
   let temperature = 30;
   if (temperature > 25) {
     console.log("It's hot outside!"); // This will be executed because 30 > 25
