@@ -2,7 +2,7 @@ import React from 'react'
 
 const Datatypes = () => {
 
-  // Data types
+     // Data types
    // String
    let yourName = "Kuldeep";
    let greeting = "Hello";
@@ -34,11 +34,12 @@ const Datatypes = () => {
  
    // null
    let nothing = null;
+   
+   return (
+     <div>Datatypes</div>
+   )
+ }
+ 
+ export default Datatypes
 
-
-  return (
-    <div>Datatypes</div>
-  )
-}
-
-export default Datatypes
+  
