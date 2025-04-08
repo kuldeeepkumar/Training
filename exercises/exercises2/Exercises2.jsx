@@ -1,10 +1,12 @@
 import React from 'react'
 import ConditionalStatements from './ConditionalStatements'
+import Loops from './Loops'
 
 const Exercises2 = () => {
   return (
     <>
-    <ConditionalStatements/>
+    {/* <ConditionalStatements/> */}
+    <Loops/>
     
     
     

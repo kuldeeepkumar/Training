@@ -1,18 +1,16 @@
 
 import './App.css'
+import Exercises1 from './exercises/exercises1/Exercises1';
+import Exercises2 from './exercises/exercises2/Exercises2';
 
 function App() {
   
-  
-  console.log("hello shikha")
 
   return (
     <>
-      <div>
-        <h1>shikha </h1>
-      </div>
-      
-    </>
+  {/* <Exercises1/> */}
+  <Exercises2/>
+</>
   )
 }
 
