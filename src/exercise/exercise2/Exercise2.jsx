@@ -1,13 +1,14 @@
-import React from 'react'
-import ConditionalStatement from './ConditionalStatement'
+import React from "react";
+import ConditionalStatement from "./ConditionalStatement";
+import LoopingStatements from "./LoopingStatements";
 
 const exercise2 = () => {
   return (
-  <>
-   <ConditionalStatement/>
-   
-</>
-  )
-}
+    <>
+      {/* <ConditionalStatement /> */}
+      <LoopingStatements />
+    </>
+  );
+};
 
-export default exercise2
+export default exercise2;
