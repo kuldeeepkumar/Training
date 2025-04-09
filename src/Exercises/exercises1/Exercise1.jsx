@@ -1,13 +1,14 @@
-import React from 'react'
-import Variables from './Variables'
+import React from "react";
+import Variables from "./Variables";
+import Operator from "./Operator";
+import Datatype from "./Datatype";
 
 const Exercise1 = () => {
   return (
     <>
-    <Variables/>
-    
+      <Datatype />
     </>
-  )
-}
+  );
+};
 
-export default Exercise1
+export default Exercise1;
