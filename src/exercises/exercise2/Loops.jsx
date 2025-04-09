@@ -28,6 +28,23 @@ const Loops = () => {
     console.log(students);
   });
 
+  // Break Statements
+  console.log("Break Statements ");
+  for (let z = 1; z < 6; z++) {
+    if (z == 5) {
+      break;
+    }
+    console.log(z);
+  }
+
+  //Continue Statements
+  console.log("Continue Statements");
+  for (let b = 1; b < 7; b++) {
+    if (b == 3) {
+      continue;
+    }
+    console.log(b);
+  }
   return <div>Loops</div>;
 };
 
