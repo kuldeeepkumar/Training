@@ -1,12 +1,20 @@
-import React from 'react'
-import ConditionalStatements from './ConditionalStatements'
+import React from "react";
+import ConditionalStatements from "./ConditionalStatements";
+import LoopingStatements from "./LoopingStatements";
+import WhileLoop from "./WhileLoop";
+import AdditionalFlowcontrol from "./AdditionalFlowcontrol";
+import Question from "./Question";
 
 const exercise2 = () => {
   return (
     <>
-    <ConditionalStatements/>
+      {/* <ConditionalStatements /> */}
+      {/* <LoopingStatements /> */}
+      {/* <WhileLoop/> */}
+     {/* <AdditionalFlowcontrol/>  */}
+      <Question/>
     </>
-  )
-}
+  );
+};
 
-export default exercise2
+export default exercise2;

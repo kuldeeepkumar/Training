@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const Datatypes = () => {
-    let yourName = "Kuldeep";
+const Datatypes = () => {
+   // String
+   let yourName = "Kuldeep";
    let greeting = "Hello";
-   let sentence = `${greeting}  My name is ${yourName}`; // Template literals
+   let sentence = `My name is ${yourName}`; // Template literals
  
    console.log( sentence)
  
@@ -12,9 +13,9 @@ export const Datatypes = () => {
    let age = 30;
    let price = 19.99;
  
-   // boolea
-   let student=true;
-   let teacher= false;
+   // boolean
+   let isStudent = true;
+   let isTeacher = false;
  
    // Object
    let person = {
@@ -26,13 +27,15 @@ export const Datatypes = () => {
    let fruits = ["apple", "banana", "cherry"];
  
    // undefined
-   let car ;
+   let car;
    console.log(car); // Output: undefined
  
    // null
    let nothing = null;
+   
   return (
     <div>Datatypes</div>
   )
 }
+
 export default Datatypes
