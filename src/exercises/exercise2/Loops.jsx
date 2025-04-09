@@ -39,21 +39,21 @@ const Loops = () => {
 
   console.log("break");
 
- 
-  console.log("forEach loop");
+  for (let i = 0; i < 5; i++) {
+    if (i === 3) {
+      break;
+    }
+    console.log(i);
+  }
 
-  // let name = ["anchal", "baljit", "gagan"];
-  // name.forEach(function (name) {
-  //   console.log(name);
-  // });
+  console.log("continue");
 
-  // console.log("forEach loop");
-
-  // let name = ["anchal", "baljit", "gagan"];
-  // name.forEach(function (name) {
-  //   console.log(name);
-  // });
-
+  for (let i = 0; i < 5; i++) {
+    if (i === 2) {
+      continue;
+    }
+    console.log(i);
+  }
 
   return (
     <>
