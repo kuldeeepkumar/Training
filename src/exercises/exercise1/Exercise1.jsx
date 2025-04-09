@@ -1,13 +1,16 @@
-import React from 'react'
-import Variables from './Variables'
-import Opertors from './Opertors'
+import React from "react";
+import Variables from "./Variables";
+import Opertors from "./Opertors";
+import Datatypes from "./Datatypes";
 
 const Exercise1 = () => {
   return (
-  <>
-  <Opertors/>
-  </> 
-  ) 
-}
+    <>
+      <Datatypes />
+      <Opertors />
+      <Variables />
+    </>
+  );
+};
 
-export default Exercise1
+export default Exercise1;
