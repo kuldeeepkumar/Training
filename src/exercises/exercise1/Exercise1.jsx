@@ -1,9 +1,14 @@
 import React from 'react'
-
+import Variables from './Variables'
+import Operators from './Operators'
+import Datatypes from './Datatypes'
 const Exercise1 = () => {
-  
   return (
-    <div>Exercise1</div>
+    <>
+      <Variables/>
+      <Operators/>
+      <Datatypes/>
+    </>
   )
 }
 
