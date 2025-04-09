@@ -10,7 +10,7 @@ const Loops = () => {
   while (x < 15) {
     console.log(x);
     x++;
-  }
+  } 
   // do while loop is here
   let a = 20;
   do {
