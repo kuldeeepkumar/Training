@@ -24,7 +24,7 @@ let temperature = 30;
  } else {
    console.log("It's moderate."); // This will be executed because 20 is neither > 30 nor > 25
  }
-
+//eg 4
 let day = 3;
  let dayName;
  switch (day) {
@@ -41,9 +41,37 @@ let day = 3;
      dayName = "Unknown day";
  }
  console.log(dayName); // Output: "Wednesday"
- 
- 
- 
+//eg 5
+ let tem= 30;
+
+ if(tem > 25)
+ {
+  console.log("It's hot outside");
+ }
+ //eg6
+ let tempt = 15;
+ if(tempt>25)
+ {
+  console.log("It's hot outside");
+ }
+ else
+ {
+  console.log("It's not hot outside.");
+ }
+//eg7
+
+let temp = 20;
+if (temp > 30)
+{
+  console.log("It's very hot!");
+}
+else if (temp> 25)
+{
+  console.log("It's hot outside!");
+}
+else{
+  console.log("It's moderate.");
+}
    return (
      <div>ConditionalStatements</div>
    )
