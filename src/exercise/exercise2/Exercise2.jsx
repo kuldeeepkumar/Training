@@ -1,6 +1,7 @@
 import React from 'react'
 import ConditionalStatement from './ConditionalStatement'
 import LoopingStatements from './LoopingStatements'
+import Question from './Question'
 
 
 
@@ -9,7 +10,7 @@ const Exercise2 = () => {
     <>
    <ConditionalStatement/>
    <LoopingStatements/>
-   
+   <Question/>
    
     </>
   )

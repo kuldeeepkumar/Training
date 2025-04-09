@@ -31,7 +31,7 @@ import React from 'react'
  }
  
  // Example 4: switch statement
- let day = 3;
+ let day =3;
  let dayName;
  switch (day) {
    case 1:

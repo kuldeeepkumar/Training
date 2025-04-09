@@ -4,10 +4,10 @@ const LoopingStatements = () => {
 
     //code is for for loop 
 
-    for(let i=1;i<10;i++)
-    {
-        console.log("iteration number:"+i);
-    }
+   for(let i=1;i<10;i++){
+    console.log("iteration number:"+i);
+   }
+ 
     // code is for while loop 
 
     let i=1;
