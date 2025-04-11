@@ -8,8 +8,8 @@ import Question from './Question'
 const Exercise2 = () => {
   return (
     <>
-   <ConditionalStatement/>
-   <LoopingStatements/>
+<ConditionalStatement/> 
+   <LoopingStatements/> 
    <Question/>
    
     </>

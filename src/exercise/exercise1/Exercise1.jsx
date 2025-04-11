@@ -6,9 +6,9 @@ import Operators from './Operators'
 const Exercise1 = () => {
   return (
     <>
-    <Variables/>
-    <Datatypes/>
-    <Operators/>
+    {/* <Variables/> */}
+    {/* <Datatypes/> */}
+    {/* <Operators/> */}
     </>
     
   )
