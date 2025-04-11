@@ -34,17 +34,8 @@ const Questions = () => {
          }
         
     // fourth question
-        let i,sum=0
-        i=1
-
-        while(i<=50){
-          if(i % 2 == 0){
-            sum=sum+i
-          }
-          i++
-
-        }
-        console.log(sum)
+        
+      
    // fifth question
         
    let array = [10,23,4,15,8];
