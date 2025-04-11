@@ -9,7 +9,7 @@ const Questions = () => {
          } else if (num < 0) {
              return "Negative";
          } else {             
-             return "Zero";
+             return "Zero (0)";
          }
      }
      console.log(checkNumber(5));
