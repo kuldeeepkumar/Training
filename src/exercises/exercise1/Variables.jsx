@@ -1,19 +1,16 @@
 import React from "react";
 
 const Variables = () => {
-  // Variable code is started here
+  let name = "Ripan"; // Variable declared using let
+  const age = 20; // Constant variable declared using const
+  name = "deep"; // You can reassign 'name' since it was declared with 'let'
+  // age = 21;          // Error: Assignment to constant variable
 
-  let a = "apple";
-
-  const b = "banana";
-
-  // b = "grapes";   we can not re assign value to constant variables in java script
-
-  console.log(a);
-
+  console.log(age);
+  console;
   return (
     <div>
-      <h1> Varibles</h1>
+      <h1>Variables</h1>
     </div>
   );
 };
