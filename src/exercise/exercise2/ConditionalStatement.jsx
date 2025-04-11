@@ -26,6 +26,7 @@ const ConditionalStatement = () => {
   }
   console.log(temperature);
   // Example 4: switch statement
+  
   let day = 3;
   let dayName;
   switch (day) {
