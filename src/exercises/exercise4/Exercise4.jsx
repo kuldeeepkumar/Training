@@ -10,7 +10,7 @@ const Exercise4 = () => {
   fruits.push("mango");
   console.log(fruits);
   // use array pop()
-  const int = [10, 20, 30];
+  const int = [40, 20, 30];
   int.pop();
   console.log(int);
   // use array shift()
