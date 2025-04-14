@@ -1,5 +1,8 @@
 import React from "react";
 
+export default ConditionalStatements
+
+
 const ConditionalStatement = () => {
   let temperature = 30;
   if (temperature > 25) {
