@@ -14,7 +14,7 @@ const Exercise4 = () => {
   int.pop();
   console.log(int);
   // use array shift()
-  const sub = ["hindi", "english"];
+  const sub = ["english", "hindi"];
   sub.shift();
   console.log(sub);
   // use array unshift()
