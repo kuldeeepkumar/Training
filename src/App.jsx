@@ -1,14 +1,16 @@
-import './App.css' 
+
+import './App.css'
+import Exercise1 from './exercises/exercise1/Exercise1'
+import Exercise2 from './exercises/exercise2/Exercise2'
+import Questions from './exercises/Questions'
+import Exercise3 from './exercises/exercise3/Exercise3'
 function App() {
-console.log("hello mehak") 
-
   return (
-    <>  
-<div>
-  <h1>Hello world</h1>
-</div>
+    <>
+    <Exercise1/>
+    <Exercise2/>
+    <Exercise3/>
     </>
-  )
+  );
 }
-
 export default App
