@@ -1,4 +1,5 @@
 import React from 'react'
+import Exercise3 from './Exercise3';
 
 const Exercise3 = () => {
 
@@ -71,7 +72,7 @@ function logargs(){
 logargs(1,2,3);
   return (
     <div>
-      
+      <h1>Exercise3</h1>
     </div>
   )
 }
