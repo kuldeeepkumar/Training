@@ -1,5 +1,5 @@
 import React from 'react'
-import Exercise3 from './Exercise3';
+// import Exercise3 from './Exercise3';
 
 const Exercise3 = () => {
 
