@@ -8,10 +8,11 @@ import Exercise4 from './exercises/exercise4/Exercise4'
 function App() {
   return (
     <>
-    <Exercise1/>
+      <Exercise1/>
     <Exercise2/>
     <Exercise3/>
-    <Exercise4/>
+    <Exercise4/> 
+  
     </>
   );
 }
