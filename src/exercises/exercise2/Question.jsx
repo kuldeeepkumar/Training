@@ -34,7 +34,7 @@ const Questions = () => {
              case 7:
                  return "Saturday";
              default:
-                 return "Invalid day";
+                 return "Invalid daay";
          }
      }
      console.log(getDayName(6));
