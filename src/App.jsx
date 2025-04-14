@@ -1,21 +1,24 @@
 
 import './App.css'
+import Exercise1 from './exercises/exercise1/Exercise1'
+import Exercise2 from './exercises/exercise2/Exercise2'
+import Questions from './exercises/Questions'
+import Exercise3 from './exercises/exercise3/Exercise3'
+import Card from './exercises/experiments/Card'
+import Arr from './exercises/exercise4/Arr'
+import Allmethods from './exercises/exercise4/Allmethods'
+
+
 
 function App() {
-  
-  console.log("hello")
-
   return (
     <>
-     <div>
-      <h1>hello i am here</h1>
-      <h1>JASHAN</h1>
-      <h1>PARAM</h1>
-      <h1>PARDEEP</h1>
-      <h1>LOVEPREET</h1>
-      </div>
+    {/* <Exercise1/>
+    <Exercise2/>
+    <Exercise3/> */}
+    <Arr/>
+    <Allmethods/>
     </>
-  )
+  );
 }
-
 export default App
