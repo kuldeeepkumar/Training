@@ -17,7 +17,9 @@ const Array = () => {
   fruits.unshift("mango");
   //["mango","banana","cherry"]
   console.log(fruits);
-  return <div>Array</div>;
+  return <div>
+  <h1>Arrays</h1>
+  </div>
 };
 
 export default Array;
