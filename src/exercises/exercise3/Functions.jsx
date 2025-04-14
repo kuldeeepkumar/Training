@@ -5,6 +5,7 @@ const Functions = () => {
     function greet(name) {
         return `Hello, ${name}!`;
     }
+    console.log(greet("Akash"));
     //Arrow function
     const square = (x) => {
         return x * x;

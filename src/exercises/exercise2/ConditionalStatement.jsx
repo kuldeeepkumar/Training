@@ -8,7 +8,7 @@ const ConditionalStatement = () => {
 
   // Example 2: if-else statement
   temperature = 15;
-  if (temperature > 25) {
+  if(temperature > 25) {
     console.log("It's hot outside!");
   } else {
     console.log("It's not hot outside."); // This will be executed because 15 is not greater than 25
