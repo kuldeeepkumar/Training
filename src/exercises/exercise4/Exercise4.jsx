@@ -54,6 +54,8 @@ const Exercise4 = () => {
   const sum = number.reduce((acc, num) => acc + num, 0);
   console.log(sum);
 
+  
+
   return <div>Exercise4</div>;
 };
 
