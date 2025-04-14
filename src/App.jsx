@@ -4,12 +4,20 @@ import Exercise1 from './exercises/exercise1/Exercise1'
 import Exercise2 from './exercises/exercise2/Exercise2'
 import Questions from './exercises/Questions'
 import Exercise3 from './exercises/exercise3/Exercise3'
+import Card from './exercises/experiments/Card'
+import Arr from './exercises/exercise4/Arr'
+import Allmethods from './exercises/exercise4/Allmethods'
+
+
+
 function App() {
   return (
     <>
-    <Exercise1/>
+    {/* <Exercise1/>
     <Exercise2/>
-    <Exercise3/>
+    <Exercise3/> */}
+    <Arr/>
+    <Allmethods/>
     </>
   );
 }
