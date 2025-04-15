@@ -5,16 +5,16 @@ import WhileLoop from "./WhileLoop";
 import AdditionalFlowcontrol from "./AdditionalFlowcontrol";
 import Question from "./Question";
 
-const exercise2 = () => {
+const Exercise2 = () => {
   return (
     <>
       {/* <ConditionalStatements /> */}
       {/* <LoopingStatements /> */}
       {/* <WhileLoop/> */}
-     {/* <AdditionalFlowcontrol/>  */}
-      <Question/>
+      {/* <AdditionalFlowcontrol/>  */}
+      <Question />
     </>
   );
 };
 
-export default exercise2;
+export default Exercise2;
