@@ -1,18 +1,13 @@
+import React from 'react'
+import Exercises1 from './exercises/exercises1/Exercises1';
 
-import './App.css'
-
-function App() {
-  
-console.log("hello")
-
+const App = () => {
   return (
-    <>
-      <div>
-        <h1>hello tania</h1>
-      </div>
-   
-    </>
+    
+    <Exercises1/>
+    
   )
+  
 }
 
 export default App
