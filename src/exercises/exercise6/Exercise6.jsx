@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Exercise6 = () => {
+const Exercise6 = () => {
   //Global scope
   let globalvar = " I am global";
   function test() {
@@ -9,11 +9,11 @@ export const Exercise6 = () => {
   test();
   console.log(globalvar);
   // Local function
-  function test() {
+  function test1() {
     let localvar = " I am local";
     console.log(localvar);
   }
-  test();
+  test1();
   // console.log(localvar);
 
   //lexcial scope (static scope)
@@ -27,14 +27,14 @@ export const Exercise6 = () => {
   outer();
 
   //lexical scope(closures)
-  function outer() {
+  function outer1() {
     let count = 0;
     return function inner() {
       count++;
       console.log("count is:", count);
     };
   }
-  const counter = outer();
+  const counter = outer1();
   counter();
   counter();
   counter();
@@ -47,7 +47,7 @@ export const Exercise6 = () => {
   const double = makeMultiplier(2);
   console.log(double(5));
 
-  return(
-   <div>Exercise6</div>
-  )
+  return <div>Exercise6</div>;
 };
+
+export default Exercise6;
