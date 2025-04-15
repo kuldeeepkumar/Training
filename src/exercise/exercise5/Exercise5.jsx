@@ -26,8 +26,8 @@ const Exercise5 = () => {
  console.log(typeof NaN);
  console.log(NaN === NaN);
 
- //array destructuring 
- const [var1,var2]=Array;
+  
+
 
 
 

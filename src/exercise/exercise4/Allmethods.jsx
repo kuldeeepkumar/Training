@@ -2,13 +2,32 @@ import React from 'react'
 
 const Allmethods = () => {
 
-    const array1=[5,12,8,130,44];
+  const array1 = ["a", "b", "c"];
+const array2 = ["d", "e", "f"];
+const array3 = array1.concat(array2);
 
-    let index = 2;
+console.log(array3);
 
-    console.log(`an index of ${index}returns ${array1.at(index)}`);
-    index=-2;
-    console.log(`an index of ${index}returns ${array1.at(index)}`);
+
+
+
+const num = ["a", "b", "c"];
+
+const iterator1 = array1.entries();
+
+console.log(iterator1.next().value);
+
+console.log(iterator1.next().value);
+
+const months = ["Jan", "March", "April", "June"];
+months.splice(1, 0, "Feb");
+
+console.log(months);
+
+
+months.splice(4, 1, "May");
+
+console.log(months);
 
     
 
