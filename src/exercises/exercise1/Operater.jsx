@@ -3,8 +3,8 @@ import React from 'react'
 const Operater = () => {
   let x = 10;
   let y = 5;
-  console.log(x + y); // Output: 15 (Addition)
-  console.log(x - y); // Output: 5  (Subtraction)
+  console.log("addition = ",x + y); // Output: 15 (Addition)
+  console.log("Subtraction = ", x - y); // Output: 5  (Subtraction)
   console.log(x * y); // Output: 50 (Multiplication)
   console.log(x / y); // Output: 2  (Division)
   console.log(x % y); // Output: 0  (Modulus)
