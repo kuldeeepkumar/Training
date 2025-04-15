@@ -131,16 +131,7 @@ const Exercise5 = () => {
     console.log(one);
     console.log(rest);
   
-    
-
-    
-
-
-
-
-
-  
-  return (
+    return (
     <div>Exercise5</div>
     
   );

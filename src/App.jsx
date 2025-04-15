@@ -4,7 +4,7 @@ import React from 'react'
 // import Exercises3 from './exercises/exercise3/Exercises3';
 // import Exercises4 from './exercises/exercises4/Exercises4';
 // import AllMethods from './exercises/exercises4/AllMethods';
-import Exercise5 from './exercises/exercises5/Exercise';
+import Exercise5 from './exercises/exercises5/Exercise5';
 
 const App = () => {
   return (
