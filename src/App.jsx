@@ -8,8 +8,8 @@ import Exercise5 from './exercises/exercise5/Exercise5'
 function App() {
   return (
     <>
-    <Exercise1/>
-    {/* <Exercise2/> */}
+    {/* <Exercise1/> */}
+     <Exercise2/> 
     {/* <Exercise3/> */}
     {/* <Exercise4/>  */}
     {/* <Exercise5/> */}
