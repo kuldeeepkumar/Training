@@ -22,7 +22,7 @@ import Exercise5 from './exercise/exercise5/Exercise5';
   {/* <Exercise3/> */}
   {/* <Exercise4/> */}
   <Allmethods/>
-  {/* <Exercise5/> */}
+  <Exercise5/>
   
   
   
