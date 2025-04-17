@@ -5,6 +5,7 @@ import Exercise3 from './excercise/exercise3/Exercise3'
 import Allmethods from './excercise/exercise4/Allmethods'
 import Exercise4 from './excercise/exercise4/Exercise4'
 import Exercise5 from './excercise/exercise5/Exercise5'
+import Exercise6 from './excercise/exercise6/Exercise6'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
    <Exercise4/>
   <Allmethods/>
   <Exercise5/>
+  <Exercise6/>
     </>
   )
 }
