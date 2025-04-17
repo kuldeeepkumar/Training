@@ -5,6 +5,7 @@ import Exercise3 from './exercise/exercise3/Exercise3';
 import Allmethods from './exercise/exercise4/Allmethods';
 import Exercise4 from './exercise/exercise4/Exercise4';
 import Exercise5 from './exercise/exercise5/Exercise5';
+import Exercise6 from './exercise/exercise6/Exercise6';
 
 
 
@@ -23,6 +24,7 @@ import Exercise5 from './exercise/exercise5/Exercise5';
   {/* <Exercise4/> */}
   <Allmethods/>
   <Exercise5/>
+  <Exercise6/>
   
   
   
