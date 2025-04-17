@@ -8,6 +8,8 @@ import Questios from './exercises/exercise2/Questios'
 import Exercise3 from './exercises/exercise3/Exercise3'
 import Exercise4 from './exercises/exercise4/Exercise4'
 import Allmethods from './exercises/exercise4/Allmethods'
+import Exercise5 from './exercises/exercise5/Exercise5'
+import Execise6 from './exercises/exercise6/Execise6'
 
 
 
@@ -28,6 +30,8 @@ console.log("hello")
   {/* <Questios/> */}
   <Exercise4/>
   <Allmethods/>
+  <Exercise5/>
+  <Execise6/>
   
     </>
   )
