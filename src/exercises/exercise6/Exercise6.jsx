@@ -53,7 +53,7 @@ const Exercise6 = () => {
   const double = makeMultiplier(2);
   console.log("double is:", double(5));
   return <div>
-    <h1>Exercise 6</h1>
+    <h1>Exercise6</h1>
     </div>;
 };
 
