@@ -15,10 +15,10 @@ function App() {
     <>
       {/* <Exercise1 /> */}
       {/* <Exercise2 /> */}
-      <Exercise3 />
-     <Exercise4 /> 
-     <AllMethods/>
-     <Exercise5/>
+      {/* <Exercise3 /> */}
+     {/* <Exercise4 />  */}
+     {/* <AllMethods/> */}
+     {/* <Exercise5/> */}
      <Exercise6/>
 
      
