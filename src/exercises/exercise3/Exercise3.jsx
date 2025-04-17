@@ -19,7 +19,7 @@ const Exercise3 = () => {
  console.log(add(3,4)); // output: 7
 
   //Implicit return
-  console.log("Function declaration");
+  console.log("Function declaration"); 
     
    const square = x => x * x;
      
