@@ -24,7 +24,11 @@ const Operators = () => {
   console.log(t && h); // Output: false (AND)
   console.log(t || h); // Output: true  (OR)
   console.log(!t); // Output: false (NOT)
+  
 
+
+
+  
   // Assignment Operators
 
   let abc = 10;
