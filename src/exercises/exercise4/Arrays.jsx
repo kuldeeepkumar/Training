@@ -1,49 +1,83 @@
-import React from 'react'
+import React from "react";
 
-const Arrays = () => {
-  //array
-  const fruits = ["Apple", "Banana", "Cherry", "Dates"];
+const Array = () => {
+  //Introduction to Arrays in Javascript
+
+  console.log("Given Array");
+
+  const fruits = ["Apple", "Banana", "Cherry"];
   console.log(fruits);
-  //Pushing element at end
+
+  //push()
+  console.log("After push()");
+
   fruits.push("Mango");
   console.log(fruits);
-  //POP element from end
+
+  //pop()
+  console.log("After pop()");
+
   fruits.pop();
   console.log(fruits);
-  //Add element at start
-  fruits.unshift("Mango");
-  console.log(fruits);
-  //POP element from start
+
+  //shift()
+  console.log("After shift()");
+
   fruits.shift();
   console.log(fruits);
-  //Objects
-  const person={
-    name:"Akash",
-    age:19,
-    isStudent: true
+
+  //unshift()
+  console.log("After unshift()");
+
+  fruits.unshift("orange");
+  console.log(fruits);
+
+  //Objects and Properties
+
+  const person = {
+    name: "Jaspreet",
+    age: 20,
+    isStudent: false,
   };
   console.log(person.name);
-  console.log(person['age']);
-  person.age=20;
-  person.city='New York';
-   console.log(person.city);
-  //array Methods
-  //Map: Transform each item in array
-  const numbers1 = [1, 2, 3];
-  const double = numbers1.map((number) => number * 2);
-  console.log(double);
-//Filter: Filter items base on conditions
-const numbers2=[1,2,3];
-const evens=numbers2.filter((num)=>num%2==0);
-console.log(evens);
-//Reduce: Reduce array to single value
-const sum=numbers1.reduce((acc,num)=>acc+num,0);
-console.log(sum);
-  return (
-    <div>
-      <h1>Arrays</h1>
-    </div>
-  );
-}
+  console.log(person["age"]);
 
-export default Arrays
+  person.age = 21;
+  person.city = "New York";
+  console.log(person.age);
+  console.log(person.city);
+
+  //Array Methods-map,filter,reduce
+
+  //map()
+
+  console.log("map()");
+  const numbers = [1, 2, 3, 4];
+  const square = numbers.map((num) => num * 2);
+  console.log(square);
+
+  //filter()
+
+  console.log("filter()");
+  const array = [1, 2, 3, 4, 5];
+  const evens = array.filter((num) => num % 2 === 0);
+  console.log(evens);
+
+  //reduce()
+
+  console.log("reduce()");
+  const digits = [1, 2, 3, 4, 5];
+  const sum = digits.reduce((acc, digit) => acc + digit, 0);
+  console.log(sum);
+
+  return <h1>Array</h1>;
+};
+
+export default Array;
+
+
+
+
+
+
+          
