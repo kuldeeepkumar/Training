@@ -1,5 +1,6 @@
 import "./App.css";
-import AllMethod from "./exercises/exercise4/AllMethod";
+// import AllMethod from "./exercises/exercise4/AllMethod";
+import Exercise5 from "./exercises/exercise5/Exercise5";
 // import Exercise2 from "./exercise2/Exercise2";
 // import Exercise3 from "./exercises/exercise3/Exercise3";
 // import Exercise4 from "./exercises/exercise4/Exercise4";
@@ -12,7 +13,8 @@ function App() {
       {/* <Exercise2/> */}
       {/* <Exercise3/> */}
       {/* <Exercise4/> */}
-      <AllMethod/>
+      {/* <AllMethod/> */}
+      <Exercise5/>
     </>
   );
 }
