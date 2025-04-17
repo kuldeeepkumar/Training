@@ -1,5 +1,4 @@
 import React from "react";
-
 const AllMethods = () => {
   //Array methods
   const numbers = [1, 3, 2, 5, 4];
@@ -12,8 +11,8 @@ const AllMethods = () => {
   console.log(fruitString);
   //Sortinf array of objects
   const people = [
-    { name: "Akash", age: 19 },
-    { name: "arsh", age: 21 },
+    { name: "mehak", age: 19 },
+    { name: "anchal", age: 21 },
     { name: "binni", age: 21 },
   ];
   people.sort((a, b) => a.age - b.age);
@@ -32,7 +31,7 @@ const AllMethods = () => {
   });
   return (
     <div>
-      <h1>AllMethods</h1>
+      <h1>all methods</h1>
     </div>
   );
 };
