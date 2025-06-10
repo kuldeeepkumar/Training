@@ -1,12 +1,12 @@
 import React from "react";
-// import Exercise5 from './Exercise5';
+//import Exercise5 from './Exercise5';
 
 const Exercise5 = () => {
-  //null
+
   let car = null;
   console.log(car);
   console.log(typeof car);
-  //undefined
+
   let bike;
   console.log(bike);
 
@@ -24,7 +24,7 @@ const Exercise5 = () => {
   console.log(y);
 
   console.log(typeof NaN);
-  console.log(NaN === NaN);
+  console.log(NaN);
 
   //array Destructuring
 
@@ -116,7 +116,7 @@ const Exercise5 = () => {
 
   return (
     <Div>
-      Exercise5
+     <h1>Exercise5</h1>
     </Div>
   );
 }
