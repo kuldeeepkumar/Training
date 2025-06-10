@@ -1,10 +1,12 @@
 import React from "react";
+// import Exercise5 from './Exercise5';
 
 const Exercise5 = () => {
+  //null
   let car = null;
   console.log(car);
   console.log(typeof car);
-
+  //undefined
   let bike;
   console.log(bike);
 
@@ -112,7 +114,11 @@ const Exercise5 = () => {
   console.log(seven);
   console.log(rest);
 
-  return <div>Exercise 5</div>;
-};
+  return (
+    <Div>
+      Exercise5
+    </Div>
+  );
+}
 
 export default Exercise5;
