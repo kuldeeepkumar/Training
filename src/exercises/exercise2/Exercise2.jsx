@@ -7,7 +7,7 @@ const Exercise2 = () => {
     <div>
       <h1>Exercise2</h1>
       {/* <ConditionalStatements /> */}
-      <Loops />
+      {/* <Loops /> */}
     </div>
   );
 };

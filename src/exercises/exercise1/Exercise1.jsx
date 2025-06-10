@@ -9,9 +9,9 @@ const Exercise1 = () => {
     <>
       <div>
         <h1>Exercise 1</h1>
-         <Operators /> 
+        {/* <Operators /> 
         <Datatypes/> 
-        <Varaiables />
+        <Varaiables /> */}
       </div>
     </>
   );
