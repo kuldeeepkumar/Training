@@ -1,11 +1,6 @@
 import React from 'react'
 
 const Operators = () => {
-
-
-  // Operators
-  // Arithmetic Operators
-
   let x = 10;
   let y = 5;
   console.log(x + y); // Output: 15 (Addition)
@@ -15,7 +10,6 @@ const Operators = () => {
   console.log(x % y); // Output: 0  (Modulus)
 
   // Comparison Operators
-
   let a = 10;
   let b = 20;
   console.log(a == b); // Output: false (Equal to)
@@ -35,12 +29,11 @@ const Operators = () => {
 
   let abc = 10;
   abc += 5; // a = a + 5 -> a = 15
-  console.log(abc); // Output: 15
+  console.log(a); // Output: 15
 
-
-  return (
-    <div>Operators</div>
-  )
+  return <div>
+    <h1>Operators</h1>
+  </div>;
 }
 
 export default Operators

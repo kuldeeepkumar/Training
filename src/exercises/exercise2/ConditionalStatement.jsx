@@ -1,11 +1,6 @@
-import React from "react";
+import React from 'react'
 
-const ConditionalStatements = () => {
-  // -------------------------
-  // Conditional Statements
-  // -------------------------
-
-  // Example 1: if statement
+const ConditionalStatement = () => {
   let temperature = 30;
   if (temperature > 25) {
     console.log("It's hot outside!"); // This will be executed because 30 > 25
@@ -13,7 +8,7 @@ const ConditionalStatements = () => {
 
   // Example 2: if-else statement
   temperature = 15;
-  if (temperature > 25) {
+  if(temperature > 25) {
     console.log("It's hot outside!");
   } else {
     console.log("It's not hot outside."); // This will be executed because 15 is not greater than 25
@@ -46,12 +41,9 @@ const ConditionalStatements = () => {
       dayName = "Unknown day";
   }
   console.log(dayName); // Output: "Wednesday"
+  return <div>
+    <h1>Conditional Statement</h1>
+  </div>;
+}
 
-  return (
-    <div>
-      <h1>Conditinal Statements</h1>
-    </div>
-  );
-};
-
-export default ConditionalStatements;
+export default ConditionalStatement

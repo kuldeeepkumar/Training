@@ -1,15 +1,14 @@
-import React from "react";
-
-import Loops from "./Loops";
-import ConditionalStatements from "./ConditaionalStatements";
+import React from 'react'
+import ConditionalStatement from './ConditionalStatement'
+import Loops from './Loops'
 
 const Exercise2 = () => {
   return (
     <>
-      <ConditionalStatements/>
-      <Loops/>
+    <ConditionalStatement/>
+    <Loops/>
     </>
-  );
-};
+  )
+}
 
-export default Exercise2;
+export default Exercise2
