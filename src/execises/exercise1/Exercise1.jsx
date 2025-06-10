@@ -1,7 +1,8 @@
 import React from "react";
 import Variables from "./Variables";
-import Datatypes from "./Datatypes";
-import Operators from "./Operators";
+import DataTypes from "./DataTypes";
+import Operator from "./Operator";
+
 
 const Exercise1 = () => {
   console.log("Hello Meenakshi");
@@ -10,8 +11,9 @@ const Exercise1 = () => {
     <>
       <div>Exercise 1</div>
       <Variables />
-      <Datatypes/>
-      <Operators/>
+      <DataTypes/>
+      <Operator/>
+     
     </>
   );
 };
