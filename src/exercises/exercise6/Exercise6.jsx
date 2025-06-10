@@ -52,7 +52,9 @@ const Exercise6 = () => {
   }
   const double = makeMultiplier(2);
   console.log("double is:", double(5));
-  return <div>Exercise6</div>;
+  return <div>
+    <h1>Exercise6</h1>
+    </div>;
 };
 
 export default Exercise6;

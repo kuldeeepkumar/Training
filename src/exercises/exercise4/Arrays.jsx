@@ -18,7 +18,7 @@ const Arrays = () => {
   console.log(fruits);
   //Objects
   const person={
-    name:"arsh",
+    name:"Akash",
     age:19,
     isStudent: true
   };

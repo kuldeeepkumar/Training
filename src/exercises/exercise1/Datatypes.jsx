@@ -9,7 +9,7 @@ const Datatypes = () => {
 
      //  Number
 
-     let age = 30;
+     let age = 20;
      let price = 19.99;
 
      // boolean
