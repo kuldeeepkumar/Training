@@ -1,12 +1,12 @@
 import React from 'react'
+import Arrays from './Arrays'
 import AllMethods from './AllMethods'
-import Array from './Array.jsx'
 const Exercise4 = () => {
   return (
-<>
-    <AllMethods/>
-    <Array/>
-</>
+    <div>
+      <Arrays/>
+      <AllMethods/>
+    </div>
   )
 }
 

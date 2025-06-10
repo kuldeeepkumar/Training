@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ConditionalStatement = () => {
-  let temperature = 30; 
+  let temperature = 30;
   if (temperature > 25) {
     console.log("It's hot outside!"); // This will be executed because 30 > 25
   }

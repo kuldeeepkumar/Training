@@ -5,7 +5,7 @@ const Functions = () => {
     function greet(name) {
         return `Hello, ${name}!`;
     }
-    console.log(greet("Mehak"));
+    console.log(greet("Akash"));
     //Arrow function
     const square = (x) => {
         return x * x;
@@ -13,7 +13,7 @@ const Functions = () => {
     console.log(square(4));
 
     const person = {
-        name: "Mehak",
+        name: "Akash",
         age: 19,
         greet: function() {
             console.log(`Hello, my name is ${this.name}`);
@@ -25,7 +25,7 @@ const Functions = () => {
     function sayHello(name) {
         return `Hello, ${name}!`;
     }
-    console.log(sayHello("Mehak"));
+    console.log(sayHello("Akash"));
     //return value
     function add(a, b) {
         return a + b;
@@ -36,7 +36,7 @@ const Functions = () => {
         return `Hello, ${name}!`;
     }
     console.log(greetName());
-    console.log(greetName("Mehak"));
+    console.log(greetName("Akash"));
     //rest parameter
     function sum(...numbers) {
         let total = 0;
@@ -59,11 +59,3 @@ const Functions = () => {
 }
 
 export default Functions
-
-
-
-
-
-
-
-
