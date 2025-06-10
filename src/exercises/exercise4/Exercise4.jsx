@@ -1,3 +1,4 @@
+import AllMethods from "./AllMethods";
 import React from "react";
 
 const Exercise4 = () => {
@@ -13,12 +14,15 @@ const Exercise4 = () => {
     age: 30,
   };
 
+  console.log;
+  person.name; // John
+
   const person2 = [
     { name: "John", age: 30 },
     { name: "Jane", age: 25 },
     { name: "Mike", age: 35 },
   ];
-  console.log(person2); // [{ name: "John", age: 30 }, { name: "Jane", age: 25 }, { name: "Mike", age: 35 }]
+  console.log("here is length", person2.length); // [{ name: "John", age: 30 }, { name: "Jane", age: 25 }, { name: "Mike", age: 35 }]
 
   const numbers = [1, 2, 3, 4, 5];
 
@@ -28,13 +32,7 @@ const Exercise4 = () => {
 
   return (
     <div>
-      <h1>Exercise4</h1>
-      {person2.map((person, index) => (
-        <div key={index}>
-          <h2>{person.name}</h2>
-          <p>{person.age}</p>
-        </div>
-      ))}
+      <AllMethods />
     </div>
   );
 };
