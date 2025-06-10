@@ -1,55 +1,60 @@
-import React from 'react'
+import React from "react";
 
-const Exercises6 = () => {
- // Global scope 
-     let globalVar = "I am global";
-      function test(){
-        console.log(globalVar);
-      }
-      test();
-      console.log(globalVar);
-// Local function
-    function testLocal(){
-        let localVar =" I am local";
-        console.log(localVar);
-    }
-    testLocal();
-    // console.log(localVar);
+const Exercise6 = () => {
+  //global scope
+  let globalVar = "i am global";
 
-// lexical scope (static scope)
-  function outer(){
-    let outerVar = "I'm from outer";
+  function test() {
+    console.log("global var is here", globalVar);
+  }
+  test();
+  console.log(globalVar);
+
+  //local scope
+  function test1() {
+    let localVar = "i am local";
+    console.log("local var is here", localVar);
+  }
+  test1();
+  //   console.log(localVar);
+
+  //static scope
+
+  function outer() {
+    let outerVar = "i am from outer";
     function inner() {
-        console.log(outerVar);
+      console.log("outer var is", outerVar);
     }
     inner();
-  } 
+  }
   outer();
 
-//  lexical scope (Closures)
-   function outer1(){
-    let count =0;
-     return function inner() {
-        count++;
-        console.log("count is:",count);
-     };
-   }
-   const counter = outer1();
-   counter();
-   counter();
-   counter();
-    
-// Real-world usse case of closures
-   function makeMultiplier(factor) {
-    return function(num) {
-        return num * factor;
-    };
-   }
-   const double = makeMultiplier(2);
-   console.log(double(5));
-  return (
-    <div>Exercises6</div>
-  )
-}
+  //closures
 
-export default Exercises6
+  function outer1() {
+    let count = 0;
+    return function inner() {
+      count++;
+      console.log("count is here:", count);
+    };
+  }
+  const counter = outer1();
+  counter();
+  counter();
+  counter();
+
+  //Real-world use case of closures
+
+  function makeMultiplier(factor) {
+    return function (num) {
+      return num * factor;
+    };
+  }
+  const double = makeMultiplier(2);
+  console.log("double is:", double(5));
+  return <div>
+    <h1>Exercise6</h1>
+    </div>;
+};
+
+export default Exercise6;
