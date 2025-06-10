@@ -5,7 +5,7 @@ const Exercises3 = () => {
   // function declaration
 
   function greet(name) {
-    return "hello${name}";
+    return console.log(`hello ${name}`)
   }
   console.log(greet("Alice"));
 
@@ -74,7 +74,7 @@ const Exercises3 = () => {
     console.log(arguments);
   }
   let abc = {
-    $name: "shikha",
+    $name: "meenkashi",
     age: 19,
     role: "developer",
   };
@@ -87,5 +87,4 @@ const Exercises3 = () => {
   console.log(logArgs(abc, dfg));
   return <div>Exercises3</div>;
 };
-
 export default Exercises3;

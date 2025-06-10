@@ -9,11 +9,11 @@ const Exercises6 = () => {
       test();
       console.log(globalVar);
 // Local function
-    function test(){
+    function testLocal(){
         let localVar =" I am local";
         console.log(localVar);
     }
-    test();
+    testLocal();
     // console.log(localVar);
 
 // lexical scope (static scope)
