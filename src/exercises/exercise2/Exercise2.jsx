@@ -8,7 +8,7 @@ const Exercise2 = () => {
     <>
       {/* <ConditionalStatements /> */}
       {/* <Loops /> */}
-      <Questions />
+      {/* <Questions /> */}
     </>
   );
 };
