@@ -2,9 +2,9 @@ import React from 'react'
 
 const Exercise5 = () => {
 
-  let car = null;
-    console.log(car);
-    console.log(typeof car);
+  let dog= null;
+    console.log(dog);
+    console.log(typeof dog);
 
     let bike;
     console.log(bike);
@@ -46,7 +46,7 @@ const Exercise5 = () => {
 
  //using rest...
  
- const fruits = ['apple','mango','cherry','date'];
+ const fruits = ['apple','banana','graphics','cherry'];
  const[f1,...restfruits] = fruits;
 
  console.log(f1);
@@ -77,8 +77,8 @@ const Exercise5 = () => {
 const user = {
   id: 1,
   profile: {
-    username:'john_doe',
-    email:'john@example.com'
+    username:'geetika01',
+    email:'geetika@example.com'
   }
 };
 
@@ -113,11 +113,6 @@ console.log(no2);
 const[seven,rest] = [10,20,30,40];
 console.log(seven);
 console.log(rest);
-
-
-
-
-  
   return (
     <div>Exercise5</div>
   )
