@@ -19,7 +19,6 @@ function App() {
     <Exercise6/>
     <Exercise7/>
     </> 
-   
   );
 }
 export default App
