@@ -20,7 +20,7 @@ const Promises = () => {
     ?.then((message) => {
       console.log("Resolved:", message);
     })
-    ?.catch.prototype.then((message) => {
+    ?.catch((message) => {
       console.log("Resolved:", message);
     });
 
