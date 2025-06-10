@@ -2,7 +2,7 @@ import React from "react";
 
 let globalVar = "I am global";
 
-console.log("a is here", a);
+// console.log(globalVar);
 
 const Exercise6 = () => {
   // ===============================
