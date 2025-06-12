@@ -1,9 +1,19 @@
 
 import React from 'react'
+import Asyncs from './Asyncs'
+import Callbacks from './Callbacks'
+import Promises from './Promises'
+import TryCatchs from './TryCatchs'
 
 const Exercise7 = () => {
+ 
   return (
-    <div>Exercise7</div>
+    <>
+     <Asyncs/>
+     <Callbacks/>
+     <Promises/>
+     <TryCatchs/>
+    </>
   )
 }
 
