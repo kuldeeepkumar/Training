@@ -5,7 +5,7 @@ import React from 'react'
 // import Exercises4 from './exercises/exercises4/Exercises4';
 // import AllMethods from './exercises/exercises4/AllMethods';
 // import Exercise5 from './exericses/exericses5/Exericse5';
-import Exercise6 from './exericses/exerices6/Exerices6';
+// import Exercise6 from './exericses/exerices6/Exerices6';
 
 const App = () => {
   return (
@@ -16,8 +16,8 @@ const App = () => {
     {/* <Exercises4/> */}
     {/* <AllMethods/> */}
     {/* <Exercise5/> */}
-    <Exercise6/>
-    
+    {/* <Exercise6/> */}
+
 
     </>
   )
