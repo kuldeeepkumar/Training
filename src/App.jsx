@@ -7,20 +7,21 @@ import AllMethods from "./exercise/exercise4/AllMethods";
 //import Exercise5 from "./exercise/exercise5/Exercise5";
 import Exercise6 from "./exercise/exercise6/Exercise6";
 import Exercise7 from "./exercise/exercise7/Exercise7";
-
+import Exercise8 from "./exercise/exercise8/Exercise8";
 
 function App() {
   return (
-    <> 
-    {/* <Exercise1/> */}
+    <>
+      {/* <Exercise1/> */}
       {/* <Exercise2 /> */}
       {/* <Exercise3/> */}
       {/* <Exercise4/> */}
       {/* <AllMethods/> */}
       {/* <Exercise5/> */}
       {/* <Exercise6/> */}
-      <Exercise7/>
-      
+      {/* <Exercise7/> */}
+
+      <Exercise8 />
     </>
   );
 }
