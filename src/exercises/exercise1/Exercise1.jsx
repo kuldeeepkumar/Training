@@ -1,7 +1,7 @@
 import React from "react";
 import Operators from "./Operators";
 
-import Variables from "./Variabldes";
+import Variables from "./Variables";
 import DataTypes from "./DataTypes";
 
 const Exercise1 = () => {
