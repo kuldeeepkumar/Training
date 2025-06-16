@@ -1,7 +1,4 @@
-import React from 'react'
-
-const Exercise9 = () => {
-  import React from "react";Add commentMore actions
+import React from "react";
 
 const Exercise9 = () => {
   // ---------------------------------------------
@@ -70,9 +67,3 @@ const Exercise9 = () => {
 };
 
 export default Exercise9;
-  return (
-    <div>Exercise9</div>
-  )
-}
-
-export default Exercise9
