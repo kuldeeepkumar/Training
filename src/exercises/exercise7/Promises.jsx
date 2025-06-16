@@ -20,7 +20,7 @@ const Promises = () => {
   function fetchData() {
     return new Promise((resolve) => {
       setTimeout(() => {
-        resolve("Data feteched after 2 seconds");
+        resolve("Data fetched after 2 seconds");
       }, 2000);
     });
   }
