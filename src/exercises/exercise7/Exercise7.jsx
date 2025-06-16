@@ -7,7 +7,7 @@ const Exercise7 = () => {
     <div>
       <CallBack />
       <Promises />
-      <AsyncAwait />
+      <Asyncs />
     </div>
   );
 };
