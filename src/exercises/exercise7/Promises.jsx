@@ -35,3 +35,5 @@ fetchData().then((data) =>console.log(data));
 }
 
 export default Promises
+
+
