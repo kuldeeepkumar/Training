@@ -2,6 +2,7 @@ import React from 'react'
 import CallBack from './Callback'
 import Promises from './Promises'
 import AsyncAwait from './AsyncAwait'
+import TryCatch from './TryCatch'
 const Exercise7 = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const Exercise7 = () => {
       <CallBack />
       <Promises />
       <AsyncAwait/>
+      <TryCatch/>
     </>
   )
 }
