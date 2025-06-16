@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOM Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      #clickBtn {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 id="main-title">Welcome to DOM</h1>
+      <p class="message">This is a paragraph.</p>
+      <button id="clickBtn">Click Me</button>
+      <p id="result"></p>
+    </div>
+
+    <script>
+      // Access and manipulate DOM
+      const title = document.getElementById("main-title");
+      console.log("titile:", title);
+      title.textContent = "DOM Manipulated!";
+
+      const message = document.querySelector(".message");
+      message.style.color = "blue";
+      message.style.fontWeight = "bold";
+
+      // Event handling
+      const button = document.getElementById("clickBtn");
+      const result = document.getElementById("result");
+
+      button.addEventListener("click", function () {
+        result.textContent = "Button was clicked!";
+        result.style.color = "green";
+      });
+    </script>
+  </body>
+</html>
