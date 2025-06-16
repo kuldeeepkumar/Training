@@ -12,14 +12,15 @@ const AllMethods = () => {
     console.log(fruitString);
     //Sortinf array of objects
     const people = [
-        { name: "Akash", age: 19 },
-        { name: "arsh", age: 21 },
-        { name: "binni", age: 21 }
+        { name: "sumit", age: 19 },
+        { name: "binni", age: 21 },
+        { name: "arsh", age: 21 }
+       
     ];
     people.sort((a, b) => a.age - b.age);
     console.log(people);
     //Sort by name
-    people.sort((a,b)=>{
+ const result= people.sort((a,b)=>{
         const nameA=a.name.toUpperCase();
         const nameB=b.name.toUpperCase();
         if(nameA<nameB){
@@ -30,6 +31,8 @@ const AllMethods = () => {
         }
         return 0;
     });
+    console.log(result);
+    
     return (
     <div>
       <h1>AllMethods</h1>

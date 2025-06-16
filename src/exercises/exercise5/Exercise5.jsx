@@ -1,49 +1,62 @@
 import React from 'react'
 
 const Exercise5 = () => {
-  //Understanding null,undefined and NaN
-
   //null
+  console.log("null");
+
   let car = null;
   console.log(car);
   console.log(typeof car);
 
   //undefined
+  console.log("undefined");
+
   let bike;
   console.log(bike);
 
   function greet() {
-    console.log("Hello");
+    console.log("Hello!");
   }
   let result = greet();
+
   console.log(result);
 
-  //NaN(Not-a-Number)
+  //NaN
+
+  console.log("NaN");
+
   let x = 0 / 0;
   console.log(x);
+
   let y = parseInt("hello");
   console.log(y);
 
   console.log(typeof NaN);
   console.log(NaN === NaN);
 
-  //Array Destructing
+  //Array Destructuring
+
+  console.log("Array Destructuring");
+
   const colors = ["red", "green", "blue"];
 
   const [first, second, third] = colors;
-
   console.log(first);
   console.log(second);
   console.log(third);
 
   //Skipping values
+  console.log("Skipping values");
+
   const numbers = [1, 2, 3, 4];
   const [a, , c] = numbers;
-
   console.log(a);
   console.log(c);
 
-  //Using rest....
+  //using rest...
+
+  console.log("using rest...");
+
   const fruits = ["apple", "banana", "cherry", "date"];
   const [f1, ...restFruits] = fruits;
 
@@ -51,9 +64,12 @@ const Exercise5 = () => {
   console.log(restFruits);
 
   //Object Destructuring
+
+  console.log("Object Destructuring");
+
   const person = {
-    name: "jass",
-    age: 20,
+    name: "Alice",
+    age: 30,
     job: "Developer",
   };
 
@@ -62,13 +78,16 @@ const Exercise5 = () => {
   console.log(name);
   console.log(age);
 
-  //Renaming
+  //Renaming Variables
+
+  console.log("Renaming Variables");
+
   const { name: userName, age: userAge } = person;
 
   console.log(userName);
   console.log(userAge);
 
-  //Nested Destructuring
+  // Nested Destructuring
 
   console.log("Nested Destructuring");
 
@@ -106,13 +125,13 @@ const Exercise5 = () => {
   //3.  spreading in function calls
   console.log("spreading in function calls");
 
-  const digits = [10, 20, 30];
+  const digit = [10, 20, 30];
 
   function sum(a, b, c) {
     return a + b + c;
   }
 
-  console.log(sum(...digits));
+  console.log(sum(...numbers));
 
   //Rest parameter
   //1. Rest in function
@@ -129,12 +148,9 @@ const Exercise5 = () => {
 
   console.log(one);
   console.log(rest);
-
-  return <h1>Exercise5</h1>;
+  return <div>
+    <h1>Exercise 5</h1>
+  </div>;
 }
 
 export default Exercise5
-
-
-
-
