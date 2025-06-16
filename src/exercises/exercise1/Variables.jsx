@@ -1,7 +1,7 @@
 import React from "react";
 
 const Variables = () => {
-  let name = "Akash"; // Variable declared using let
+  let name = "sumit"; // Variable declared using let
   const age = 19; // Constant variable declared using const
   name = "kash"; // You can reassign 'name' since it was declared with 'let'
   // age = 20;          // Error: Assignment to constant variable
