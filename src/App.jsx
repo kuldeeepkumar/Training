@@ -21,7 +21,7 @@ function App() {
       {/* <Exercise5 /> */}
       {/*<Excercise6 />*/}
       {/* <Exercise7 /> */}
-      <Exercise8 />
+      {/* <Exercise8 /> */}
       <Exercise9 />
     </>
   );
