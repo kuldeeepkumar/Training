@@ -16,10 +16,11 @@ function App() {
       {/*<Exercise4 />   */}
       {/* <Exercise5/>   */}
       {/* <Exercise6/> */}
-           <Exercise7/>
-  </>
-  )
-
+      {/* <Exercise7/> */}
+      {/* <Exercise8 /> */}
+      <Exercise9 />
+    </>
+  );
 }
 
 export default App;
