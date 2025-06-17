@@ -7,6 +7,8 @@ import Excercise6 from "./exercises/exercise6/Excercise6";
 import Exercise7 from "./exercises/exercise7/Exercise7";
 import Exercise2 from "./exercises/exercises2/Exercise2";
 import Exercise1 from "./exercises/exercises_1/Exercise1";
+import Exercise8 from "./exercises/exercise8/Exercise8";
+import Exercise9 from "./exercises/exercise9/Exercise9";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       {/* <AllMethods /> */}
       {/* <Exercise5 /> */}
       {/*<Excercise6 />*/}
-      <Exercise7 />
+      {/* <Exercise7 /> */}
+      <Exercise8 />
+      <Exercise9 />
     </>
   );
 }
