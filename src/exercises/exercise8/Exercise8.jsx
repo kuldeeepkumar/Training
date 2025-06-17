@@ -11,9 +11,11 @@ const Exercise8 = () => {
     setMessageStyle({
       color: "blue",
       fontWeight: "bold",
-      
     });
-  }, []);
+    setTimeout(() => {
+      
+    }, timeout);
+  }, [2000]);
 
   const handleClick = () => {
     setResultText("Button was clicked!");
