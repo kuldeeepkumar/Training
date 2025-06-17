@@ -7,6 +7,7 @@ import Exercise5 from './exercises/exercise5/Exercise5';
 import Exercise6 from './exercises/exercise6/Exercise6';
 import Exercise7 from './exercises/exercises7/Exercise7';
 import Exercise8 from './exercises/exercise8/Exercise8';
+import Exercise9 from './exercises/exercise9/Exercise9';
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
     {/* <Exercise5/> */}
     {/* <Exercise6/> */}
     {/* <Exercise7/> */}
-    <Exercise8/>
+    {/* <Exercise8/> */}
+    <Exercise9/>
 
         </>
   )
