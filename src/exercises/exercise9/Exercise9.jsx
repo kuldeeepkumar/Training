@@ -6,10 +6,10 @@ const Exercise9 = () => {
   // ---------------------------------------------
 
   // 1. Syntax Error (Uncomment to see the error)
-   console.log("Hello World"; // SyntaxError
+  //  console.log("Hello World"; // SyntaxError
 
   // // 2. Reference Error (Uncomment to see the error)
-   console.log(myVar); // ReferenceError
+  console.log(myVar); // ReferenceError
 
   // 3. Type Error (Uncomment to see the error)
   //const num = 10;
