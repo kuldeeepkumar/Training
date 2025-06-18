@@ -10,7 +10,8 @@ import Exercise7 from "./exercises/exercise7/Exercise7";
 import Exercise8 from "./exercises/exercise8/Exercise8";
 import Exercise9 from "./exercises/exercise9/Exercise9.jsx";
 import Exercise10 from "./exercises/exercise10/Exercise10.jsx";
-import Exercise11 from './exercises/exercise11/Exercise11';
+import Exercise11 from "./exercises/exercise11/Exercise11";
+import Exercise12 from "./exercises/exercise12/Exercise12";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <Exercise8 /> */}
       {/* <Exercise9 /> */}
       {/* <Exercise10 /> */}
-      <Exercise11/>
+      {/* <Exercise11/> */}
+      <Exercise12 />
     </>
   );
 }

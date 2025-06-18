@@ -6,9 +6,9 @@ import Inheritance from "./Inheritance";
 const Exercise11 = () => {
   return (
     <>
-      <Classes />
+      {/* <Classes />
       <Constructor />
-      <Inheritance />
+      <Inheritance /> */}
     </>
   );
 };
