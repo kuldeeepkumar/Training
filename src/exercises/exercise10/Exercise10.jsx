@@ -11,9 +11,9 @@ const Exercise10 = () => {
   console.log("Multiply:", multiply(5, 3));
   return (
     <>
-      <TemplateLeterals />
-      <DefaultParameters />
-      <DestructuringExamples />
+      {/* <TemplateLeterals /> */}
+      {/* <DefaultParameters /> */}
+      {/* <DestructuringExamples/> */}
     </>
   );
 };

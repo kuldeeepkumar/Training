@@ -16,7 +16,7 @@ This is line three`;
 
   return (
     <>
-  <div>TemplateLeterals</div>;
+  <div>TemplateLeterals</div>
   </>
   )
   

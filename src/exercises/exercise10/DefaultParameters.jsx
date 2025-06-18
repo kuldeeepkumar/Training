@@ -1,5 +1,6 @@
 import React from "react";
 const DefaultParameters = () => {
+  
   // defaultParameters.js
 
   function greet(name = "Guest") {
