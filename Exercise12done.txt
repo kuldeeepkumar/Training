@@ -1,0 +1,38 @@
+</>import multiply, { add, subtract } from "./mathUtils";
+import DefaultParameters from "./DefaultParameters";
+import DestructuringExamples from "./DestructuringExamples";
+import React from "react";
+import TemplateLeterals from "./TemplateLiterals";
+import Exercise1 from "./exercises/exercise1/Exercise1";
+import Exercise10 from "./exercises/exercise10/Exercise10";
+import Exercise11 from "./exercises/exercise11/Exercise11";
+import Exercise12 from "./exercises/exercise12/Exercise12";
+
+const Exercise10 = () => {
+    console.log("Add:", add(5, 3));
+    console.log("Subtract:", subtract(5, 3));
+    console.log("Multiply:", multiply(5, 3));
+    return (
+        <>
+        {/* <Exercise10 /> */ }
+        < Exercise11 />
+        <Exercise12 />
+
+    );
+}
+<TemplateLeterals />
+    < DefaultParameters />
+    <DestructuringExamples />
+    </>
+  );
+import Closure from "./Closure";
+import Encapsulation from "./Encapsulation";
+import ImmediatelyInvokedFunction from "./ImmediatelyInvokedFunction";
+import PrivatePublicVariables from "./PrivatePublicVariables";
+import React from "react";
+
+
+const Exercise12 = ()
+return (
+    <>
+export Readable Stream Default Controller  import PrivatePublicVariables;
