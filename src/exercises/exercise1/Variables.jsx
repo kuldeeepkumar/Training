@@ -10,7 +10,7 @@ const Variables = () => {
   console
   return (
     <div>
-      <h1>Variables</h1>
+      <p>Variables</p>
     </div>
   );
 };

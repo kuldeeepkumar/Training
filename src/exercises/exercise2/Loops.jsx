@@ -35,7 +35,7 @@ const Loops = () => {
   }
   return (
     <div>
-      <h1>Loops Exercise</h1>
+      <p>Loops Exercise</p>
       {/* Add your loop examples here */}
     </div>
   );

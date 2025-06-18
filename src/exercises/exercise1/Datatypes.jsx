@@ -33,7 +33,7 @@ const Datatypes = () => {
      let nothing = null;
   return (
     <div>
-      <h1>Datatypes</h1>
+      <p>Datatypes</p>
     </div>
   )
 }

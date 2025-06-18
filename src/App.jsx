@@ -10,6 +10,7 @@ import Exercise7 from './exercises/exercise7/Exercise7'
 import Button from './experiments/buttons'
 import Exercise8 from './exercises/exercise8/Exercise8';
 import Exercise9 from './exercises/exercise9/Exercise9';
+import Exercise10 from './exercises/exercise10/Exercise10';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <Exercise7/>
     <Exercise8/>
     <Exercise9/>
+    <Exercise10/>
     </> 
   );
 }

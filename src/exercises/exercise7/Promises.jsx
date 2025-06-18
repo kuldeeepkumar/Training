@@ -29,7 +29,7 @@ function fetchData() {
 fetchData().then((data) =>console.log(data));
   return (
     <div>
-     <h1>Promises Example</h1>
+     <p>Promises Example</p>
     </div>
   )
 }
