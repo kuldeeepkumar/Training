@@ -5,7 +5,7 @@ const Functions = () => {
     function greet(name) {
         return `Hello, ${name}!`;
     }
-    console.log(greet("Akash"));
+    console.log(greet("arsh"));
     //Arrow function
     const square = (x) => {
         return x * x;
@@ -13,7 +13,7 @@ const Functions = () => {
     console.log(square(4));
 
     const person = {
-        name: "Akash",
+        name: "arsh",
         age: 19,
         greet: function() {
             console.log(`Hello, my name is ${this.name}`);
@@ -25,7 +25,7 @@ const Functions = () => {
     function sayHello(name) {
         return `Hello, ${name}!`;
     }
-    console.log(sayHello("Akash"));
+    console.log(sayHello("arsh"));
     //return value
     function add(a, b) {
         return a + b;
@@ -36,7 +36,7 @@ const Functions = () => {
         return `Hello, ${name}!`;
     }
     console.log(greetName());
-    console.log(greetName("Akash"));
+    console.log(greetName("arsh"));
     //rest parameter
     function sum(...numbers) {
         let total = 0;
@@ -53,7 +53,7 @@ const Functions = () => {
     logArgs(1, 2, 3, 4, 5);
   return (
     <div>
-      <h1>Functions</h1>
+      <p>Functions</p>
     </div>
   )
 }

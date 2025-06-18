@@ -42,7 +42,7 @@ const ConditionalStatement = () => {
   }
   console.log(dayName); // Output: "Wednesday"
   return <div>
-    <h1>Conditional Statement</h1>
+    <p>Conditional Statement</p>
   </div>;
 }
 

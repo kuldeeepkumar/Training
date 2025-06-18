@@ -18,7 +18,7 @@ const Arrays = () => {
   console.log(fruits);
   //Objects
   const person={
-    name:"Akash",
+    name:"arsh",
     age:19,
     isStudent: true
   };
@@ -41,7 +41,7 @@ const sum=numbers1.reduce((acc,num)=>acc+num,0);
 console.log(sum);
   return (
     <div>
-      <h1>Arrays</h1>
+      <p>Arrays</p>
     </div>
   );
 }
