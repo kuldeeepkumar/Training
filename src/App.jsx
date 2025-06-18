@@ -10,7 +10,9 @@ import React from "react";
 // import Exercise8 from "./exercises/exercise8/Exercise8";
 // import Exercise9 from "./exercises/exercise9/Exercise9";
 // import Exercise10 from "./exercises/exercise10/Exercise10";
-import Exercise11 from "./exercises/exercise11/Exercise11";
+// import Exercise11 from "./exercises/exercise11/Exercise11";
+import Exercise12 from "./exercises/exercise12/Exercise12";
+
 
 const App = () => {
   return (
@@ -26,7 +28,8 @@ const App = () => {
       {/* <Exercise8 / */}
       {/* <Exercise9/> */}
       {/* <Exercise10/> */}
-      <Exercise11/>
+      {/* <Exercise11/> */}
+      <Exercise12/>
     </>
   );
 };
