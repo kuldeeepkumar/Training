@@ -9,10 +9,9 @@ const DefaultParameters = () => {
 
   // Example calls
   greet(); // Hello, Guest
-  greet("Arsh"); // Hello, Anjali
+  greet("Anjali"); // Hello, Anjali
 
   return <div>DefaultParameters</div>;
 };
 
 export default DefaultParameters;
-
