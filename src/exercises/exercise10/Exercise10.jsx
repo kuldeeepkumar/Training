@@ -3,7 +3,7 @@
 import DefaultParameters from "./DefaultParameters";
 import DestructuringExamples from "./DestructuringExamples";
 import React from "react";
-import TemplateLeterals from "./TemplateLiterals";
+import TemplateLeterals from "./TemplateLeterals";
 
 const Exercise10 = () => {
   console.log("Add:", add(5, 3));
