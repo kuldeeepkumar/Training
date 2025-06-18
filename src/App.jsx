@@ -11,6 +11,7 @@ import Exercises8 from "./exercises/exercises8/Exercises8";
 import Exercises9 from "./exercises/exercises9/Exercises9";
 import Exercises10 from "./exercises/exercises10/Exercises10";
 import Exercises11 from "./exercises/exercises11/Exercises11";
+import Exercises12 from "./exercises/exercises12/Exercises12";
 function App() {
   return (
     <>
@@ -25,7 +26,8 @@ function App() {
       {/* <Exercises8/> */}
       {/* <Exercises9/> */}
       {/* <Exercises10/> */}
-      <Exercises11 />
+      {/* <Exercises11 /> */}
+      <Exercises12 />
     </>
   );
 }
