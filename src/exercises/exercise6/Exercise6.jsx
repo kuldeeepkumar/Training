@@ -1,53 +1,61 @@
 import React from "react";
 
 const Exercise6 = () => {
-  //Global scope
-  let globalvar = " I am global";
+  //global scope
+  let globalVar = "i am global";
+
   function test() {
-    console.log(globalvar);
+    console.log("global var is here", globalVar);
   }
   test();
-  console.log(globalvar);
-  // Local function
+  console.log(globalVar);
+
+  //local scope
   function test1() {
-    let localvar = " I am local";
-    console.log(localvar);
+    let localVar = "i am local";
+    console.log("local var is here", localVar);
   }
   test1();
-  // console.log(localvar);
+  //   console.log(localVar);
 
-  //lexcial scope (static scope)
+  //static scope
+
   function outer() {
-    let outervar = " I'm from outer";
+    let outerVar = "i am from outer";
     function inner() {
-      console.log(outervar);
+      console.log("outer var is", outerVar);
     }
     inner();
   }
   outer();
 
-  //lexical scope(closures)
+  //closures
+
   function outer1() {
     let count = 0;
     return function inner() {
       count++;
-      console.log("count is:", count);
+      console.log("count is here:", count);
     };
   }
   const counter = outer1();
   counter();
   counter();
   counter();
+
   //Real-world use case of closures
+
   function makeMultiplier(factor) {
     return function (num) {
       return num * factor;
     };
   }
   const double = makeMultiplier(2);
-  console.log(double(5));
-
-  return <div>Exercise6</div>;
+  console.log("double is:", double(5));
+  return <div>
+    <h1>Exercise6</h1>
+    <p>Variable Scope</p>
+    </div>;
 };
 
 export default Exercise6;

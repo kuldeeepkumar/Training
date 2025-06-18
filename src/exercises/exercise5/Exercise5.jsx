@@ -1,20 +1,30 @@
-import React from "react";
+import React from 'react'
 
 const Exercise5 = () => {
-  // null
+  //null
+  console.log("null");
+
   let car = null;
   console.log(car);
   console.log(typeof car);
-  // undefined
+
+  //undefined
+  console.log("undefined");
+
   let bike;
   console.log(bike);
 
   function greet() {
-    console.log("hello");
+    console.log("Hello!");
   }
   let result = greet();
+
   console.log(result);
-  // NaN(not-a-number)
+
+  //NaN
+
+  console.log("NaN");
+
   let x = 0 / 0;
   console.log(x);
 
@@ -24,33 +34,43 @@ const Exercise5 = () => {
   console.log(typeof NaN);
   console.log(NaN === NaN);
 
-  // Array Destructuring
-  const color = ["red", "green", "blue"];
-  const [first, second, third] = color;
+  //Array Destructuring
 
+  console.log("Array Destructuring");
+
+  const colors = ["red", "green", "blue"];
+
+  const [first, second, third] = colors;
   console.log(first);
   console.log(second);
   console.log(third);
 
-  // skipping values
+  //Skipping values
+  console.log("Skipping values");
+
   const numbers = [1, 2, 3, 4];
   const [a, , c] = numbers;
-
   console.log(a);
   console.log(c);
 
-  // using rest....
+  //using rest...
+
+  console.log("using rest...");
+
   const fruits = ["apple", "banana", "cherry", "date"];
   const [f1, ...restFruits] = fruits;
 
   console.log(f1);
   console.log(restFruits);
 
-  //object Destructuring
+  //Object Destructuring
+
+  console.log("Object Destructuring");
+
   const person = {
     name: "Alice",
     age: 30,
-    job: "developer",
+    job: "Developer",
   };
 
   const { name, age } = person;
@@ -58,75 +78,80 @@ const Exercise5 = () => {
   console.log(name);
   console.log(age);
 
-  // renaming variables
-  const { name2: userName, age2: userAge } = person;
+  //Renaming Variables
+
+  console.log("Renaming Variables");
+
+  const { name: userName, age: userAge } = person;
 
   console.log(userName);
   console.log(userAge);
 
-  // renaming varibles using default value
-  const { name3, city = "Unknown" } = person;
+  // Nested Destructuring
 
-  console.log(city);
+  console.log("Nested Destructuring");
 
-  //   nested destructuring with object
-  const user4 = {
+  const user = {
     id: 1,
     profile: {
-      username1: "john_doe",
+      username: "john_doe",
       email: "john@example.com",
     },
   };
 
   const {
-    profile: { username1 },
-  } = user4;
+    profile: { username },
+  } = user;
+  console.log(username);
 
-  console.log(username1);
+  //spread operator
+  //1. spreading in arrays
+  console.log("spreading in arrays");
 
-  //  Nested destructuring with array
-
-  const date = [1, [2, 3]];
-
-  const [d, [e, f]] = date;
-  console.log(d);
-  console.log(e);
-  console.log(f);
-
-  // spread operator in Array
-  const arr1 = [4, 5, 6];
-  const arr2 = [...arr1, 7, 8];
+  const arr1 = [1, 2, 3];
+  const arr2 = [...arr1, 4, 5];
 
   console.log(arr2);
 
-  // spread operator in objects
+  //2. spreading in objects
+
+  console.log("spreading in objects");
+
   const obj1 = { a: 1, b: 2 };
   const obj2 = { ...obj1, c: 3 };
 
   console.log(obj2);
 
-  // spreading in function calls
-  const number = [10, 20, 30];
+  //3.  spreading in function calls
+  console.log("spreading in function calls");
 
-  function sum(x, y, z) {
-    return x + y + z;
+  const digit = [10, 20, 30];
+
+  function sum(a, b, c) {
+    return a + b + c;
   }
-  console.log(sum(...number));
 
-  // Rest parameter in functions
-  const arr3 = [8, 9, 10];
-  const arr4 = [...arr3, 11, 12];
+  console.log(sum(...numbers));
 
-  console.log(arr4);
+  //Rest parameter
+  //1. Rest in function
 
-  // rest parameter in destructuring
-  const [first1, ...rest] = [20, 30, 40, 50];
+  console.log("Rest in function");
 
-  console.log(first1);
+  const arr6 = [1, 2, 3];
+  const arr7 = [...arr6, 4, 5];
+  console.log(arr7);
+
+  //   //1. Rest in Destructuring
+  console.log("Rest in  Destructuring");
+  const [one, ...rest] = [10, 20, 30, 40];
+
+  console.log(one);
   console.log(rest);
-  return <div>Exercise5</div>;
-};
+  return <div>
+    <h1>Exercise 5</h1>
+    <p>Array Methods</p>
+  </div>;
+}
 
-export default Exercise5;
-
-
+export default Exercise5

@@ -9,7 +9,7 @@ const Datatypes = () => {
 
      //  Number
 
-     let age = 30;
+     let age = 20;
      let price = 19.99;
 
      // boolean
@@ -33,7 +33,7 @@ const Datatypes = () => {
      let nothing = null;
   return (
     <div>
-      <h1>Datatypes</h1>
+      <p>Datatypes</p>
     </div>
   )
 }
