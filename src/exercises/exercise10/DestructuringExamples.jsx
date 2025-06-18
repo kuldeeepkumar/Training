@@ -6,9 +6,9 @@ const DestructuringExamples = () => {
   //==================================================
 
   const user = {
-    name: "Arsh",
-    age: 20,
-    country: "canada",
+    name: "John",
+    age: 30,
+    country: "India",
   };
 
   const { name, age, country } = user;

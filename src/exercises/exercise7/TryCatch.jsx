@@ -13,7 +13,7 @@ const TryCatch = () => {
     }
   return (
     <div>
-      <h1>Try catch</h1>
+      <p>Try catch</p>
     </div>
   )
 }

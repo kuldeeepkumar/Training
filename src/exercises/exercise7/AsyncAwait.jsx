@@ -22,7 +22,7 @@ const AsyncAwait = () => {
 
   return (
     <div>
-      <h1>Async/Await Example</h1>
+      <p>Async/Await Example</p>
     </div>
   )
 }

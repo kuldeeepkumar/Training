@@ -150,6 +150,7 @@ const Exercise5 = () => {
   console.log(rest);
   return <div>
     <h1>Exercise 5</h1>
+    <p>Array Methods</p>
   </div>;
 }
 

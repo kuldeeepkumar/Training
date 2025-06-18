@@ -35,7 +35,7 @@ const AllMethods = () => {
     
     return (
     <div>
-      <h1>AllMethods</h1>
+      <p>AllMethods</p>
     </div>
   )
 }
