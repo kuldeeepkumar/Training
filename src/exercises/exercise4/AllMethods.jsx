@@ -12,7 +12,7 @@ const AllMethods = () => {
     console.log(fruitString);
     //Sortinf array of objects
     const people = [
-        { name: "arsh", age: 19 },
+        { name: "Akash", age: 19 },
         { name: "binni", age: 21 },
         { name: "arsh", age: 21 }
        
