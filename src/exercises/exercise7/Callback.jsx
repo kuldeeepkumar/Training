@@ -9,7 +9,7 @@ const callBack = () => {
  function showMessage() {
     console.log("Welcome to the website!");
  }
- greetUser("arsh", showMessage);
+ greetUser("Akash", showMessage);
   // Example of a callback function with asynchronous operation
   function fetchData(callback) {
     setTimeout(() => {
