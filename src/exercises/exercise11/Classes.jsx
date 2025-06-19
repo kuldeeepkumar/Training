@@ -17,7 +17,7 @@ const Classes = () => {
   }
 
   const person1 = new Person("Alice", 30);
-  person1.greet(); // Output: Hello, my name is Alice.
+  person1.greet(); // Output: Hello, my name is Alice.Add commentMore actions
 
   return <div>Classes</div>;
 };

@@ -1,12 +1,14 @@
-import Classes from "./Classes";
-import Constructors from "./Constructors";                              
-import Inheritance from "./Inheritance";
 import React from "react";
+import Classes from "./Classes";
+import Constructors from "./Constructors";
+import Inheritance from "./Inheritance";
 
 const Exercise11 = () => {
   return (
     <>
-    <h1>Exercise11</h1>
+    <h1>
+        Exercise 11
+    </h1>
       <Classes />
       <Constructors />
       <Inheritance />
