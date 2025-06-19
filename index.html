@@ -1,52 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
 
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
 
-      #clickBtn {
-        margin-top: 10px;
-      }
-    </style>
-  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
 
-  <body>
-    <div id="root">
-      <h4 id="main-title">Welcome to DOM</h4>
-      <p class="message">This is a paragraph.</p>
-      <button id="clickBtn">Click Me</button>
-      <p id="result"></p>
-    </div>
+    #clickBtn {
+      margin-top: 10px;
+    }
+  </style>
+</head>
 
-    <script type="module" src="/src/main.jsx">
-      //<script >
+<body>
+  <div id="root">
+    <h4 id="main-title">Welcome to DOM</h4>
+    <p class="message">This is a paragraph.</p>
+    <button id="clickBtn">Click Me</button>
+    <p id="result"></p>
+  </div>
+ 
 
-      // Access and manipulate DOM
-          const title = document.getElementById("main-title");
-          console.log("titile:", title);
-          title.textContent = "DOM Manipulated!";
+  <script type="module" src="/src/main.jsx">
 
-          const message = document.querySelector(".message");
-          message.style.color = "blue";
-          message.style.fontWeight = "bold";
+        // Access and manipulate DOM
+      const title = document.getElementById("main-title");
+      console.log("titile:", title);
+      title.textContent = "DOM Manipulated!";
 
-          // Event handling
-          const button = document.getElementById("clickBtn");
-          const result = document.getElementById("result");
+      const message = document.querySelector(".message");
+      message.style.color = "blue";
+      message.style.fontWeight = "bold";
 
-          button.addEventListener("click", function () {
-            result.textContent = "Button was clicked!";
-            result.style.color = "green";
-          });
-    </script>
-  </body>
+      // Event handling
+      const button = document.getElementById("clickBtn");
+      const result = document.getElementById("result");
+
+      button.addEventListener("click", function () {
+        result.textContent = "Button was clicked!";
+        result.style.color = "green";
+      });
+  </script>
+</body>
+
 </html>

@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 
 const callBack = () => {
   // Example of a callback function in JavaScript
-  function greetUser(name,callback) {
+  function greetUser(name, callback) {
     console.log("Hi " + name);
     callback();
- }
- function showMessage() {
+  }
+  function showMessage() {
     console.log("Welcome to the website!");
- }
- greetUser("sumit", showMessage);
+  }
+  greetUser("sumit", showMessage);
   // Example of a callback function with asynchronous operation
   function fetchData(callback) {
     setTimeout(() => {
-      callback('DATA IS READY');
+      callback("DATA IS READY");
     }, 2000);
   }
   fetchData((message) => {
@@ -21,9 +21,9 @@ const callBack = () => {
   });
   return (
     <div>
-      <h1>Callback Example</h1>
+      <p>Callback Example</p>
     </div>
-  )
-}
+  );
+};
 
-export default callBack
+export default callBack;

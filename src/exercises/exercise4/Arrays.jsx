@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Arrays = () => {
   //array
@@ -17,33 +17,33 @@ const Arrays = () => {
   fruits.shift();
   console.log(fruits);
   //Objects
-  const person={
-    name:"sumit",
-    age:19,
-    isStudent: true
+  const person = {
+    name: "sumit",
+    age: 19,
+    isStudent: true,
   };
   console.log(person.name);
-  console.log(person['age']);
-  person.age=20;
-  person.city='New York';
-   console.log(person.city);
+  console.log(person["age"]);
+  person.age = 20;
+  person.city = "New York";
+  console.log(person.city);
   //array Methods
   //Map: Transform each item in array
   const numbers1 = [1, 2, 3];
   const double = numbers1.map((number) => number * 2);
   console.log(double);
-//Filter: Filter items base on conditions
-const numbers2=[1,2,3];
-const evens=numbers2.filter((num)=>num%2==0);
-console.log(evens);
-//Reduce: Reduce array to single value
-const sum=numbers1.reduce((acc,num)=>acc+num,0);
-console.log(sum);
+  //Filter: Filter items base on conditions
+  const numbers2 = [1, 2, 3];
+  const evens = numbers2.filter((num) => num % 2 == 0);
+  console.log(evens);
+  //Reduce: Reduce array to single value
+  const sum = numbers1.reduce((acc, num) => acc + num, 0);
+  console.log(sum);
   return (
     <div>
-      <h1>Arrays</h1>
+      <p>Arrays</p>
     </div>
   );
-}
+};
 
-export default Arrays
+export default Arrays;

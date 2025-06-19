@@ -54,6 +54,7 @@ const Exercise6 = () => {
   console.log("double is:", double(5));
   return <div>
     <h1>Exercise6</h1>
+    <p>Variable Scope</p>
     </div>;
 };
 

@@ -1,43 +1,42 @@
-import React from 'react'
+import React from "react";
 
 const AllMethods = () => {
-    //Array methods
-    const numbers = [1,3,2,5,4];
-   //sort
-   numbers.sort();
-    console.log(numbers);
-    //Join
-    const fruits = ["Apple", "Banana", "Cherry"];
-    const fruitString = fruits.join(", ");
-    console.log(fruitString);
-    //Sortinf array of objects
-    const people = [
-        { name: "sumit", age: 19 },
-        { name: "binni", age: 21 },
-        { name: "arsh", age: 21 }
-       
-    ];
-    people.sort((a, b) => a.age - b.age);
-    console.log(people);
-    //Sort by name
- const result= people.sort((a,b)=>{
-        const nameA=a.name.toUpperCase();
-        const nameB=b.name.toUpperCase();
-        if(nameA<nameB){
-            return -1;
-        }
-        if(nameA>nameB){
-            return 1;
-        }
-        return 0;
-    });
-    console.log(result);
-    
-    return (
-    <div>
-      <h1>AllMethods</h1>
-    </div>
-  )
-}
+  //Array methods
+  const numbers = [1, 3, 2, 5, 4];
+  //sort
+  numbers.sort();
+  console.log(numbers);
+  //Join
+  const fruits = ["Apple", "Banana", "Cherry"];
+  const fruitString = fruits.join(", ");
+  console.log(fruitString);
+  //Sortinf array of objects
+  const people = [
+    { name: "sumit", age: 19 },
+    { name: "binni", age: 21 },
+    { name: "arsh", age: 21 },
+  ];
+  people.sort((a, b) => a.age - b.age);
+  console.log(people);
+  //Sort by name
+  const result = people.sort((a, b) => {
+    const nameA = a.name.toUpperCase();
+    const nameB = b.name.toUpperCase();
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0;
+  });
+  console.log(result);
 
-export default AllMethods
+  return (
+    <div>
+      <p>AllMethods</p>
+    </div>
+  );
+};
+
+export default AllMethods;

@@ -7,10 +7,10 @@ const Variables = () => {
   // age = 20;          // Error: Assignment to constant variable
 
   console.log(age);
-  console
+  console;
   return (
     <div>
-      <h1>Variables</h1>
+      <p>Variables</p>
     </div>
   );
 };
