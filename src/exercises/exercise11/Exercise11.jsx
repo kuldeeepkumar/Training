@@ -7,7 +7,7 @@ const Exercise11 = () => {
   return (
     <>
     <div>
-      <Classes/>
+      {/* <Classes/> */}
       <Constructors/>
       <Inheritance/>
     </div>

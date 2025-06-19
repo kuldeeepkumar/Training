@@ -12,9 +12,11 @@ const Classes = () => {
     }
 
     greet() {
-      console.log(`Hello, my name is ${this.name}.`);
+      console.log(`Hello, my name is ${this.name} and i am ${this.age} year old.`);
     }
-  }
+
+    }
+
 
   const person1 = new Person("Alice", 30);
   person1.greet();  // Output: Hello, my name is Alice.
