@@ -1,6 +1,8 @@
-import React from "react";
+import React from 'react'
 
 const Operators = () => {
+
+
   // Operators
   // Arithmetic Operators
 
@@ -35,7 +37,10 @@ const Operators = () => {
   abc += 5; // a = a + 5 -> a = 15
   console.log(a); // Output: 15
 
-  return <div>Operators</div>;
-};
 
-export default Operators;
+  return (
+    <div>Operators</div>
+  )
+}
+
+export default Operators
