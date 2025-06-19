@@ -1,26 +1,30 @@
-import React from "react";
+import React from 'react'
 
 const AsyncAwait = () => {
-  // ===============================
-  // Async/Await code is starting here
-  // ===============================
-
-  function fetchData() {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve("Data Loaded");
-      }, 2000);
+    async function example(){
+        return "Hello";
+    }
+    example().then((message)=> console.log(message));
+    
+    function fetchData(){
+        return new Promise((resolve)=>{
+            setTimeout(()=>{
+                resolve("Data loaded");
+                },2000);
     });
-  }
-  async function getData() {
-    console.log("Wating for the data...");
-    const result = await fetchData(); // wait for until the fetchData promise is resolved
-    console.log(result);
-  }
+        }
+        async function getData(){
+            console.log("Waiting for data...");
+            const result=await fetchData();
+            console.log(result);
+        }
+        getData();
 
-  getData();
+  return (
+    <div>
+      <p>Async/Await Example</p>
+    </div>
+  )
+}
 
-  return <div>AsyncAwait</div>;
-};
-
-export default AsyncAwait;
+export default AsyncAwait

@@ -1,21 +1,18 @@
-import AsyncAwait from "./AsyncAwait";
-import Callback from "./Callback";
-import Promises from "./Promises";
-import React from "react";
-import TryCatch from "./TryCatch";
-
+import React from 'react'
+import CallBack from './Callback'
+import Promises from './Promises'
+import AsyncAwait from './AsyncAwait'
+import TryCatch from './TryCatch'
 const Exercise7 = () => {
   return (
     <>
-      <div>
-        <h1>Exercise 7 is here</h1>
-        {/* <Callback /> */}
-        {/* <Promises /> */}
-        {/* <AsyncAwait /> */}
-        <TryCatch />
-      </div>
+    <h1>Exercise7</h1>
+      <CallBack />
+      <Promises />
+      <AsyncAwait/>
+      <TryCatch/>
     </>
-  );
-};
+  )
+}
 
-export default Exercise7;
+export default Exercise7

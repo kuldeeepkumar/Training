@@ -1,30 +1,21 @@
-import React from "react";
+import React from 'react'
 
 const TryCatch = () => {
-  // ===============================
-  // Try/Catch code is starting here
-  // ===============================
-
-  try {
-    let result = riskyFunction(); // This function is not defined, it will throw an error
-    console.log("Result:", result);
-  } catch (error) {
-    // code to run if an error occurs
-    console.error("Something went Wrong:", error.message);
-  }
-
-  //   Example with its use case
-
-  try {
-    let result = 10 / 0; // This will throw an error (division by zero)
-    if (!isFinite(result)) {
-      throw new Error("Cannot divide by zero");
+    // Example of error handling with async/await
+    try{
+        let result=10/0;
+        if(!isFinite(result)){
+            throw new Error("Division by zero is not allowed");
+        }   
+        console.log(result);
+    } catch(error) {
+        console.log("Error:", error.message);
     }
-  } catch (err) {
-    console.log("Error:", err.message); 
-  }
+  return (
+    <div>
+      <p>Try catch</p>
+    </div>
+  )
+}
 
-  return <div>TryCatch</div>;
-};
-
-export default TryCatch;
+export default TryCatch

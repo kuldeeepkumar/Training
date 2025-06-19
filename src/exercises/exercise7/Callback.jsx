@@ -1,30 +1,29 @@
-import React from "react";
+import React from 'react'
 
-const Callback = () => {
-  // Call back exrcise code is started here
-  function greetUser(name, callback) {
-    console.log("Hi", name);
+const callBack = () => {
+  // Example of a callback function in JavaScript
+  function greetUser(name,callback) {
+    console.log("Hi " + name);
     callback();
-  }
-
-  function showMessage() {
-    console.log("welcome to the website");
-  }
-  greetUser("Kuldeep", showMessage);
-
-  // Async Example for Callback Using setTimeout method
-
+ }
+ function showMessage() {
+    console.log("Welcome to the website!");
+ }
+ greetUser("Akash", showMessage);
+  // Example of a callback function with asynchronous operation
   function fetchData(callback) {
     setTimeout(() => {
-      callback("data is ready !");
+      callback('DATA IS READY');
     }, 2000);
   }
-
-  fetchData((meassage) => {
-    console.log(meassage);
+  fetchData((message) => {
+    console.log(message);
   });
+  return (
+    <div>
+      <p>Callback Example</p>
+    </div>
+  )
+}
 
-  return <div>Callback</div>;
-};
-
-export default Callback;
+export default callBack

@@ -1,18 +1,15 @@
-import React from "react";
-import ConditionalStatement from "./conditionalstatement";
-import LoopingStatement from "./LoopingStatement";
-import AdditionalControlFlowconcepts from "./AdditionalControlFlowconcepts";
-import Questions from "./Questions";
+import React from 'react'
+import ConditionalStatement from './ConditionalStatement'
+import Loops from './Loops'
 
 const Exercise2 = () => {
   return (
-    <div>
-      {/* <ConditionalStatement/>   */}
-      {/* <LoopingStatement/> */}
-      {/* <AdditionalControlFlowconcepts/> */}
-      <Questions />
-    </div>
-  );
-};
+    <>
+    <h1>Exercise2</h1>
+    <ConditionalStatement/>
+    <Loops/>
+    </>
+  )
+}
 
-export default Exercise2;
+export default Exercise2

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-const Operater = () => {
+const Operators = () => {
   let x = 10;
   let y = 5;
   console.log(x + y); // Output: 15 (Addition)
@@ -10,7 +10,6 @@ const Operater = () => {
   console.log(x % y); // Output: 0  (Modulus)
 
   // Comparison Operators
-
   let a = 10;
   let b = 20;
   console.log(a == b); // Output: false (Equal to)
@@ -30,9 +29,11 @@ const Operater = () => {
 
   let abc = 10;
   abc += 5; // a = a + 5 -> a = 15
-  console.log(abc); // Output: 15
+  console.log(a); // Output: 15
 
-  return <div>Operater</div>;
-};
+  return <div>
+    <p>Operators</p>
+  </div>;
+}
 
-export default Operater;
+export default Operators

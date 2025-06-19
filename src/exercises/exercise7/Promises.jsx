@@ -1,30 +1,37 @@
-import React from "react";
+import React from 'react'
 
 const Promises = () => {
-  // ===============================
-  // Promises code is starting here
-  // ===============================
+// Example of a Promise in JavaScript
+let promise=new Promise((resolve,reject)=>{
+    let success=true;
 
-  // we have one example of promises here , which is showing pending , Resoved and Rejected states of promises
-
-  let promise = new Promise((resolve, reject) => {
-    let success = true; // Change this to false to see the rejected state
-    if (success) {
-      resolve("Task Copmlete!");
-    } else {
-      reject("Something Went Wrong!");
+    if(success){
+        resolve("Task completed");
+    }else{
+        reject("Task failed");  
     }
-  });
-
-  promise
-    ?.then((message) => {
-      console.log("Resolved:", message);
-    })
-    ?.catch((message) => {
-      console.log("Resolved:", message);
+});
+promise.then((message) => {
+    console.log(message);
+})
+.catch((error) => {
+    console.log(error);
+});
+// Example of a Promise with an asynchronous operation
+function fetchData() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            const data = 'Data fetched after 2 seconds';
+            resolve(data);
+        }, 2000);
     });
+}
+fetchData().then((data) =>console.log(data));
+  return (
+    <div>
+     <p>Promises Example</p>
+    </div>
+  )
+}
 
-  return <div>Promises</div>;
-};
-
-export default Promises;
+export default Promises
