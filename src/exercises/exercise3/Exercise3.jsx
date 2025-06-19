@@ -1,10 +1,11 @@
 import React from 'react'
-import Functions from './Functions';
+import Functions from './Functions'
 const Exercise3 = () => {
   return (
-    <div>
-     <Functions/>
-    </div>
+ <>
+ <h1>Exercise3</h1>
+<Functions/>
+ </>
   )
 }
 

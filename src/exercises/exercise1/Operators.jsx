@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Operators = () => {
   let x = 10;
@@ -31,11 +31,9 @@ const Operators = () => {
   abc += 5; // a = a + 5 -> a = 15
   console.log(a); // Output: 15
 
-  return (
-    <div>
-      <h1>Operators</h1>
-    </div>
-  );
-};
+  return <div>
+    <p>Operators</p>
+  </div>;
+}
 
-export default Operators;
+export default Operators

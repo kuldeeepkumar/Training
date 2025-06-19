@@ -1,14 +1,15 @@
 import React from "react";
 import Variables from "./Variables";
-import Datatypes from "./Datatypes";
 import Operators from "./Operators";
+import Datatypes from "./Datatypes";
 
 const Exercise1 = () => {
   return (
     <>
-      <Variables/>
-      <Datatypes/>
+    <h1>Exercise1</h1>
+      <Variables />
       <Operators/>
+      <Datatypes/>
     </>
   );
 };

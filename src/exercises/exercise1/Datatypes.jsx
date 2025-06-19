@@ -1,40 +1,41 @@
-import React from "react";
+import React from 'react'
 
 const Datatypes = () => {
-  let yourName = "Ripan";
-  let greeting = "Hello";
-  let sentence = `${greeting} My name is ${yourName}`; // Template literals
+     let yourName = "Kuldeep";
+     let greeting = "Hello";
+     let sentence = `${greeting} My name is ${yourName}`; // Template literals
 
-  console.log(sentence);
+     console.log(sentence);
 
-  //  Number
+     //  Number
 
-  let age = 20;
+     let age = 20;
+     let price = 19.99;
 
-  // boolean
-  let isStudent = true;
-  let isTeacher = false;
+     // boolean
+     let isStudent = true;
+     let isTeacher = false;
 
-  // Object
-  let person = {
-    name: "Ripan",
-    age: 20,
-  };
+     // Object
+     let person = {
+       name: "Alice",
+       age: 30,
+     };
 
-  // Array
-  let fruits = ["apple", "banana", "cherry"];
+     // Array
+     let fruits = ["apple", "banana", "cherry"];
 
-  // undefined
-  let car;
-  console.log(car); // Output: undefined
+     // undefined
+     let car;
+     console.log(car); // Output: undefined
 
-  // null
-  let nothing = null;
+     // null
+     let nothing = null;
   return (
     <div>
-      <h1>Datatypes</h1>
+      <p>Datatypes</p>
     </div>
-  );
-};
+  )
+}
 
-export default Datatypes;
+export default Datatypes
