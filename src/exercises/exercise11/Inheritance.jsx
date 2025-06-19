@@ -17,7 +17,7 @@ const Inheritance = () => {
 
   class Dog extends Animal {
     constructor(name, breed) {
-      super(name); // Call the parent class constructor
+      super(name); // Call the parent class constructorAdd commentMore actions
       this.breed = breed;
     }
 
