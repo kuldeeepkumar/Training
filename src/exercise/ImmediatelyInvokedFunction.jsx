@@ -9,7 +9,6 @@ const ImmediatelyInvokedFunction = () => {
     let privateVar = "This is private inside IIFE";
     console.log("IIFE Example:", privateVar);
   })();
-
   // console.log(privateVar); // Error: privateVar is not defined
   return <div>ImmediatelyInvokedFunction</div>;
 };
