@@ -2,9 +2,10 @@ import React from 'react'
 import Functions from './Functions'
 const Exercise3 = () => {
   return (
- <div>
+ <>
+ <h1>Exercise3</h1>
 <Functions/>
- </div>
+ </>
   )
 }
 

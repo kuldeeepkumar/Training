@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const loops = () => {
-    // For Loop Example
+const Loops = () => {
+  // For Loop Example
   for (let i = 0; i < 5; i++) {
     console.log("iteration number:", i);
     // While Loop Example
@@ -35,9 +35,10 @@ const loops = () => {
   }
   return (
     <div>
-      
+      <p>Loops Exercise</p>
+      {/* Add your loop examples here */}
     </div>
-  )
-}
+  );
+};
 
-export default loops
+export default Loops;
