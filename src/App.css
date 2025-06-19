@@ -41,4 +41,54 @@
   color: #888;
 }
 
- 
+body {
+  text-align: center;
+  background-color: rgba(127, 255, 212, 0.144);
+}
+#headerSection {
+  padding: 10px;
+  font-family: castellar;
+}
+
+#ph {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#pass {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#selectSection {
+  padding: 10px;
+  border-radius: 5px;
+  width: 15%;
+}
+
+#loginButton {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+
+#header {
+  padding: 10px;
+  font-family: castellar;
+}
+
+#name {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#mobile {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#pass1 {
+  padding: 10px;
+  border-radius: 8px;
+}
