@@ -1,6 +1,6 @@
 import React from "react";
 
-const TemplateLiterals = () => {
+const TemplateLeterals = () => {
   const name = "Alice";
   const age = 25;
 
@@ -11,7 +11,7 @@ const TemplateLiterals = () => {
 This is line two
 This is line three`;
   console.log(multiLine);
-  return <div>TemplateLiterals</div>;
+  return <div>TemplateLeterals</div>;
 };
 
-export default TemplateLiterals;
+export default TemplateLeterals;
