@@ -1,7 +1,7 @@
 import React from "react";
 
 const PrivatePublicVariables = () => {
-  // =====================================================Add commentMore actions
+  // =====================================================
   // 4. Private vs Public Variables using Closure + Return
   // =====================================================
 
@@ -25,6 +25,7 @@ const PrivatePublicVariables = () => {
   console.log("Password Check (correct):", user.checkPassword("secret123")); // true
   console.log("Password Check (wrong):", user.checkPassword("wrong")); // false
   // console.log(user.password); // Undefined: 'password' is private
+ 
   return <div>PrivatePublicVariables</div>;
 };
 
