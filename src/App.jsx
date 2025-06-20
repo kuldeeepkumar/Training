@@ -37,15 +37,12 @@ function App() {
       {/* <Exercise10 /> */}
       {/* <Exercise11 />
       <Exercise12 /> */}
-<<<<<<< Updated upstream
       <TodoApp />
-=======
       {/* <Exercise13 /> */}
 
       {/* From here React Exercises are going to Start */}
 
       <ReactExercise1 />
->>>>>>> Stashed changes
     </>
   );
 }
