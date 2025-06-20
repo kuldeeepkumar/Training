@@ -13,11 +13,8 @@ import Exercise6 from "./exercises/exercise6/Exercise6";
 import Exercise7 from "./exercises/exercise7/Exercise7";
 import Exercise8 from "./exercises/exercise8/Exercise8";
 import Exercise9 from "./exercises/exercise9/Exercise9";
-<<<<<<< Updated upstream
-import TodoApp from "./exercises/experiments/TodoApp";
-=======
 import ReactExercise1 from "./react/exercises/ReactExercise1";
->>>>>>> Stashed changes
+import TodoApp from "./exercises/experiments/TodoApp";
 
 function App() {
   return (
@@ -37,7 +34,7 @@ function App() {
       {/* <Exercise10 /> */}
       {/* <Exercise11 />
       <Exercise12 /> */}
-      <TodoApp />
+      {/* <TodoApp /> */}
       {/* <Exercise13 /> */}
 
       {/* From here React Exercises are going to Start */}
