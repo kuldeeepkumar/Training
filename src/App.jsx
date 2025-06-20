@@ -4,7 +4,8 @@ import './App.css'
 // import Exercise11 from './exercises/exercise11/Exercise11';
 // import Exercise12 from './exercises/exercise12/Exercise12';
 // import Exercise13 from './exercises/exercise13/Example13';
-import TodoApp from './exercises/experiments/TodoApp';
+// import TodoApp from './exercises/experiments/TodoApp';
+import ReactExercise1 from './exercises/ReactExercises/Exercise1/ReactExercise1';
 // import Exercise1 from './exercises/exercise1/Exercise1'
 // import Exercise2 from './exercises/exercise2/Exercise2'
 // import Exercise3 from './exercises/exercise3/Exercise3'
@@ -31,7 +32,8 @@ function App() {
     {/* <Exercise11/> */}
     {/* <Exercise12/> */}
     {/* <Exercise13/> */}
-    <TodoApp/>
+    {/* <TodoApp/> */}
+    <ReactExercise1/>
     </>
      
    
