@@ -1,4 +1,4 @@
-import React, { useState } from "react"; 
+import React, { useState } from "react";
 
 function TodoApp() {
   const [todos, setTodos] = useState([]);
@@ -77,7 +77,8 @@ function TodoApp() {
                 textDecoration: todo.completed ? "line-through" : "none",
                 color: todo.completed ? "#aaa" : "#333",
               }}
-              onClick={() => handleToggleComplete(todo.id)}>
+              onClick={() => handleToggleComplete(todo.id)}
+            >
               {todo.text}
             </span>
             <div>
@@ -86,7 +87,8 @@ function TodoApp() {
               </button>
               <button
                 onClick={() => handleDelete(todo.id)}
-                style={styles.delBtn}>
+                style={styles.delBtn}
+              >
                 Delete
               </button>
             </div>
