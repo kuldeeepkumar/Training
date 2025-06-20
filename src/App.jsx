@@ -1,4 +1,5 @@
 import React from "react";
+import ReactExercise1 from "./ReactExercises/exercise1/ReactExercise1";
 // import Exercise7 from './exercises/exercise7/Exercise7'
 // import Exercises1 from './exercises/exercises1/Exercises1';
 // import Exercise2 from './exercises/exercises2/Exercise2';
@@ -13,7 +14,8 @@ import React from "react";
 // import Exercise11 from "./exercises/exercise11/Exercise11";
 // import Exercise12 from "./exercises/exercise12/Exercise12";
 // import Exercise13 from "./exercises/exercise13/Exercise13";
-import TodoApp from "./exercises/experiments/TodoApp";
+// import TodoApp from "./exercises/experiments/TodoApp";
+
 
 
 const App = () => {
@@ -33,7 +35,9 @@ const App = () => {
       {/* <Exercise11/> */}
       {/* <Exercise12/> */}
       {/* <Exercise13/> */}
-      <TodoApp/>
+      {/* <TodoApp/> */}
+      <ReactExercise1/>
+      
     </>
   );
 };
