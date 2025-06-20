@@ -1,7 +1,7 @@
 import React from 'react'
 
-const callBack = () => {
-  // Example of a callback function in JavaScript
+const CallBack = () => {
+   // Example of a callback function in JavaScript
   function greetUser(name,callback) {
     console.log("Hi " + name);
     callback();
@@ -21,9 +21,9 @@ const callBack = () => {
   });
   return (
     <div>
-      <h1>Callback Example</h1>
+    <h1>CallBack</h1>
     </div>
   )
 }
 
-export default callBack
+export default CallBack

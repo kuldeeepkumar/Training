@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AsyncAwait = () => {
-    async function example(){
+   async function example(){
         return "Hello";
     }
     example().then((message)=> console.log(message));
@@ -21,9 +21,7 @@ const AsyncAwait = () => {
         getData();
 
   return (
-    <div>
-      <h1>Async/Await Example</h1>
-    </div>
+    <div>AsyncAwait</div>
   )
 }
 

@@ -1,18 +1,21 @@
 import React from 'react'
-import CallBack from './Callback'
+import CallBack from './CallBack'
 import Promises from './Promises'
 import AsyncAwait from './AsyncAwait'
+import Questions from './Questions'
 import TryCatch from './TryCatch'
+
 const Exercise7 = () => {
-  return (
+  return(
     <>
-    <h1>Exercise7</h1>
-      <CallBack />
-      <Promises />
+      <CallBack/>
+      <Promises/>
       <AsyncAwait/>
+      <Questions/>
       <TryCatch/>
+
     </>
   )
-}
+  
 
-export default Exercise7
+

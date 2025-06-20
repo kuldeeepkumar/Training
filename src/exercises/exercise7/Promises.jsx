@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Promises = () => {
-// Example of a Promise in JavaScript
+  // Example of a Promise in JavaScript
 let promise=new Promise((resolve,reject)=>{
     let success=true;
 
@@ -29,7 +29,7 @@ function fetchData() {
 fetchData().then((data) =>console.log(data));
   return (
     <div>
-     <h1>Promises Example</h1>
+    <h1>Promises</h1>
     </div>
   )
 }

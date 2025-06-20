@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Questions = () => {
-    //Question 1
+  //Question 1
     // function that checks number is positive or negative or zero
      function checkNumber(num) {
          if (num > 0) {
@@ -67,11 +67,9 @@ const Questions = () => {
              console.log(`${number} is odd`); 
         }
      });
-
+     
   return (
-    <div>
-      <h1>Questions</h1>
-    </div>
+    <div>Questions</div>
   )
 }
 
