@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Closure = () => {
   // =============================
@@ -18,7 +18,8 @@ const Closure = () => {
   const closureExample = outerFunction();
   closureExample(); // Output: Closure Example: I am from outer scope
 
+  
   return <div>Closure</div>;
-};
+}
 
-export default Closure;
+export default Closure
