@@ -12,11 +12,12 @@ import Exercise10 from "./exercises/exercise10/Exercise10";
 import Exercise11 from "./exercises/exercise11/Exercise11";
 import Exercise12 from "./exercises/exercise12/Exercise12";
 import Exercise13 from "./exercises/exercise13/Exercise13";
+import TodoApp from "./exercises/experiments/TodoApp";
 
 function App() {
   return (
     <>
-      <Exercise1 />
+      {/* <Exercise1 />
       <Exercise2 />
       <Exercise3 />
       <Exercise4 />
@@ -28,7 +29,8 @@ function App() {
       <Exercise10 />
       <Exercise11 />
       <Exercise12 />
-      <Exercise13 />
+      <Exercise13 /> */}
+      <TodoApp />
     </>
   );
 }
