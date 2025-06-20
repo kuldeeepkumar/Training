@@ -7,7 +7,7 @@ const Website = () => {
     <>
     <div>
     <Registration/>
-    <Login/>
+    {/* <Login/> */}
     </div>
     </>
   )

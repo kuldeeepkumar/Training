@@ -15,16 +15,16 @@ const Registration = () => {
         <br></br>
 
         <input id="pass1" type="password" placeholder="Enter Password"></input>
-        <input
-          id="cpass2"
-          type="password"
-          placeholder="Conform Password"
-        ></input>
+        <input id="cpass2" type="password" placeholder="Conform Password"></input>
         <br></br>
         <br></br>
 
+<input id="address" type="text" placeholder="Address"></input>
+        <br></br>
+        <br></br>
+<center>
         <div id="imagePart">
-          Upload image:<input type="file" name="Phone"></input>
+        Upload image:<input type="file" name="Phone"></input>
         </div>
         <br></br>
 
@@ -39,8 +39,10 @@ const Registration = () => {
 
         <button id="registrationPart">Register</button>
         <br></br>
+        </center>
       </form>
       Already User? <a href="">Login here</a>
+      
     </>
   );
 };
