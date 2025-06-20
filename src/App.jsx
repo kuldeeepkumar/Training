@@ -1,5 +1,6 @@
 import React from 'react'
-import TodoApp from './exercises/experiments/TodoApp';
+// import TodoApp from './exercises/experiments/TodoApp';
+import ReactExercise1 from './exercises/React Exercises /exercise1/ReactExercise1';
 // import Exercise2 from './exercises/exercise2/Exercise2'
 // import Exercise3 from './exercises/exercise3/Exercise3';
 // import Exercise4 from './exercises/exercise4/Exercise4';
@@ -31,7 +32,8 @@ const App = () => {
     {/* <Exercise11/> */}
     {/* <Exercise12/> */}
     {/* <Exercise13/> */}
-    <TodoApp/>
+    {/* <TodoApp/> */}
+    <ReactExercise1/>
 
         </>
   )
