@@ -13,6 +13,7 @@ import Exercise11 from "./exercises/exercise11/Exercise11";
 import Exercise12 from "./exercises/exercise12/Exercise12";
 import Exercise13 from "./exercises/exercise13/Exercise13";
 import TodoApp from "./experiments/TodoApp";
+import ReactExercise1 from "./reactExercises/exercise1/ReactExercise1";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
     <Exercise11/>
     <Exercise12/>
     <Exercise13/> */}
-      <TodoApp />
+      {/* <TodoApp /> */}
+      <ReactExercise1 />
     </>
   );
 }
