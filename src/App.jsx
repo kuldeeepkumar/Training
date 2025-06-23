@@ -14,10 +14,9 @@ import Exercise11 from './exercises/exercise11/Exercise11';
 import Exercise12 from './exercises/exercise12/Exercise12';
 import Exercise13 from './exercises/exercise13/Exercise13';
 import TodoApp from './exercises/experiments/TodoApp'
-import ReactExercise1 from './reactexercise/excercise1/ReactExercise1'
-import Example1 from './reactexercise/exercise2/Example1'
-import Example2 from './reactexercise/exercise2/Example2'
-import ReactExercise2 from './reactexercise/exercise2/Reactexercise2'
+import ReactExercise1 from './reactExercises/exercise1/ReactExercise1';
+import ReactExercise2 from './reactExercises/exercise2/ReactExercise2'
+
 
 function App() {
   return (
@@ -37,8 +36,6 @@ function App() {
     <Exercise13/> */}
     {/* <TodoApp/> */}
     {/* <ReactExercise1/> */}
-    <Example1/>
-    <Example2/>
     <ReactExercise2/>
     </> 
   );
