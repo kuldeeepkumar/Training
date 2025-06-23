@@ -14,7 +14,7 @@ import './App.css'
 // import Exercise12 from "./exercises/exercise12/Exercise12";
 // import Exercise13 from "./exercises/exercise13/Exercise13";
 // import TodoApp from './exercises/experiment /TodoApp'
-import ReactExercise1 from './exercises/ReactExercises/exercise1/ReactExercise1';
+import ReactExercise1 from './ReactExercises/exercise1/ReactExercise1';
 
 
 
