@@ -1,6 +1,7 @@
 import React from 'react'
+// import ReactExercise1 from './reactExercises/exercise1/ReactExercise1';
+import ReactExercise2 from './reactExercises/exercise2/ReactExercise2';
 // import TodoApp from './exercises/experiments/TodoApp';
-import ReactExercise1 from './exercises/React Exercises /exercise1/ReactExercise1';
 // import Exercise2 from './exercises/exercise2/Exercise2'
 // import Exercise3 from './exercises/exercise3/Exercise3';
 // import Exercise4 from './exercises/exercise4/Exercise4';
@@ -33,7 +34,8 @@ const App = () => {
     {/* <Exercise12/> */}
     {/* <Exercise13/> */}
     {/* <TodoApp/> */}
-    <ReactExercise1/>
+    {/* <ReactExercise1/> */}
+    <ReactExercise2/>
 
         </>
   )
