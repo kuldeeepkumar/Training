@@ -32,7 +32,7 @@ const Example2 = () => {
   }
 
   createPost();
-  return <div>Example2</div>;
+  return;
 };
 
 export default Example2;

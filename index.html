@@ -14,28 +14,27 @@
       <p id="result"></p>
     </div>
 
-    <script type="module" src="/src/main.jsx"></script>
-    <script>
-      // Access and manipulate DOM
-      const title = document.getElementById("main-title");
-      console.log("titile:", title);
-      title.textContent = "DOM Manipulated!";
+    <script type="module" src="/src/main.jsx">
+      // <script>
+        // Access and manipulate DOM
+        const title = document.getElementById("main-title");
 
-      const message = document.querySelector(".message");
-      message.style.color = "blue";
-      message.style.fontWeight = "bold";
+        title.textContent = "DOM Manipulated!";
 
-      const para = document.getElementsByTagName("p");
-      console.log("para", para);
+        const message = document.querySelector(".message");
+        message.style.color = "blue";
+        message.style.fontWeight = "bold";
 
-      // Event handling
-      const button = document.getElementById("clickBtn");
-      const result = document.getElementById("result");
+        const para = document.getElementsByTagName("p");
 
-      button.addEventListener("click", function () {
-        result.textContent = "Button was clicked!";
-        result.style.color = "green";
-      });
+        // Event handling
+        const button = document.getElementById("clickBtn");
+        const result = document.getElementById("result");
+
+        button.addEventListener("click", function () {
+          result.textContent = "Button was clicked!";
+          result.style.color = "green";
+        });
     </script>
   </body>
 </html>
