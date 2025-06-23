@@ -32,7 +32,7 @@ const Operators = () => {
   console.log(a); // Output: 15
 
   return <div>
-    <h1>Operators</h1>
+    <p>Operators</p>
   </div>;
 }
 
