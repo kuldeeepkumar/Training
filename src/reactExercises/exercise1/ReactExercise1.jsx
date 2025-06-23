@@ -1,4 +1,4 @@
-// Import necessary librariesAdd commentMore actions
+  // Import necessary librariesAdd commentMore actions
 
 import React from "react";
 
@@ -22,7 +22,7 @@ function GreetingWithProps(props) {
 GreetingWithProps.defaultProps = {
   name: "Guest", // Fallback value if no name is passed
 };
-
+   
 // =================================
 // Class Component Example
 // =================================
