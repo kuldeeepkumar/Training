@@ -12,6 +12,7 @@ import Exercises10 from "./Exercises/exercises10/Exercises10";
 import Exercises11 from "./Exercises/exercises11/Exercises11";
 import Exercises12 from "./Exercises/exercises12/Exercises12";
 import Exercises13 from "./Exercises/exercises13/Exercises13";
+import TodoApp from "./Exercises/experiment/TodoApp";
 
 
 function App() {
@@ -29,7 +30,10 @@ function App() {
       {/* <Exercises10 /> */}
       {/* <Exercises11 /> */}
       {/* <Exercises12 /> */}
-      <Exercises13/>
+      {/* <Exercises13/> */}
+      <TodoApp/>
+      
+
       
 
     </>
