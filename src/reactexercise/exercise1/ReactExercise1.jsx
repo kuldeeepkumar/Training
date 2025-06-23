@@ -1,22 +1,5 @@
 // Import necessary librariesAdd commentMore actions
 
-import React from "react";
-
-// ===============================
-// Functional Component - Basic
-// ===============================
-function BasicGreeting() {
-  // A simple functional component using JSX
-  return <h1>Hello, React!</h1>;
-}
-
-// ==========================================
-// Functional Component - With Props Example
-// ==========================================
-function GreetingWithProps(props) {
-  // Using props to receive data from parent
-  return <h2>Hello, {props.name}!</h2>;
-}
 
 // Setting default props for the above component
 GreetingWithProps.defaultProps = {
