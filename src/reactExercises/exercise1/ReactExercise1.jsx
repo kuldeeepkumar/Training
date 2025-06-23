@@ -51,4 +51,5 @@ const ReactExercise1 = () => {
   );
 };
 // Export the main App component
+
 export default ReactExercise1;
