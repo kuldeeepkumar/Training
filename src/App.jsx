@@ -13,6 +13,9 @@ import Exercise11 from "./exercises/exercise11/Exercise11";
 import Exercise12 from "./exercises/exercise12/Exercise12";
 import Exercise13 from "./exercises/exercise13/Exercise13";
 import TodoApp from "./experiments/experiment TodoApp";
+import ReactExercise1 from "./reactExersices/exercise1/ReactExercise1";
+import React from "react";
+import ReactExercise2 from "./reactExersices/exercise2/ReactExercise2";
 
 function App() {
   return (
@@ -30,7 +33,11 @@ function App() {
     <Exercise11/> */}
       {/* <Exercise12/> */}
       {/* <Exercise13/> */}
-      <TodoApp />
+      {/* <TodoApp /> */}
+
+      {/* From here React Exercises are going to Start */}
+      {/* <ReactExercise1 /> */}
+      <ReactExercise2 />
     </>
   );
 }
