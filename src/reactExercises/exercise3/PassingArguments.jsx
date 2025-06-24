@@ -14,7 +14,7 @@ const PassingArguments = () =>  {
       <button onClick={() => greetUser("Kuldeep")}>Greet Kuldeep</button>
 
       {/* Another example with a different name */}
-      <button onClick={() => greetUser("Ram")}>Greet Ram</button>
+      <button onClick={() => greetUser("Akash")}>Greet Akash</button>
     </div>
   );
 }
