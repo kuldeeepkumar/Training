@@ -1,5 +1,6 @@
 import "./App.css";
 import TodoApp from "./exercise/experiments/TodoApp";
+import ReactExercise1 from "./ReactExercise/exercise1/ReactExercise1";
 // import AllMethods from "./exercise/exercise4/AllMethods";
 // import Exercise1 from "./exercise/exercise1/Exercise1";
 //import Exercise2 from "./exercise/exercise2/Exercise2";
@@ -38,7 +39,8 @@ function App() {
       {/* <Exercise11/> */}
       {/* <Exercise12/> */}
       {/* <Exercise13/> */}
-      <TodoApp/>
+      {/* <TodoApp/> */}
+      <ReactExercise1/>
     
       </>
 
