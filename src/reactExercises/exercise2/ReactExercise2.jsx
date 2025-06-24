@@ -6,8 +6,8 @@ const ReactExercise2 = () => {
   return (
     <div>
       <>
-        <Example1 />
-        <Example2 />
+        {/* <Example1 />
+        <Example2 /> */}
       </>
     </div>
   );

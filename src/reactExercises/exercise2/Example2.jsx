@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Example2 = () => {
-  // ----------- Example 2: Text Input Component -----------Add commentMore actions
+  // ----------- Example 2: Text Input Component -----------
 
   // Declare a state variable 'text' and initialize it to an empty string
 
