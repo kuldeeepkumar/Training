@@ -3,7 +3,7 @@
 
 import React from "react";
 
-const PassingArguments = () =>  {
+const PassingArguments = () => {
   // Function that accepts a custom argument
   const greetUser = (userName) => {
     alert(`Hello, ${userName}!`);
@@ -20,6 +20,6 @@ const PassingArguments = () =>  {
       <button onClick={() => greetUser("Ram")}>Greet Ram</button>
     </div>
   );
-}
+};
 
 export default PassingArguments;
