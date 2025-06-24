@@ -12,20 +12,21 @@ import Exercise10 from "./exercises/exercise10/Exercise10";
 import Exercise11 from "./exercises/exercise11/Exercise11";
 import Exercise12 from "./exercises/exercise12/Exercise12";
 import Exercise13 from "./exercises/exercise13/Exercise13";
-import Experiment from "./exercises/experiments/TodoApp";
 import TodoApp from "./exercises/experiments/TodoApp";
-import ReactExercise1 from "./reactExercises/exercise1/ReactExercise1";
+import ReactExercise1 from "./reactExercises/exercise1/reactExercise1";
+import ReactExercise2 from "./reactExercises/exercise2/ReactExercise2";
+
 
 function App() {
   console.log("hello");
 
   return (
     <>
-    <Exercise1 />
+    {/* <Exercise1 />
     <Exercise2 />
     <Exercise3 />
     <Exercise4 />
-    {/* <Exercise5 />  */}
+    <Exercise5 /> 
     <Exercise6 />
     <Exercise7 />
     <Exercise8 />
@@ -34,8 +35,9 @@ function App() {
     <Exercise11/>
     <Exercise12/>
     <Exercise13/>
-    <TodoApp />
+    <TodoApp /> */}
     <ReactExercise1/>
+    <ReactExercise2/>
     </>
   );
 }
