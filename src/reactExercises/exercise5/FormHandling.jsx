@@ -19,9 +19,18 @@ const FormHandling = () => {
   };
 
   const handleSubmit = (e) => {
+    if (
+      formData.gender &&
+      formData.agree &&
+      formData.email &&
+      formData.username
+    ) {
+      setThanksScreen((prev) => !prev);
+    } else {
+      alert("Please fill all the fields");
+    }
     e.preventDefault();
     console.log("Form Submitted:", formData);
-    setThanksScreen((prev) => !prev);
   };
 
   return (
