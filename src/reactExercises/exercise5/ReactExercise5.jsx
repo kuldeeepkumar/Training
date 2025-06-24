@@ -6,9 +6,8 @@ import React from "react";
 const ReactExercise5 = () => {
   return (
     <>
-      {/* <ControlledComponent /> */}
-      {/* <FormHandling /> */}
-
+      <ControlledComponent />
+      <FormHandling />
       <FormValidation />
     </>
   );
