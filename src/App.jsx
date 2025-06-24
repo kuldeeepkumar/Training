@@ -18,7 +18,7 @@ import ReactExercise1 from './reactExercises/exercise1/reactExercise1.jsx';
 function App() {
   return (
     <>
-    {/* <Exercise1/>
+    <Exercise1/>
     <Exercise2/>
     <Exercise3/>
     <Exercise4/> 
@@ -28,9 +28,9 @@ function App() {
     <Exercise8/>
     <Exercise9/>
     <Exercise10/>
-    <Exercise11/> */}
-    {/* <Exercise12/> */}
-    {/* <Exercise13/> */}
+    <Exercise11/> 
+    <Exercise12/> 
+    <Exercise13/> 
     <TodoApp/>
     <ReactExercise1/>
     </> 

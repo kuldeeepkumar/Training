@@ -68,7 +68,7 @@ const Exercise5 = () => {
   console.log("Object Destructuring");
 
   const person = {
-    name: "Alice",
+    name: "Arash",
     age: 30,
     job: "Developer",
   };

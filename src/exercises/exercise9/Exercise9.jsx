@@ -53,7 +53,7 @@ const Exercise9 = () => {
   // Using console.log() for Debugging
   // ---------------------------------------------
 
-  const user = { name: "Alice", age: 25 };
+  const user = { name: "Arash", age: 25 };
   console.log("User data:", user);
 
   function greet(name) {
@@ -61,7 +61,7 @@ const Exercise9 = () => {
     return "Hello, " + name;
   }
 
-  console.log(greet("Alice"));
+  console.log(greet("Arash"));
 
   return <>
   <h1>Exercise9</h1>

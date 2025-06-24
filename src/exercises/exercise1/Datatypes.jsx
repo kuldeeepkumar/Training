@@ -18,7 +18,7 @@ const Datatypes = () => {
 
      // Object
      let person = {
-       name: "Alice",
+       name: "Arash",
        age: 30,
      };
 

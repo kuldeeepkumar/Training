@@ -1,5 +1,4 @@
 import React from "react";
-
 // Import necessary libraries
 
 // ===============================
@@ -43,7 +42,7 @@ const ReactExercise1 = () => {
       <BasicGreeting />
 
       {/* Passing data using props */}
-      <GreetingWithProps name="Arash" />
+      <GreetingWithProps name="fine" />
 
       {/* Using default prop (no name passed) */}
       <GreetingWithProps />
