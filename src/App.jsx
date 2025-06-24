@@ -1,5 +1,6 @@
 import React from "react";
-import ReactExercise1 from "./ReactExercises/exercise1/ReactExercise1";
+// import ReactExercise1 from "./ReactExercises/exercise1/ReactExercise1";
+import ReactExercise2 from "./ReactExercises/exercise2/ReactExercise2";
 // import Exercise7 from './exercises/exercise7/Exercise7'
 // import Exercises1 from './exercises/exercises1/Exercises1';
 // import Exercise2 from './exercises/exercises2/Exercise2';
@@ -36,7 +37,8 @@ const App = () => {
       {/* <Exercise12/> */}
       {/* <Exercise13/> */}
       {/* <TodoApp/> */}
-      <ReactExercise1/>
+      {/* <ReactExercise1/> */}
+      <ReactExercise2/>
       
     </>
   );
