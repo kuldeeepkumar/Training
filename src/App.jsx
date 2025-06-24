@@ -15,35 +15,32 @@ import Exercise11 from "./exercises/exercises11/Exercises11";
 import Exercise12 from "./exercises/exercises12/Exercises12";
 import Exercise13 from "./exercises/exercises13/Exercises13";
 import TodoApp from "./exercises/experiments/TodoApp";
-import ReactExercise2 from "./reactExercises/exercise1/exercise2/ReactExercise2";
+import ReactExercise2 from "./reactExercises/exercise2/ReactExercise2";
 
 function App() {
   return (
     <>
-      {/* <Exercise1 />
-      <Exercise2 />
-      <Exercise3 />
-      <Exercise4 />
-      <Exercise5 />
-      <Exercise6 />
-      <Exercise7 />
-      <Exercise8 />
-      <Exercise9 />
-      <Exercise10 />
-      <Exercise8 />
-      <Exercise9 />
-      <Exercise10 />
-      <Exercise11 />
-      <Exercise12 />
-
-      <TodoApp />
-
-      <Exercise13 /> */}
-
-      {/* From here React Exercises are going to Start */}
-
+      {/* /* <Exercise1 /> */}
+      {/* <Exercise2 /> */}
+      {/* <Exercise3 /> */}
+      {/* <Exercise4 /> */}
+      {/* <Exercise5 /> */}
+      {/* <Exercise6 /> */}
+      {/* <Exercise7 /> */}
+      {/* <Exercise8 /> */}
+      {/* <Exercise9 /> */}
+      {/* <Exercise10 /> */}
+      {/* <Exercise8 /> */}
+      {/* <Exercise9 /> */}
+      {/* <Exercise10 /> */}
+      {/* <Exercise11 /> */}
+      {/* <Exercise12 /> */}
+      {/* 
+      <TodoApp /> */}
+      {/* // <Exercise13 /> */}
+      {/* // * From here React Exercises are going to Start / */}
       {/* <ReactExercise1 /> */}
-<ReactExercise2/>
+      <ReactExercise2 />
     </>
   );
 }
