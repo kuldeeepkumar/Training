@@ -22,6 +22,10 @@ import EventHandling from "./reactExercises/exercise3/EventHandling";
 import PassingArguments from "./reactExercises/exercise3/PassingArgument";
 import ReactExercise3 from "./reactExercises/exercise3/ReactExercixe3";
 import ReactExercise4 from "./reactExercises/exercise4/ReactExercise4";
+import ControlledComponent from "./reactExercises/exercise5/ControlledComponent";
+import FormHandling from "./reactExercises/exercise5/FormHandling";
+import FormValidation from "./reactExercises/exercise5/FormValidation";
+import ReactExercise5 from "./reactExercises/exercise5/ReactExercise5";
 
 function App() {
   return (
@@ -48,7 +52,11 @@ function App() {
       {/* <EventHandling /> */}
       {/* <PassingArguments /> */}
       {/* <ReactExercise3 /> */}
-      <ReactExercise4 />
+      {/* <ReactExercise4 /> */}
+      {/* <ControlledComponent /> */}
+      {/* <FormHandling /> */}
+      {/* <FormValidation /> */}
+      <ReactExercise5 />
     </>
   );
 }
