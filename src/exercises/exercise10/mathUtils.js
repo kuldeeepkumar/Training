@@ -1,4 +1,4 @@
-// mathUtils.jsAdd commentMore actions
+// mathUtils.js
 
 export const add = (a, b) => a + b;
 

@@ -41,7 +41,7 @@ const sum=numbers1.reduce((acc,num)=>acc+num,0);
 console.log(sum);
   return (
     <div>
-      <h1>Arrays</h1>
+      <p>Arrays</p>
     </div>
   );
 }

@@ -53,7 +53,7 @@ const Functions = () => {
     logArgs(1, 2, 3, 4, 5);
   return (
     <div>
-      <h1>Functions</h1>
+      <p>Functions</p>
     </div>
   )
 }

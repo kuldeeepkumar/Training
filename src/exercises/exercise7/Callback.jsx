@@ -21,7 +21,7 @@ const callBack = () => {
   });
   return (
     <div>
-      <h1>Callback Example</h1>
+      <p>Callback Example</p>
     </div>
   )
 }
