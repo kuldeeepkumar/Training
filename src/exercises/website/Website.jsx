@@ -6,8 +6,8 @@ const Website = () => {
   return (
     <>
     <div>
-    <Registration/>
-    {/* <Login/> */}
+    {/* <Registration/> */}
+    <Login/>
     </div>
     </>
   )

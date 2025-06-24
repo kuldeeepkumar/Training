@@ -62,8 +62,9 @@ body {
 
 #selectSection {
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 12px;
   width: 15%;
+  border: 2px solid black;
 }
 
 #loginButton {
@@ -123,4 +124,27 @@ body {
   padding: 10px;
  background-color: darkblue;
  color: white;
+}
+
+/*Working of React is Starting from here*/
+#formHeader{
+padding: 10px;
+font-family: castellar;
+}
+
+#formName{
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#formEmail{
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#formGender{
+  padding: 10px;
+  border-radius: 8px;
+   border: 2px solid black;
+  border-radius: 12px;
 }
