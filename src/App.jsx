@@ -22,6 +22,7 @@ import ConditionalRendering from './reactExercises/exercise3/ConditionalRenderin
 import EventHandling from './reactExercises/exercise3/EventHandling'
 import PassingArguments from './reactExercises/exercise3/PassingArgument'
 import ReactExercise3 from './reactExercises/exercise3/ReactExercise3'
+import ReactExercise4 from './reactExercises/exercise4/ReactExercise4'
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
      {/* <ConditionalRendering/> */}
      {/* <EventHandling/> */}
      {/* <PassingArguments/> */}
-     <ReactExercise3/>
+     {/* <ReactExercise3/> */}
+     <ReactExercise4/>
     </> 
   );
 }
