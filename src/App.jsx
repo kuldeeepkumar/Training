@@ -18,6 +18,10 @@ import ReactExercise1 from './reactExercises/exercise1/ReactExercise1'
 import Example1 from './reactExercises/exercise2/Example1'
 import Example2 from './reactExercises/exercise2/Example2'
 import ReactExercise2 from './reactExercises/exercise2/ReactExercise2'
+import ConditionalRendering from './reactExercises/exercise3/ConditionalRendering'
+import EventHandling from './reactExercises/exercise3/EventHandling'
+import PassingArguments from './reactExercises/exercise3/PassingArgument'
+import ReactExercise3 from './reactExercises/exercise3/ReactExercise3'
 
 function App() {
   return (
@@ -39,7 +43,11 @@ function App() {
      {/* <ReactExercise1/> */}
      {/* <Example1/> */}
      {/* <Example2/> */}
-     <ReactExercise2/>
+     {/* <ReactExercise2/> */}
+     {/* <ConditionalRendering/> */}
+     {/* <EventHandling/> */}
+     {/* <PassingArguments/> */}
+     <ReactExercise3/>
     </> 
   );
 }
