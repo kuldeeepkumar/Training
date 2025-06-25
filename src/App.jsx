@@ -18,6 +18,7 @@ import ReactExercise5 from "./ReactExercise/exercise5/ReactExercise5";
 // import Exercise12 from './exercise/Exercise12/Exercise12';
 // import Exercise13 from './exercise/exercise13/Exercise13';
 import ReactExercise4 from './ReactExercise/exercise4/ReactExercise4';
+import ReactExercise6 from "./ReactExercise/exercise6/ReactExercise6";
 
 
 
@@ -46,8 +47,9 @@ function App() {
       {/* <ReactExercise1/> */}
       {/* <ReactExercise2/> */} 
       {/* <ReactExercise3/> */}
-      <ReactExercise4/>
-      <ReactExercise5/>
+      {/* <ReactExercise4/> */}
+      {/* <ReactExercise5/> */}
+      <ReactExercise6/>
     
       </>
 
