@@ -1,6 +1,11 @@
 import React from 'react'
-// import ReactExercise1 from './reactExercises/exercise1/ReactExercise1';
-import ReactExercise2 from './reactExercises/exercise2/ReactExercise2';
+import ReactExercise1 from './ReactExercise/exercise1/ReactExercise1';
+import ReactExercise2 from './ReactExercise/exercise2/ReactExercise2';
+import ReactExercise3 from './ReactExercise/exercise3/ReactExercise3';
+import ReactExercise4 from './ReactExercise/exercise4/ReactExercise4';
+import ReactExercise5 from './ReactExercise/exercise5/ReactExercise5';
+
+// import ReactExercise3 from './exercises/reactExercises/exercise3/ReactExercise3';
 // import TodoApp from './exercises/experiments/TodoApp';
 // import Exercise2 from './exercises/exercise2/Exercise2'
 // import Exercise3 from './exercises/exercise3/Exercise3';
@@ -35,8 +40,11 @@ const App = () => {
     {/* <Exercise13/> */}
     {/* <TodoApp/> */}
     {/* <ReactExercise1/> */}
-    <ReactExercise2/>
-
+    {/* <ReactExercise2/> */}
+    <ReactExercise3/>
+    {/* <ReactExercise4/> */}
+    {/* <ReactExercise5/> */}
+  
         </>
   )
     }
