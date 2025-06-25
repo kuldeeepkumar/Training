@@ -18,6 +18,7 @@ import React from "react";
 
 import ReactExercise4 from "./reactExersices/exercise4/Exercise4";
 import ReactExercise5 from "./reactExersices/exersice5/ReactExercise5";
+import ReactExercise6 from './reactExersices/exersice6/MountExample';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       {/* <ReactExercise3 /> */}
       {/* <ReactExercise4 /> */}
       <ReactExercise5 />
+      <ReactExercise6/>
     </>
   );
 }
