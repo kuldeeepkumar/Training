@@ -1,6 +1,9 @@
+// PassingArguments.js
+// This component demonstrates how to pass arguments to event handlers in React
+
 import React from "react";
 
-const PassingArguments = () =>  {
+const PassingArguments = () => {
   // Function that accepts a custom argument
   const greetUser = (userName) => {
     alert(`Hello, ${userName}!`);
@@ -14,8 +17,9 @@ const PassingArguments = () =>  {
       <button onClick={() => greetUser("Kuldeep")}>Greet Kuldeep</button>
 
       {/* Another example with a different name */}
-      <button onClick={() => greetUser("Akash")}>Greet Akash</button>
+      <button onClick={() => greetUser("Ram")}>Greet Ram</button>
     </div>
   );
-}
+};
+
 export default PassingArguments;

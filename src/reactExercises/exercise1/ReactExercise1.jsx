@@ -43,7 +43,7 @@ const ReactExercise1 = () => {
       <BasicGreeting />
 
       {/* Passing data using props */}
-      <GreetingWithProps name="Arash" />
+      <GreetingWithProps name="Alice" />
 
       {/* Using default prop (no name passed) */}
       <GreetingWithProps />

@@ -1,3 +1,6 @@
+// EventHandling.js
+// This component demonstrates handling click, change, and submit events in React
+
 import React, { useState } from "react";
 
 const EventHandling = () => {
