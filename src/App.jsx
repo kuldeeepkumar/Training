@@ -17,7 +17,7 @@ import './App.css'
 import ReactExercise1 from './ReactExercises/exercise1/ReactExercise1';
 import ReactExercise2 from './ReactExercises/exercise2/ReactExercise2';
 import ReactExercise3 from './ReactExercises/exercise3/ReactExercise3';
-
+import ReactExercise4 from './ReactExercises/exercise4/ReactExercise4';
 
 
 
@@ -42,7 +42,8 @@ function App() {
     {/* <TodoApp/> */}
     {/* <ReactExercise1/> */}
     {/* <ReactExercise2/> */}
-    <ReactExercise3/>
+    {/* <ReactExercise3/> */}
+    <ReactExercise4/>
     </> 
   );
 }
