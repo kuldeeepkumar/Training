@@ -4,6 +4,7 @@ import ReactExercise4 from "./ReactExercise/exercise1/exercise4/ReactExercise4";
 import ReactExercise1 from "./ReactExercise/exercise1/ReactExercise1";
 import ReactExercise2 from "./ReactExercise/exercise2/ReactExercise2";
 import ReactExercise3 from "./ReactExercise/exercise3/ReactExercise3";
+import ReactExercise5 from "./ReactExercise/exercise5/ReactExercise5";
 // import AllMethods from "./exercise/exercise4/AllMethods";
 // import Exercise1 from "./exercise/exercise1/Exercise1";
 //import Exercise2 from "./exercise/exercise2/Exercise2";
@@ -46,7 +47,8 @@ function App() {
       {/* <ReactExercise1/> */}
       {/* <ReactExercise2/> */} 
       {/* <ReactExercise3/> */}
-      <ReactExercise4/>
+      {/* <ReactExercise4/> */}
+      <ReactExercise5/>
     
       </>
 
