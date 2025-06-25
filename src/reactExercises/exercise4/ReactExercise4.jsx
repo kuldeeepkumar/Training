@@ -2,10 +2,10 @@ import React from "react";
 
 // Example array of data
 const users = [
-  { id: 101, name: "Akash" },
-  { id: 102, name: "sumit" },
-  { id: 103, name: "Arsh" },
-  { id: 104, name: "Puneet" },
+  { id: 101, name: "Preet" },
+  { id: 102, name: "pardeep" },
+  { id: 103, name: "param" },
+  { id: 104, name: "jashan" },
 ];
 
 // Functional component to display list of users
