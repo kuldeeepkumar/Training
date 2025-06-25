@@ -22,6 +22,6 @@ const ReactExercise6 = () => {
       )}
     </div>
   );
-};
+};                
 
 export default ReactExercise6;
