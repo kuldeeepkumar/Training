@@ -1,11 +1,5 @@
 
 import './App.css'
-// import Exercise10 from './exercises/exercise10/Exercise10';
-// import Exercise11 from './exercises/exercise11/Exercise11';
-// import Exercise12 from './exercises/exercise12/Exercise12';
-// import Exercise13 from './exercises/exercise13/Example13';
-// import TodoApp from './exercises/experiments/TodoApp';
-import ReactExercise1 from './exercises/ReactExercises/Exercise1/ReactExercise1';
 // import Exercise1 from './exercises/exercise1/Exercise1'
 // import Exercise2 from './exercises/exercise2/Exercise2'
 // import Exercise3 from './exercises/exercise3/Exercise3'
@@ -13,30 +7,48 @@ import ReactExercise1 from './exercises/ReactExercises/Exercise1/ReactExercise1'
 // import Exercise5 from './exercises/exercise5/Exercise5'
 // import Exercise6 from './exercises/exercise6/Exercise6'
 // import Exercise7 from './exercises/exercise7/Exercise7'
-// import Exercise8 from './exercises/exercise8/Exercise8'
-// import Exercise9 from './exercises/exercise9/Exercise9'
-import Button from './experiments/buttons'
+// import Exercise8 from './exercises/exercise8/Exercise8';
+// import Exercise9 from './exercises/exercise9/Exercise9';
+// import Exercise10 from './exercises/exercise10/Exercise10';
+// import Exercise11 from "./exercises/exercise11/Exercise11";
+// import Exercise12 from "./exercises/exercise12/Exercise12";
+// import Exercise13 from "./exercises/exercise13/Exercise13";
+// import TodoApp from './exercises/experiment /TodoApp'
+import ReactExercise1 from './ReactExercises/exercise1/ReactExercise1';
+import ReactExercise2 from './ReactExercises/exercise2/ReactExercise2';
+import ReactExercise3 from './ReactExercises/exercise3/ReactExercise3';
+import ReactExercise4 from './ReactExercises/exercise4/ReactExercise4';
+import ReactExercise5 from './ReactExercises/exercise5/ReactExercise5';
+import ReactExercise6 from './ReactExercises/exercise6/ReactExercise6';
+
+
+
+
+
 function App() {
   return (
     <>
-    {/* <Exercise1/> */}
-    {/* <Exercise2/> */}
-    {/* <Exercise3/> */}
-    {/* <Exercise4/>  */}
-    {/* <Exercise5/> */}
-    {/* <Exercise6/> */}
-    {/* <Exercise7/> */}
-    {/* <Exercise8/> */}
-    {/* <Exercise9/> */}
-    {/* <Exercise10/> */}
+    {/* <Exercise1/>
+    <Exercise2/>
+    <Exercise3/>
+    <Exercise4/> 
+    <Exercise5/>
+    <Exercise6/>
+    <Exercise7/>
+    <Exercise8/>
+    <Exercise9/>
+    <Exercise10/> */}
     {/* <Exercise11/> */}
     {/* <Exercise12/> */}
     {/* <Exercise13/> */}
     {/* <TodoApp/> */}
-    <ReactExercise1/>
-    </>
-     
-   
+    {/* <ReactExercise1/> */}
+    {/* <ReactExercise2/> */}
+    {/* <ReactExercise3/> */}
+    {/* <ReactExercise4/> */}
+    {/* <ReactExercise5/> */}
+    <ReactExercise6/>
+    </> 
   );
 }
 export default App
