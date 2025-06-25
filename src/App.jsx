@@ -15,18 +15,11 @@ import Exercise12 from './exercises/exercise12/Exercise12';
 import Exercise13 from './exercises/exercise13/Exercise13';
 import TodoApp from './experiments/TodoApp'
 import ReactExercise1 from './reactExercises/exercise1/ReactExercise1';
-import Example1 from './reactExercises/exercise2/Example1'
-import Example2 from './reactExercises/exercise2/Example2'
 import ReactExercise2 from './reactExercises/exercise2/ReactExercise2'
-import ConditionalRendering from './reactExercises/exercise3/ConditionalRendering'
-import EventHandling from './reactExercises/exercise3/EventHandling'
-import PassingArguments from './reactExercises/exercise3/PassingArgument'
 import ReactExercise3 from './reactExercises/exercise3/ReactExercise3';
 import ReactExercise4 from './reactExercises/exercise4/ReactExercise4'
-import ControlledComponent from './reactExercises/exercise5/ControlledComponent'
-import FormValidation from './reactExercises/exercise5/FormValidation'
-import FormHandling from './reactExercises/exercise5/FormHandling'
 import ReactExercise5 from './reactExercises/exercise5/ReactExercise5'
+import ReactExercise6 from './reactExercises/exercise6/ReactExercise6'
 
 function App() {
   return (
@@ -46,18 +39,11 @@ function App() {
     {/* <Exercise13/> */}
     {/* <TodoApp/> */}
     {/* <ReactExercise1/>  */}
-    {/* <Example1/> */}
-    {/* <Example2/> */}
     {/* <ReactExercise2/> */}
-    {/* <ConditionalRendering/> */}
-    {/* <EventHandling/> */}
-    {/* <PassingArguments/> */}
     {/* <ReactExercise3/> */}
     {/* <ReactExercise4/> */}
-    {/* <ControlledComponent/> */}
-    {/* <FormValidation/> */}
-    {/* <FormHandling/> */}
-    <ReactExercise5/>
+    {/* <ReactExercise5/> */}
+    <ReactExercise6/>
     </> 
   );
 }
