@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
 import MountExample from "./MountExample";
-import UnmountExample from "./UnmountExample";
+
 import UpdateExample from "./UpdateExample";
+import UnmountExample from "./Unmount Example";
 
 const ReactExercise6 = () => {
   const [show, setShow] = useState(false);
@@ -15,8 +16,8 @@ const ReactExercise6 = () => {
 
       {show && (
         <div>
-          {/* <MountExample /> */}
-          {/* <UnmountExample /> */}
+          <MountExample />
+          <UnmountExample />
           <UpdateExample />
         </div>
       )}
