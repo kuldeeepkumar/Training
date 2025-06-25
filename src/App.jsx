@@ -1,6 +1,7 @@
 import React from "react";
-import ReactExercise3 from "./ReactExercises/exercise3/ReactExercise3";
-import ReactExercise4 from "./ReactExercises/exercise4/ReactExercise4";
+// import ReactExercise3 from "./ReactExercises/exercise3/ReactExercise3";
+// import ReactExercise4 from "./ReactExercises/exercise4/ReactExercise4";
+import ReactExercise5 from "./ReactExercises/exercise5/ReactExercise5";
 // import ReactExercise1 from "./ReactExercises/exercise1/ReactExercise1";
 // import ReactExercise2 from "./ReactExercises/exercise2/ReactExercise2";
 
@@ -43,7 +44,8 @@ const App = () => {
       {/* <ReactExercise1/> */}
       {/* <ReactExercise2/> */}
       {/* <ReactExercise3/> */}
-      <ReactExercise4/>
+      {/* <ReactExercise4/> */}
+      <ReactExercise5/>
     </>
   );
 };
