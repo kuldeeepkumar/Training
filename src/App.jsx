@@ -16,7 +16,7 @@ import TodoApp from './exercises/experiments/TodoApp';
 import ReactExercise1 from "./reactExercises/exercise1/Reactexercise1";
 import ReactExercise2 from "./reactExercises/exercise2/ReactExercise2";
 import ReactExercise3 from "./reactExercises/exercise3/ReactExercise3";
-import ReactExercise4 from "./reactExercises/ecercise4/ReactExercise4";
+import ReactExercise4 from "./reactExercises/exercise4/ReactExercise4";
 
 const App = () => {
   return (
@@ -39,6 +39,7 @@ const App = () => {
       {/* <ReactExercise2/> */}
      {/* <ReactExercise3/> */}
      <ReactExercise4/>
+     
     </>
   );
 };
