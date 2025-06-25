@@ -26,6 +26,10 @@ import ControlledComponent from "./reactExercises/exercise5/ControlledComponent"
 import FormHandling from "./reactExercises/exercise5/FormHandling";
 import FormValidation from "./reactExercises/exercise5/FormValidation";
 import ReactExercise5 from "./reactExercises/exercise5/ReactExercise5";
+import MountExample from "./reactExercises/exercise6/MountExample";
+import ReactExercise6 from "./reactExercises/exercise6/ReactExercise6";
+import UnmountExample from "./reactExercises/exercise6/UnmountExample";
+import UpdateExample from "./reactExercises/exercise6/UpdateExample";
 
 function App() {
   return (
@@ -56,7 +60,11 @@ function App() {
       {/* <ControlledComponent /> */}
       {/* <FormHandling /> */}
       {/* <FormValidation /> */}
-      <ReactExercise5 />
+      {/* <ReactExercise5 /> */}
+      {/* <MountExample /> */}
+      {/* <UnmountExample /> */}
+      {/* <UpdateExample/> */}
+      <ReactExercise6 />
     </>
   );
 }
