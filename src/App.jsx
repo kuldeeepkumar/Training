@@ -42,8 +42,8 @@ const App = () => {
     {/* <ReactExercise1/> */}
     {/* <ReactExercise2/> */}
     {/* <ReactExercise3/> */}
-    <ReactExercise4/>
-    {/* <ReactExercise5/> */}
+    {/* <ReactExercise4/> */}
+    <ReactExercise5/>
   
         </>
   )
