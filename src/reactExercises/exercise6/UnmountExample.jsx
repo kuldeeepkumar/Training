@@ -23,4 +23,3 @@ const UnmountExample = () => {
 };
 
 export default UnmountExample;
-

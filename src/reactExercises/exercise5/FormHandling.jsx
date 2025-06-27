@@ -19,18 +19,9 @@ const FormHandling = () => {
   };
 
   const handleSubmit = (e) => {
-    if (
-      formData.username &&
-      formData.email &&
-      formData.agree &&
-      formData.gender
-    ) {
-      setThanksScreen((prev) => !prev);
-    } else {
-      alert("please fill your data");
-    }
     e.preventDefault();
     console.log("Form Submitted:", formData);
+    setThanksScreen((prev) => !prev);
   };
 
   return (
@@ -93,8 +84,7 @@ const FormHandling = () => {
               <select
                 name="gender"
                 value={formData.gender}
-                onChange={handleChange}
-              >
+                onChange={handleChange}>
                 <option value="">Select</option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
@@ -104,7 +94,6 @@ const FormHandling = () => {
             <br />
           </div>
         )}
-
         {!thanksScreen ? (
           <button type="submit">Submit</button>
         ) : (

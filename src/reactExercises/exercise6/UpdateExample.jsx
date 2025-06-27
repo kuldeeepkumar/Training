@@ -17,5 +17,4 @@ function UpdateExample() {
     </div>
   );
 }
-
 export default UpdateExample;

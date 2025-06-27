@@ -1,17 +1,16 @@
-import React from "react";
-
-import FormValidation from "./FormValidation";
-import ControlledComponent from "./Controlledcomponent";
+import ControlledComponent from "./ControlledComponent";
 import FormHandling from "./FormHandling";
+import FormValidation from "./FormValidation";
+import React from "react";
 
 const ReactExercise5 = () => {
   return (
     <>
-      <ControlledComponent />
-      <FormHandling />
+      {/* <ControlledComponent /> */}
+      {/* <FormHandling /> */}
+
       <FormValidation />
     </>
   );
 };
-
 export default ReactExercise5;

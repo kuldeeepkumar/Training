@@ -26,4 +26,3 @@ function ReactExercise4() {
 }
 
 export default ReactExercise4;
-
