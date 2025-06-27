@@ -33,6 +33,7 @@ import UpdateExample from './reactExercises/exercise6/UpdateExample'
 import ReactExercise6 from './reactExercises/exercise6/ ReactExercise6';
 import Header from './reactExercises/exercise7/Header'
 import ReactExercise7 from './reactExercises/exercise7/ReactExercise7'
+import ReactExercise8 from './reactExercises/exercise8/ReactExercise8'
 
 function App() {
   return (
@@ -68,8 +69,9 @@ function App() {
      {/* <UnmountExample/> */}
      {/* <UpdateExample/> */}
      {/* <ReactExercise6/> */}
-    <ReactExercise7/>
-    </> 
+    {/* <ReactExercise7/> */}
+    <ReactExercise8/>
+    </>
   );
 }
-export default App
+export default App;
