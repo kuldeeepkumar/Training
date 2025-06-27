@@ -21,6 +21,7 @@ import ReactExercise4 from "./reactExercises/exercise4/ReactExercise4.jsx";
 import ReactExercise5 from "./reactExercises/exercise5/ReactExercise5.jsx";
 import ReactExercise6 from "./reactExercises/exercise6/ReactExercise6.jsx";
 import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7.jsx";
+import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8.jsx";
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
       {/* <ReactExercise4 /> */}
       {/* <ReactExercise5 /> */}
       {/* <ReactExercise6 /> */}
-      <ReactExercise7 />
+      {/* <ReactExercise7 /> */}
+      <ReactExercise8 />
     </>
   );
 }
