@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 function UpdateExample() {
   const [count, setCount] = useState(0);
 
@@ -16,5 +17,4 @@ function UpdateExample() {
     </div>
   );
 }
-
 export default UpdateExample;

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 const UnmountExample = () => {
   // Simulate a side effect like a timer or subscription
   useEffect(() => {

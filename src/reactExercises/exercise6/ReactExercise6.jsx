@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import MountExample from "./MountExample";
 import UnmountExample from "./UnmountExample";
 import UpdateExample from "./UpdateExample";
@@ -14,8 +15,8 @@ const ReactExercise6 = () => {
 
       {show && (
         <div>
-          <MountExample />
-          <UnmountExample />
+          {/* <MountExample />
+         <UnmountExample /> */}
           <UpdateExample />
         </div>
       )}
