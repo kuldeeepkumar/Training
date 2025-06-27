@@ -1,6 +1,7 @@
 import "./App.css";
 
-import Exercise1 from "./exercises/exercise1/Exercise1";
+import { BrowserRouter, Link, Route, Router, Routes } from "react-router-dom";
+
 import Exercise10 from "./exercises/exercise10/Exercise10";
 import Exercise11 from "./exercises/exercise11/Exercise11";
 import Exercise12 from "./exercises/exercise12/Exercise12";
@@ -12,48 +13,131 @@ import Exercise5 from "./exercises/exercise5/Exercise5";
 import Exercise6 from "./exercises/exercise6/Exercise6";
 import Exercise7 from "./exercises/exercise7/Exercise7";
 import Exercise8 from "./exercises/exercise8/Exercise8";
-import Exercise9 from "./exercises/exercise9/Exercise9";
-import React from "react";
 
+import Exercise9 from "./exercises/exercise9/Exercise9";
+import HomePage from "./HomePage";
+import Exercise1 from "./exercises/exercise1/Exercise1";
 import ReactExercise1 from "./reactExersices/exercise1/ReactExercise1";
 import ReactExercise2 from "./reactExersices/exercise2/ReactExercise2";
 import ReactExercise3 from "./reactExersices/exercise3/ReactExercise3";
 import ReactExercise4 from "./experiments/ReactExersice4";
 import ReactExercise5 from "./reactExersices/exersice5/ReactExercise5";
 import ReactExercise6 from "./reactExersices/exersice6/Exersice6";
-import ReactExercise7 from "./reactExersices/Exersice7.jsx/ReactExercise7";
-import TodoApp from "./experiments/experiment TodoApp";
+import ReactExercise7 from "./reactExersices/Exersice7/ReactExercise7";
+import ReactExercise8 from "./reactExersices/Exersice8/ReactExercis8";
 
 function App() {
+  const javaScriptExercisesData = [
+    {
+      routesName: "/",
+      component: <HomePage />,
+    },
+    {
+      routesName: "Exercise1",
+      component: <Exercise1 />,
+    },
+    {
+      routesName: "Exercise2",
+      component: <Exercise2 />,
+    },
+    {
+      routesName: "Exercise3",
+      component: <Exercise3 />,
+    },
+    {
+      routesName: "Exercise4",
+      component: <Exercise4 />,
+    },
+    {
+      routesName: "Exercise5",
+      component: <Exercise5 />,
+    },
+    {
+      routesName: "Exercise6",
+      component: <Exercise6 />,
+    },
+    {
+      routesName: "Exercise7",
+      component: <Exercise7 />,
+    },
+    {
+      routesName: "Exercise8",
+      component: <Exercise8 />,
+    },
+    {
+      routesName: "Exercise9",
+      component: <Exercise9 />,
+    },
+    {
+      routesName: "Exercise10",
+      component: <Exercise10 />,
+    },
+    {
+      routesName: "Exercise11",
+      component: <Exercise11 />,
+    },
+    {
+      routesName: "Exercise12",
+      component: <Exercise12 />,
+    },
+    {
+      routesName: "Exercise13",
+      component: <Exercise13 />,
+    },
+  ];
+
+  const reactExercisesData = [
+    {
+      routesName: "ReactExercise1",
+      component: <ReactExercise1 />,
+    },
+    {
+      routesName: "ReactExercise2",
+      component: <ReactExercise2 />,
+    },
+    {
+      routesName: "ReactExercise3",
+      component: <ReactExercise3 />,
+    },
+    {
+      routesName: "ReactExercise4",
+      component: <ReactExercise4 />,
+    },
+    {
+      routesName: "ReactExercise5",
+      component: <ReactExercise5 />,
+    },
+    {
+      routesName: "ReactExercise6",
+      component: <ReactExercise6 />,
+    },
+    {
+      routesName: "ReactExercise7",
+      component: <ReactExercise7 />,
+    },
+    {
+      routesName: "ReactExercise8",
+      component: <ReactExercise8 />,
+    },
+  ];
   return (
     <>
-      {/* <Exercise1/> */}
-      {/* <Exercise2 /> */}
-      {/* <Exercise3 /> */}
-      {/* <Exercise4 /> */}
-      {/* <Exercise5 /> */}
-      {/* <Exercise6 /> */}
-      {/* <Exercise7 /> */}
-      {/* <Exercise8 />*/}
-      {/* <Exercise9 /> */}
-      {/* <Exercise10 /> */}
-      {/* <Exercise8 />
-      <Exercise9 />  */}
-      {/* <Exercise10 /> */}
-      {/* <Exercise11 />
-      <Exercise12 /> */}
-      {/* <TodoApp /> */}
-      {/* <Exercise13 /> */}
-
-      {/* From here React Exercises are going to Start */}
-
-      {/* <ReactExercise1 />
-      <ReactExercise2 />
-      <ReactExercise3 />
-      <ReactExercise4 />
-      <ReactExercise5 />
-      <ReactExercise6 /> */}
-      <ReactExercise7 />
+      <Routes>
+        {javaScriptExercisesData.map((route) => (
+          <Route
+            key={route.routesName}
+            path={`/${route.routesName}`}
+            element={route.component}
+          />
+        ))}
+        {reactExercisesData.map((route) => (
+          <Route
+            key={route.routesName}
+            path={`/${route.routesName}`}
+            element={route.component}
+          />
+        ))}
+      </Routes>
     </>
   );
 }
