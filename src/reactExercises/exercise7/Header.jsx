@@ -10,7 +10,7 @@ function Header() {
     <header
       style={{
         backgroundColor: isDarkTheme ? "#333" : "#f5f5f5",
-        color: isDarkTheme ? "#fff" : "#000",
+        color: isDarkTheme ? "#fffd" : "#000",
         padding: "10px",
         textAlign: "center",
       }}>
