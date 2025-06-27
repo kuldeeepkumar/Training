@@ -12,7 +12,7 @@ function ReactExercise8() {
       <div>
         {/* Navigation Links */}
         <nav>
-          <Link to="/" style={{ marginRight: "10px" }}>
+          <Link to="/home" style={{ marginRight: "10px" }}>
             Home
           </Link>
           <Link to="/about" style={{ marginRight: "10px" }}>
