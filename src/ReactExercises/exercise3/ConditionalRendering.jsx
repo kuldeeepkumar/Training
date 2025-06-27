@@ -7,7 +7,6 @@ const ConditionalRendering = () => {
   const pswrd = "123"; // Example password for validation
   const [isVisible, setIsVisible] = useState(true);
   const [password, setPassword] = useState();
-
   // Toggles the visibility of the message
   const toggleMessage = () => {
     setIsVisible((prev) => !prev);

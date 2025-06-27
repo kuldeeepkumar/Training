@@ -1,52 +1,57 @@
-// EventHandling.jsAdd commentMore actionsAdd commentMore actions
-// This component demonstrates handling click, change, and submit events in React
+// ConditionalRendering.jsAdd commentMore actionsAdd commentMore actions
+// This component demonstrates conditional rendering based on state and events
 
 import React, { useState } from "react";
 
-const EventHandling = () => {
-  const [inputValue, setInputValue] = useState("");
-  const [submittedName, setSubmittedName] = useState("");
+const ConditionalRendering = () => {
+  const pswrd = "123"; // Example password for validation
+  const [isVisible, setIsVisible] = useState(true);
+  const [password, setPassword] = useState();
 
-  // Handles button click event
-  const handleClick = () => {
-    alert("Button was clicked!");
+  // Toggles the visibility of the message
+  const toggleMessage = () => {
+    setIsVisible((prev) => !prev);
   };
 
-  // Handles input change event
-  const handleChange = (event) => {
-    setInputValue(event.target.value); // Update the state as user types
-  };
+  console.log("invisible", isVisible);
 
-  // Handles form submit event
-  const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent form from refreshing the page
-    setSubmittedName(inputValue); // Store submitted name
-    alert(`Form submitted with name: ${inputValue}`);
-  };
-
+  console.log("password", password);
   return (
     <div>
-      <h2>Event Handling Example</h2>
+      <h2>Conditional Rendering Example</h2>
 
-      {/* Button click event */}
-      <button onClick={handleClick}>Click Me</button>
+      {/* Toggle button to show/hide message */}
+      <button onClick={toggleMessage}>
+        {isVisible ? "Hide Message" : "Show Message"}
+      </button>
+      <br />
+      <br />
+      <br />
 
-      <hr />
+      <input
+        type="password"
+        placeholder="Enter your password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      <br />
 
-      {/* Input change and form submit */}
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Enter your name"
-          value={inputValue}
-          onChange={handleChange}
-        />
-        <button type="submit">Submit</button>
-      </form>
+      <br />
 
-      {submittedName && <p>Submitted Name: {submittedName}</p>}
+      {password === undefined || password === "" ? (
+        <>Enter Password</>
+      ) : password === pswrd ? (
+        <p style={{ color: "green" }}>Password is correct</p>
+      ) : (
+        <p style={{ color: "red" }}>This is wrong password</p>
+      )}
+
+      {/* Message appears only if isVisible is true */}
+      {isVisible && (
+        <p>This message is conditionally rendered based on button click.</p>
+      )}
     </div>
   );
 };
 
-export default EventHandling;
+export default ConditionalRendering;

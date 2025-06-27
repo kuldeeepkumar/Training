@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 const MountExample = () => {
   // This useEffect runs only once when the component mounts
   useEffect(() => {
