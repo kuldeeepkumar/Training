@@ -10,7 +10,6 @@ import Exercise7 from "./exercises/exercise7/Exercise7";
 import Exercise8 from "./exercises/exercise8/Exercise8";
 import Exercise9 from "./exercises/exercise9/Exercise9";
 import HomePage from "./HomePage";
-import React from "react";
 import ReactExercise1 from "./reactExercises/exercise1/ReactExercise1";
 import ReactExercise2 from "./reactExercises/exercise2/ReactExercise2";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
@@ -84,6 +83,10 @@ function App() {
     {
       routesName: "Exercise13",
       component: <Exercise13 />,
+    },
+    {
+      routesName: "TodoApp",
+      component: <TodoApp />,
     },
   ];
 

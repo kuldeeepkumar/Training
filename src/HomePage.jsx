@@ -21,6 +21,7 @@ import ReactExercise6 from "./reactExercises/exercise6/ReactExercise6";
 import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import { useNavigate } from "react-router-dom";
+import TodoApp from "./exercises/experiments/TodoApp";
 
 const HomePage = () => {
   const navigation = useNavigate();
@@ -63,6 +64,9 @@ const HomePage = () => {
     },
     {
       routesName: "Exercise13",
+    },
+    {
+      routesName: "TodoApp",
     },
   ];
   const reactExecisesData = [
