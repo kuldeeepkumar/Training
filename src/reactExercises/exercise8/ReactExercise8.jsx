@@ -7,12 +7,12 @@ import NotFound from "./NotFound";
 
 function ReactExercise8() {
   return (
-    <BrowserRouter>
+    
       <div>
 
          {/* Navigation Links */}
         <nav>
-          <Link to="/" style={{ marginRight: "10px" }}>
+          <Link to="/home" style={{ marginRight: "10px" }}>
             Home
           </Link>
           <Link to="/about" style={{ marginRight: "10px" }}>
@@ -22,7 +22,7 @@ function ReactExercise8() {
         </nav>
         {/* Route Definitions */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
 
@@ -33,7 +33,7 @@ function ReactExercise8() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    
   );
 }
 
