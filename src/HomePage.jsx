@@ -1,0 +1,128 @@
+import Exercise1 from "./exercise/exercise1/Exercise1";
+import Exercise10 from "./exercise/exercise10/Exercise10";
+import Exercise11 from "./exercise/exercise11/Exercise11";
+import Exercise12 from "./exercise/exercise12/Exercise12";
+import Exercise13 from "./exercise/exercise13/Exercise13";
+import Exercise2 from "./exercise/exercise2/Exercise2";
+import Exercise3 from "./exercise/exercise3/Exercise3";
+import Exercise4 from "./exercise/exercise4/Exercise4";
+import Exercise5 from "./exercise/exercise5/Exercise5";
+import Exercise6 from "./exercise/exercise6/Exercise6";
+import Exercise7 from "./exercise/exercise7/Exercise7";
+import Exercise8 from "./exercise/exercise8/Exercise8";
+import Exercise9 from "./exercise/exercise9/Exercise9";
+import React from "react";
+import ReactExercise1 from "./ReactExercise/exercise1/ReactExercise1";
+import ReactExercise2 from "./ReactExercise/exercise2/ReactExercise2";
+import ReactExercise3 from "./ReactExercise/exercise3/ReactExercise3";
+import ReactExercise4 from "./ReactExercise/exercise4/ReactExercise4";
+import ReactExercise5 from "./ReactExercise/exercise5/ReactExercise5";
+import ReactExercise6 from "./ReactExercise/exercise6/ReactExercise6";
+import ReactExercise7 from "./ReactExercise/exercise7/ReactExercise7";
+import ReactExercise8 from "./ReactExercise/exercise8/ReactExercise8";
+import { useNavigate } from "react-router-dom";
+
+const HomePage = () => {
+  const navigation = useNavigate();
+  const javaScriptExecisesData = [
+    {
+      routesName: "Exercise1",
+    },
+    {
+      routesName: "Exercise2",
+    },
+    {
+      routesName: "Exercise3",
+    },
+    {
+      routesName: "Exercise4",
+    },
+    {
+      routesName: "Exercise5",
+    },
+    {
+      routesName: "Exercise6",
+    },
+    {
+      routesName: "Exercise7",
+    },
+    {
+      routesName: "Exercise8",
+    },
+    {
+      routesName: "Exercise9",
+    },
+    {
+      routesName: "Exercise10",
+    },
+    {
+      routesName: "Exercise11",
+    },
+    {
+      routesName: "Exercise12",
+    },
+    {
+      routesName: "Exercise13",
+    },
+  ];
+  const reactExecisesData = [
+    {
+      routesName: "ReactExercise1",
+    },
+    {
+      routesName: "ReactExercise2",
+    },
+    {
+      routesName: "ReactExercise3",
+    },
+    {
+      routesName: "ReactExercise4",
+    },
+    {
+      routesName: "ReactExercise5",
+    },
+    {
+      routesName: "ReactExercise6",
+    },
+    {
+      routesName: "ReactExercise7",
+    },
+    {
+      routesName: "ReactExercise8",
+    },
+  ];
+  return (
+    <>
+      <div>
+        <h2> Java Script Exercises</h2>
+        <nav className="mainContainer">
+          {javaScriptExecisesData.map((route) => (
+            <button
+              key={route.routesName}
+              onClick={() => navigation(`/${route.routesName}`)}
+              className="cardButton"
+            >
+              {route.routesName}
+            </button>
+          ))}
+        </nav>
+      </div>
+      <div>
+        <h2> React Exercises</h2>
+        <nav className="mainContainer">
+          {reactExecisesData.map((route) => (
+            <button
+              key={route.routesName}
+              onClick={() => navigation(`/${route.routesName}`)}
+              className="cardButton"
+            >
+              {route.routesName}
+            </button>
+          ))}
+        </nav>
+      </div>
+    </>
+  );
+};
+
+export default HomePage;
