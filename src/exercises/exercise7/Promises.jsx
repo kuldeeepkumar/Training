@@ -1,6 +1,7 @@
 import React from 'react'
+
 const Promises = () => {
-// Example of a Promise in JavaScriptAdd commentMore actions
+// Example of a Promise in JavaScript
 let promise=new Promise((resolve,reject)=>{
     let success=true;
 
@@ -28,8 +29,9 @@ function fetchData() {
 fetchData().then((data) =>console.log(data));
   return (
     <div>
-     <h1>Promises Example</h1>Add commentMore actions
+     <p>Promises Example</p>
     </div>
   )
 }
+
 export default Promises

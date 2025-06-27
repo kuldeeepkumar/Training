@@ -1,17 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const Variables = () => {
+  let name = "Akash"; // Variable declared using let
+  const age = 19; // Constant variable declared using const
+  name = "kash"; // You can reassign 'name' since it was declared with 'let'
+  // age = 20;          // Error: Assignment to constant variable
 
-// follwing code is representing veriables
- 
-   let name = "Alice"; // Variable declared using let
-   const age = 25; // Constant variable declared using const
-   name = "Bob"; // You can reassign 'name' since it was declared with 'let'
-   // age = 26;          // Error: Assignment to constant variable
- 
+  console.log(age);
+  console
   return (
-    <div>Variables</div>
-  )
-}
+    <div>
+      <p>Variables</p>
+    </div>
+  );
+};
 
-export default Variables
+export default Variables;

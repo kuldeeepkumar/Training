@@ -1,8 +1,7 @@
-import React from 'react'
-// import Exercise6 from './Exercise6';
+import React from "react";
 
 const Exercise6 = () => {
- //global scopeAdd commentMore actions
+  //global scope
   let globalVar = "i am global";
 
   function test() {
@@ -52,12 +51,11 @@ const Exercise6 = () => {
     };
   }
   const double = makeMultiplier(2);
-  console.log("double is :", double(5));
-  return (
-    <div>
-      Exercise 6
-    </div>
-  )
-}
+  console.log("double is:", double(5));
+  return <div>
+    <h1>Exercise6</h1>
+    <p>Variable Scope</p>
+    </div>;
+};
 
-export default Exercise6
+export default Exercise6;

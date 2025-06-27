@@ -1,7 +1,7 @@
 import React from 'react'
 
 const TryCatch = () => {
- // Example of error handling with async
+    // Example of error handling with async/await
     try{
         let result=10/0;
         if(!isFinite(result)){
@@ -13,7 +13,7 @@ const TryCatch = () => {
     }
   return (
     <div>
-      <h1>Try catch</h1>
+      <p>Try catch</p>
     </div>
   )
 }

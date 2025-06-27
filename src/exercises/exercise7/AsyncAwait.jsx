@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AsyncAwait = () => {
-    async function example (){
+    async function example(){
         return "Hello";
     }
     example().then((message)=> console.log(message));
@@ -19,20 +19,12 @@ const AsyncAwait = () => {
             console.log(result);
         }
         getData();
-// Example of error handling with async/await
-        try{
-            let result=10/0;
-            if(!isFinite(result)){
-                throw new Error("Division by zero is not allowed");
-            }   
-            console.log(result);
-        } catch(error) {
-            console.log("Error:", error.message);
-        }
+
   return (
     <div>
-      <h1>Async/Await Example</h1>
+      <p>Async/Await Example</p>
     </div>
   )
 }
+
 export default AsyncAwait

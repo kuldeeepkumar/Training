@@ -1,7 +1,7 @@
 import React from 'react'
 
-const CallBack = () => {
-  // Example of a callback function in JavaScriptAdd commentMore actions
+const callBack = () => {
+  // Example of a callback function in JavaScript
   function greetUser(name,callback) {
     console.log("Hi " + name);
     callback();
@@ -9,7 +9,7 @@ const CallBack = () => {
  function showMessage() {
     console.log("Welcome to the website!");
  }
- greetUser("Alice", showMessage);
+ greetUser("Akash", showMessage);
   // Example of a callback function with asynchronous operation
   function fetchData(callback) {
     setTimeout(() => {
@@ -21,10 +21,9 @@ const CallBack = () => {
   });
   return (
     <div>
-      <h1>Callback Example</h1>
+      <p>Callback Example</p>
     </div>
   )
 }
 
-
-export default CallBack
+export default callBack

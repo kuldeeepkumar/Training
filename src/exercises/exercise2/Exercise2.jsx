@@ -1,17 +1,13 @@
 import React from 'react'
-import ConditionalStatements from './ConditionalStatements'
-import LoopingStatement from './LoopingStatement'
-import Questios from './Questios'
-
+import ConditionalStatement from './ConditionalStatement'
+import Loops from './Loops'
 
 const Exercise2 = () => {
   return (
     <>
-    {/* <ConditionalStatements/> */}
-    {/* <LoopingStatement/> */}
-    <Questios/>
-      
-    
+    <h1>Exercise2</h1>
+    <ConditionalStatement/>
+    <Loops/>
     </>
   )
 }
