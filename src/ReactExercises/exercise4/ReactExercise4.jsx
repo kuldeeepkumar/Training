@@ -22,9 +22,8 @@ function ReactExercise4() {
       <ul>
         {users.map((user) => (
           // Each list item should have a unique key (we use user.id here)
-          
+
           <li key={user.id}>{user.name}</li>
-          
         ))}
       </ul>
     </div>
