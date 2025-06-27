@@ -63,7 +63,10 @@ const Exercise9 = () => {
 
   console.log(greet("Alice"));
 
-  return <div><h1>Exercise9</h1></div>;
+  return <>
+  <h1>Exercise9</h1>
+  <p>Try Catch</p>
+  </>
 };
 
 export default Exercise9;

@@ -1,5 +1,3 @@
-// This file creates the context and a provider to share theme value
-
 import React, { createContext, useState } from "react";
 
 // Step 1: Create the context

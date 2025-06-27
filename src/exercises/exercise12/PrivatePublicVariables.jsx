@@ -25,7 +25,7 @@ const PrivatePublicVariables = () => {
   console.log("Password Check (correct):", user.checkPassword("secret123")); // true
   console.log("Password Check (wrong):", user.checkPassword("wrong")); // false
   // console.log(user.password); // Undefined: 'password' is private
-  return <div><h1>PrivatePublicVariables</h1></div>;
+  return <div>PrivatePublicVariables</div>;
 };
 
 export default PrivatePublicVariables;

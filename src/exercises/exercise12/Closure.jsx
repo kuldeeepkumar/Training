@@ -19,7 +19,7 @@ const Closure = () => {
   closureExample(); // Output: Closure Example: I am from outer scope
 
   
-  return <div><h1>dClosure</h1></div>;
+  return <div>Closure</div>;
 }
 
 export default Closure

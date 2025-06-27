@@ -11,7 +11,7 @@ const DefaultParameters = () => {
   greet(); // Hello, Guest
   greet("Anjali"); // Hello, Anjali
 
-  return (<div>DefaultParameters</div>);
+  return <div>DefaultParameters</div>;
 };
 
 export default DefaultParameters;

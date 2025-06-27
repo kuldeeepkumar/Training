@@ -31,7 +31,7 @@ const Example3 = () => {
 
   // Call the function
   getPost(2);
-  return <div><h1>Example3</h1></div>
+  return <div>Example3</div>;
 };
 
 export default Example3;

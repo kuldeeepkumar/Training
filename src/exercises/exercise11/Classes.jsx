@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Classes = () => {
-//============================================================
+  //============================================================
   // Introduction to Classes
   //============================================================
 
@@ -19,7 +19,7 @@ const Classes = () => {
   const person1 = new Person("Alice", 30);
   person1.greet(); // Output: Hello, my name is Alice.
 
-  return <div><h1>Classes</h1></div>;
+  return <div>Classes</div>;
 };
 
-export default Classes
+export default Classes;

@@ -18,7 +18,7 @@ const Constructors = () => {
 
   const car1 = new Car("Toyota", "Corolla");
   car1.displayInfo(); // Output: Brand: Toyota, Model: Corolla
-  return <div><h1>Constructors</h1></div>;
+  return <div>Constructors</div>;
 };
 
 export default Constructors;

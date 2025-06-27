@@ -1,6 +1,6 @@
 import React from "react";
 
-const  DestructuringExamples = () => {
+const DestructuringExamples = () => {
   //==================================================
   //Destructuring Assignment Example for object
   //==================================================
@@ -29,8 +29,7 @@ const  DestructuringExamples = () => {
   console.log(second); // green
   console.log(third); // blue
 
-  return (<div>DestructuringExamples</div>
-  );
+  return <div>DestructuringExamples</div>;
 };
 
-export default  DestructuringExamples;
+export default DestructuringExamples;

@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 
 const Exercise8 = () => {
@@ -23,7 +22,9 @@ const Exercise8 = () => {
 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
-      <h1>{title}</h1>
+       <h1>Exercise8</h1>
+       <p>UseState, UseEffect</p>
+      <h2>{title}</h2>
       <p style={messageStyle}>This is a paragraph.</p>
       <button onClick={handleClick}>Click Me</button>
       <p style={resultStyle}>{resultText}</p>
@@ -31,4 +32,4 @@ const Exercise8 = () => {
   );
 };
 
-export default Exercise8
+export default Exercise8;

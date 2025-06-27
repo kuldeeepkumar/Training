@@ -1,5 +1,3 @@
-// This is the root component that wraps all children inside ThemeProvider
-
 import Header from "./Header";
 import React from "react";
 import { ThemeProvider } from "./ThemeContext";

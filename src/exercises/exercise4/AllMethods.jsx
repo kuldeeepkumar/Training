@@ -13,7 +13,7 @@ const AllMethods = () => {
     //Sortinf array of objects
     const people = [
         { name: "Akash", age: 19 },
-         { name: "binni", age: 21 },
+        { name: "binni", age: 21 },
         { name: "arsh", age: 21 }
        
     ];
@@ -35,7 +35,7 @@ const AllMethods = () => {
     
     return (
     <div>
-      <h1>AllMethods</h1>
+      <p>AllMethods</p>
     </div>
   )
 }
