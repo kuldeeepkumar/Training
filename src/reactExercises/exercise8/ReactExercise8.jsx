@@ -10,6 +10,17 @@ function ReactExercise8() {
   return (
     <BrowserRouter>
       <div>
+        {/* Navigation Links */}
+        <nav>
+          <Link to="/" style={{ marginRight: "10px" }}>
+            Home
+          </Link>
+          <Link to="/about" style={{ marginRight: "10px" }}>
+            About
+          </Link>
+          <Link to="/contact">Contact</Link>
+        </nav>
+
         {/* Route Definitions */}
         <Routes>
           <Route path="/" element={<Home />} />
