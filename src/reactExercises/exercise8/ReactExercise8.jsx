@@ -8,11 +8,11 @@ import React from "react";
 
 function ReactExercise8() {
   return (
-    <BrowserRouter>
+
       <div>
         {/* Navigation Links */}
         <nav>
-          <Link to="/" style={{ marginRight: "10px" }}>
+          <Link to="/home" style={{ marginRight: "10px" }}>
             Home
           </Link>
           <Link to="/about" style={{ marginRight: "10px" }}>
@@ -34,7 +34,6 @@ function ReactExercise8() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </BrowserRouter>
   );
 }
 
