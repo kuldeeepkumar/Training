@@ -4,15 +4,14 @@ import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import NotFound from "./NotFound";
-import React from "react";
 
 function ReactExercise8() {
   return (
-    <BrowserRouter>
+    <>
       <div>
         {/* Navigation Links */}
         <nav>
-          <Link to="/" style={{ marginRight: "10px" }}>
+          <Link to="/home" style={{ marginRight: "10px" }}>
             Home
           </Link>
           <Link to="/about" style={{ marginRight: "10px" }}>
@@ -20,10 +19,9 @@ function ReactExercise8() {
           </Link>
           <Link to="/contact">Contact</Link>
         </nav>
-
         {/* Route Definitions */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
 
@@ -34,7 +32,7 @@ function ReactExercise8() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 

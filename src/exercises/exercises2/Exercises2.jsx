@@ -6,8 +6,8 @@ import Questions from './Questions'
 const Exercises2 = () => {
   return (
     <>
-    {/* <ConditionalStatements/> */}
-    {/*<Loops/>*/}
+    <ConditionalStatements/> 
+    <Loops/>
     <Questions/>
     
     
