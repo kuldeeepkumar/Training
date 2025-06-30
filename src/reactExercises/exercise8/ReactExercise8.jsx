@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Navigate, Route, Routes } from "react-router-dom";
+import {  Link, Navigate, Route, Routes } from "react-router-dom";
 
 import About from "./About";
 import Contact from "./Contact";
@@ -8,7 +8,7 @@ import React from "react";
 
 function ReactExercise8() {
    return (
-    <BrowserRouter>
+ 
       <div>
         {/* Navigation Links */}
         <nav>
@@ -34,7 +34,7 @@ function ReactExercise8() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </BrowserRouter>
+
   );
 }
 
