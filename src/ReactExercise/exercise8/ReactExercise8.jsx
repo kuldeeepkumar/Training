@@ -4,11 +4,9 @@ import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import NotFound from "./NotFound";
-import React from "react";
 
 function ReactExercise8() {
   return (
-    <BrowserRouter>
       <div>
         {/* Navigation Links */}
         <nav>
@@ -34,7 +32,7 @@ function ReactExercise8() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    
   );
 }
 
