@@ -25,6 +25,7 @@ import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
 import ReactExercise1 from "./reactExercises/exercise 1/ReactExercise1";
 import ReactExercise2 from './reactExercises/exercise 2/ReactExercise2';
 import TodoApp from "./experiments/Todo";
+import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
 
 function App() {
   const javaScriptExercisesData = [
@@ -122,6 +123,10 @@ function App() {
     {
       routesName: "ReactExercise8",
       component: <ReactExercise8 />,
+    },
+    {
+      routesName: "ReactExercise9",
+      component: <ReactExercise9/ >,
     },
   ];
   return (

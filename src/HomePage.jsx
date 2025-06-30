@@ -69,6 +69,9 @@ const HomePage = () => {
     {
       routesName: "ReactExercise8",
     },
+     {
+      routesName: "ReactExercise9",
+    },
   ];
   return (
     <>
