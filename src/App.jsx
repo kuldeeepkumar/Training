@@ -24,6 +24,7 @@ import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import TodoApp from "./exercises/experiments/TodoApp";
 import HomePage from './HomePage';
 import { Route, Routes } from "react-router-dom";
+import ReactExercise9 from './reactExercises/exercise9/ReactExercise9';
 
 function App() {
   
@@ -119,6 +120,10 @@ function App() {
     {
       routesName: "ReactExercise8",
       component: <ReactExercise8 />,
+    },
+     {
+      routesName: "ReactExercise9",
+      component: <ReactExercise9/>,
     },
   ];
   return (
