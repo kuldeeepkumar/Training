@@ -13,7 +13,15 @@ import Exercise10 from './exercises/exercise10/Exercise10';
 import Exercise11 from './exercises/exercise11/Exercise11';
 import Exercise12 from './exercises/exercise12/Exercise12';
 import Exercise13 from './exercises/exercise13/Exercise13';
-
+import TodoApp from './exercises/experiments/TodoApp'
+import ReactExercise1 from "./reactExercises/exercise1/ReactExercise1";
+import ReactExercise2 from './reactExercises/exercise2/ReactExercise2'
+import ReactExercise3 from './reactExercises/exercise3/ReactExercise3'
+import ReactExercise4 from './reactExercises/exercise4/ReactExercise4'
+import ReactExercise5 from './reactExercises/exercise5/ReactExercise5'
+import ReactExercise6 from './reactExercises/exercise6/ReactExercise6'
+import ReactExercise7 from './reactExercises/exercise7/ReactExercise7'
+import ReactExercise8 from './reactExercises/exercise8/ReactExercise8'
 function App() {
   return (
     <>
@@ -27,9 +35,19 @@ function App() {
     <Exercise8/>
     <Exercise9/>
     <Exercise10/>
-    <Exercise11/> */}
-    {/* <Exercise12/> */}
+    <Exercise11/>
+    <Exercise12/>
     <Exercise13/>
+    <ReactExercise1/>
+    <ReactExercise2/>
+    <ReactExercise4/>
+    <ReactExercise5/> */}
+    {/* <ReactExercise6/>
+    <ReactExercise7/> */}
+    
+    {/* <TodoApp/> */}
+     {/* <ReactExercise3/> */}
+    <ReactExercise8/>
     </> 
   );
 }
