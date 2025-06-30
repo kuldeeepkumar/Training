@@ -73,8 +73,10 @@ const HomePage = () => {
       routesName: "ReactExercise9",
     },
   ];
+  const tailwindExecisesData = [{ routesName: "TailwindExercise1" }];
   return (
     <>
+      {/* This Section code is repesenting java script Exercises */}
       <div>
         <h2> Java Script Exercises</h2>
         <nav className="mainContainer">
@@ -89,6 +91,7 @@ const HomePage = () => {
           ))}
         </nav>
       </div>
+      {/* This Section code is repesenting React Exercises */}
       <div>
         <h2> React Exercises</h2>
         <nav className="mainContainer">
@@ -102,6 +105,22 @@ const HomePage = () => {
             </button>
           ))}
         </nav>
+      </div>
+      {/* This Section code is repesenting Tailwind CSS Exercises */}
+      <div>
+        <h2> Tailwind CSS Exercises</h2>
+        <nav className="mainContainer">
+          {tailwindExecisesData.map((route) => (
+            <button
+              key={route.routesName}
+              onClick={() => navigation(`/${route.routesName}`)}
+              className="cardButton"
+            >
+              {route.routesName}
+            </button>
+          ))}
+        </nav>
+        s
       </div>
     </>
   );
