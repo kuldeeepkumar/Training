@@ -27,6 +27,7 @@ import ReactExercise6 from "./reactExercises/exercise6/ReactExercise6";
 import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
+import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";
 
 function App() {
   const javaScriptExercisesData = [
@@ -61,22 +62,23 @@ function App() {
 
   return (
 
-      <Routes>
-        {javaScriptExercisesData.map((route) => (
-          <Route
-            key={route.routesName}
-            path={route.routesName}
-            element={route.component}
-          />
-        ))}
-        {reactExercisesData.map((route) => (
-          <Route
-            key={route.routesName}
-            path={route.routesName === "ReactExercise8" ? "ReactExercise8/*" : route.routesName}
-            element={route.component}
-          />
-        ))}
-      </Routes>
+      // <Routes>
+      //   {javaScriptExercisesData.map((route) => (
+      //     <Route
+      //       key={route.routesName}
+      //       path={route.routesName}
+      //       element={route.component}
+      //     />
+      //   ))}
+      //   {reactExercisesData.map((route) => (
+      //     <Route
+      //       key={route.routesName}
+      //       path={route.routesName === "ReactExercise8" ? "ReactExercise8/*" : route.routesName}
+      //       element={route.component}
+      //     />
+      //   ))}
+      // </Routes>
+      <TailwindExercise1/>
 
   );
 }
