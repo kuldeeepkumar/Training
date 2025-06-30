@@ -1,4 +1,3 @@
-// Home.jsAdd commentMore actions
 import React from "react";
 
 function Home() {

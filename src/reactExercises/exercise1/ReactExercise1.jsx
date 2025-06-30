@@ -1,6 +1,5 @@
-// Import necessary librariesAdd commentMore actions
-
 import React from "react";
+// Import necessary libraries
 
 // ===============================
 // Functional Component - Basic
@@ -53,5 +52,6 @@ const ReactExercise1 = () => {
     </div>
   );
 };
+
 // Export the main App component
 export default ReactExercise1;

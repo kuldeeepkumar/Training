@@ -1,15 +1,16 @@
-import React from "react";
 import ControlledComponent from "./ControlledComponent";
 import FormHandling from "./FormHandling";
 import FormValidation from "./FormValidation";
+import React from "react";
 
-export const ReactExercise5 = () => {
+const ReactExercise5 = () => {
   return (
-    <div>
-      <ControlledComponent />
-      <FormHandling />
+    <>
+      {/* <ControlledComponent /> */}
+      {/* <FormHandling /> */}
+
       <FormValidation />
-    </div>
+    </>
   );
 };
 export default ReactExercise5;

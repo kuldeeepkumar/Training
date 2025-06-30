@@ -1,5 +1,3 @@
-// NotFound.jsAdd commentMore actions
-
 import React from "react";
 
 function NotFound() {

@@ -11,25 +11,17 @@ function ReactExercise8() {
     <div>
       {/* Navigation Links */}
       <nav>
-        <Link to="/" style={{ marginRight: "10px" }}>
-          Home
-        </Link>
-        <Link to="/about" style={{ marginRight: "10px" }}>
-          About
-        </Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="home" style={{ marginRight: "10px" }}>Home</Link>           {/* relative path */}
+        <Link to="about" style={{ marginRight: "10px" }}>About</Link>    {/* relative path */}
+        <Link to="contact">Contact</Link>                               {/* relative path */}
       </nav>
 
       {/* Route Definitions */}
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-
-        {/* Redirect example: redirecting /info to /about */}
-        <Route path="/info" element={<Navigate to="/about" replace />} />
-
-        {/* Fallback route for undefined paths */}
+        <Route path="" element={<Home />} />                           {/* matches /ReactExercise8 */}
+        <Route path="about" element={<About />} />                     {/* matches /ReactExercise8/about */}
+        <Route path="contact" element={<Contact />} />                 {/* matches /ReactExercise8/contact */}
+        <Route path="info" element={<Navigate to="about" replace />} /> {/* relative redirect */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

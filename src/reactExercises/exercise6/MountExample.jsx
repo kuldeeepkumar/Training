@@ -17,6 +17,6 @@ const MountExample = () => {
       <p>This component logs to console when it mounts and unmounts.</p>
     </div>
   );
-};
+}
 
 export default MountExample;

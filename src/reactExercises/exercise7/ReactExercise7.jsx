@@ -1,5 +1,3 @@
-// This is the root component that wraps all children inside ThemeProviderAdd commentMore actions
-
 import Header from "./Header";
 import React from "react";
 import { ThemeProvider } from "./ThemeContext";
@@ -17,4 +15,5 @@ function ReactExercise7() {
     </ThemeProvider>
   );
 }
+
 export default ReactExercise7;
