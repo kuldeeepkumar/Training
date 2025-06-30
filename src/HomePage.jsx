@@ -1,46 +1,47 @@
+import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
   const navigation = useNavigate();
   const javaScriptExecisesData = [
     {
-      routesName: "Exercise1",
+      routesName: "Exercisess1",
     },
     {
-      routesName: "Exercise2",
+      routesName: "Exercises2",
     },
     {
-      routesName: "Exercise3",
+      routesName: "Exercises3",
     },
     {
-      routesName: "Exercise4",
+      routesName: "Exercises4",
     },
     {
-      routesName: "Exercise5",
+      routesName: "Exercises5",
     },
     {
-      routesName: "Exercise6",
+      routesName: "Exercises6",
     },
     {
-      routesName: "Exercise7",
+      routesName: "Exercises7",
     },
     {
-      routesName: "Exercise8",
+      routesName: "Exercises8",
     },
     {
-      routesName: "Exercise9",
+      routesName: "Exercises9",
     },
     {
-      routesName: "Exercise10",
+      routesName: "Exercises10",
     },
     {
-      routesName: "Exercise11",
+      routesName: "Exercises11",
     },
     {
-      routesName: "Exercise12",
+      routesName: "Exercises12",
     },
     {
-      routesName: "Exercise13",
+      routesName: "Exercises13",
     },
   ];
   const reactExecisesData = [
@@ -67,6 +68,9 @@ const HomePage = () => {
     },
     {
       routesName: "ReactExercise8",
+    },
+    {
+      routesName: "ReactExercise9",
     },
   ];
   return (

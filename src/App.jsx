@@ -1,8 +1,8 @@
-import "./App.css";
-
-import { BrowserRouter, Link, Route, Router, Routes } from "react-router-dom";
-
 import Exercise1 from "./exercises/exercises1/Exercises1";
+import Exercise10 from "./exercises/exercises10/Exercises10";
+import Exercise11 from "./exercises/exercises11/Exercises11";
+import Exercise12 from "./exercises/exercises12/Exercises12";
+import Exercise13 from "./exercises/exercises13/Exercises13";
 import Exercise2 from "./exercises/exercises2/Exercises2";
 import Exercise3 from "./exercises/exercises3/Exercises3";
 import Exercise4 from "./exercises/exercises4/Exercises4";
@@ -11,22 +11,33 @@ import Exercise6 from "./exercises/exercises6/Exercises6";
 import Exercise7 from "./exercises/exercises7/Exercises7";
 import Exercise8 from "./exercises/exercises8/Exercises8";
 import Exercise9 from "./exercises/exercises9/Exercises9";
-import Exercise10 from "./exercises/exercises10/Exercises10";
-import Exercise11 from "./exercises/exercises11/Exercises11";
-import Exercise12 from "./exercises/exercises12/Exercises12";
-import Exercise13 from "./exercises/exercises13/Exercises13";
-import TodoApp from "./exercises/experiments/TodoApp";
+import HomePage from "./HomePage";
+import React from "react";
 import ReactExercise1 from "./reactExercises/exercise1/ReactExercise1";
 import ReactExercise2 from "./reactExercises/exercise2/ReactExercise2";
 import ReactExercise3 from "./reactExercises/exercise3/ReactExercise3";
 import ReactExercise4 from "./reactExercises/exercise4/ReactExercise4";
 import ReactExercise5 from "./reactExercises/exercise5/ReactExercise5";
 import ReactExercise6 from "./reactExercises/exercise6/ReactExercise6";
-
-import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
-import Exercises7 from "./exercises/exercises7/Exercises7";
 import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
-import HomePage from "./HomePage";
+import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
+import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
+import TodoApp from "./exercises/experiments/TodoApp";
+import Exercises1 from "./exercises/exercises1/Exercises1";
+import Exercises2 from "./exercises/exercises2/Exercises2";
+import Exercises3 from "./exercises/exercises3/Exercises3";
+import Exercises4 from "./exercises/exercises4/Exercises4";
+import Exercises5 from "./exercises/exercises5/Exercises5";
+import Exercises6 from "./exercises/exercises6/Exercises6";
+import Exercises7 from "./exercises/exercises7/Exercises7";
+import Exercises8 from "./exercises/exercises8/Exercises8";
+import Exercises9 from "./exercises/exercises9/Exercises9";
+import Exercises10 from "./exercises/exercises10/Exercises10";
+import Exercises11 from "./exercises/exercises11/Exercises11";
+import Exercises12 from "./exercises/exercises12/Exercises12";
+import Exercises13 from "./exercises/exercises13/Exercises13";
+import { Route, Routes } from "react-router-dom";
+
 function App() {
   const javaScriptExercisesData = [
     {
@@ -34,56 +45,56 @@ function App() {
       component: <HomePage />,
     },
     {
-      routesName: "Exercise1",
-      component: <Exercise1 />,
+      routesName: "Exercises1",
+      component: <Exercises1 />,
     },
     {
-      routesName: "Exercise2",
-      component: <Exercise2 />,
+      routesName: "Exercises2",
+      component: <Exercises2 />,
     },
     {
-      routesName: "Exercise3",
-      component: <Exercise3 />,
+      routesName: "Exercises3",
+      component: <Exercises3 />,
     },
     {
-      routesName: "Exercise4",
-      component: <Exercise4 />,
+      routesName: "Exercises4",
+      component: <Exercises4 />,
     },
     {
-      routesName: "Exercise5",
-      component: <Exercise5 />,
+      routesName: "Exercises5",
+      component: <Exercises5 />,
     },
     {
-      routesName: "Exercise6",
-      component: <Exercise6 />,
+      routesName: "Exercises6",
+      component: <Exercises6 />,
     },
     {
-      routesName: "Exercise7",
+      routesName: "Exercises7",
       component: <Exercises7 />,
     },
     {
-      routesName: "Exercise8",
-      component: <Exercise8 />,
+      routesName: "Exercises8",
+      component: <Exercises8 />,
     },
     {
-      routesName: "Exercise9",
-      component: <Exercise9 />,
+      routesName: "Exercises9",
+      component: <Exercises9 />,
     },
     {
-      routesName: "Exercise10",
-      component: <Exercise10 />,
+      routesName: "Exercises10",
+      component: <Exercises10 />,
     },
     {
-      routesName: "Exercise11",
-      component: <Exercise11 />,
+      routesName: "Exercises11",
+      component: <Exercises11 />,
     },
     {
-      routesName: "Exercise12",
-      component: <Exercise12 />,
+      routesName: "Exercises12",
+      component: <Exercises12 />,
     },
     {
-      routesName: "Exercise13",
-      component: <Exercise13 />,
+      routesName: "Exercises13",
+      component: <Exercises13 />,
     },
   ];
 
@@ -119,6 +130,10 @@ function App() {
     {
       routesName: "ReactExercise8",
       component: <ReactExercise8 />,
+    },
+    {
+      routesName: "ReactExercise9",
+      component: <ReactExercise9 />,
     },
   ];
   return (
