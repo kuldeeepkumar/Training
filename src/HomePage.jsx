@@ -21,6 +21,7 @@ import ReactExercise6 from "./ReactExercise/exercise6/ReactExercise6";
 import ReactExercise7 from "./ReactExercise/exercise7/ReactExercise7";
 import ReactExercise8 from "./ReactExercise/exercise8/ReactExercise8";
 import { useNavigate } from "react-router-dom";
+import TailwindExercise1 from './tailwindCss/exercise1/TailwindExercise1';
 
 const HomePage = () => {
   const navigation = useNavigate();
@@ -92,6 +93,9 @@ const HomePage = () => {
     },
     {
       routesName: "ReactExercise9",
+    },
+    {
+      routesName: "TailwindExercise1",
     },
   ];
   return (
