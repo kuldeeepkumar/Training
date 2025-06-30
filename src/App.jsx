@@ -24,6 +24,7 @@ import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7.jsx";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8.jsx";
 import HomePage from "./HomePage.jsx";
 import { Route, Routes } from "react-router-dom";
+import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9.jsx";
 
 function App() {
   const javaScriptExercisesData = [
@@ -117,6 +118,10 @@ function App() {
     {
       routesName: "ReactExercise8",
       component: <ReactExercise8 />,
+    },
+    {
+      routesName: "ReactExercise9",
+      component: <ReactExercise9 />,
     },
   ];
   return (

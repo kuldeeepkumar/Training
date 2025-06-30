@@ -21,6 +21,7 @@ import ReactExercise6 from "./reactExercises/exercise6/ReactExercise6";
 import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import { useNavigate } from "react-router-dom";
+import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
 
 const HomePage = () => {
   const navigation = useNavigate();
@@ -89,6 +90,9 @@ const HomePage = () => {
     },
     {
       routesName: "ReactExercise8",
+    },
+    {
+      routesName: "ReactExercise9",
     },
   ];
   return (
