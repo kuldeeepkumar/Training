@@ -13,13 +13,15 @@ import "./App.css";
 // import Exercise12 from "./exercises/exercise12/Exercise12";
 // import Exercise13 from "./exercises/exercise13/Exercise13";
 // import TodoApp from './exercises/experiment /TodoApp'
-import ReactExercise1 from "./ReactExercises/exercise1/ReactExercise1";
-import ReactExercise2 from "./ReactExercises/exercise2/ReactExercise2";
-import ReactExercise3 from "./ReactExercises/exercise3/ReactExercise3";
-import ReactExercise4 from "./ReactExercises/exercise4/ReactExercise4";
-import ReactExercise5 from "./ReactExercises/exercise5/ReactExercise5";
-import ReactExercise6 from "./ReactExercises/exercise6/ReactExercise6";
-import ReactExercise7 from "./ReactExercises/exercise7/ReactExercise7";
+// import ReactExercise1 from "./ReactExercises/exercise1/ReactExercise1";
+// import ReactExercise2 from "./ReactExercises/exercise2/ReactExercise2";
+// import ReactExercise3 from "./ReactExercises/exercise3/ReactExercise3";
+// import ReactExercise4 from "./ReactExercises/exercise4/ReactExercise4";
+// import ReactExercise5 from "./ReactExercises/exercise5/ReactExercise5";
+// import ReactExercise6 from "./ReactExercises/exercise6/ReactExercise6";
+// import ReactExercise7 from "./ReactExercises/exercise7/ReactExercise7";
+import ReactExercise8 from "./ReactExercises/exercise8/ReactExercise8";
+
 
 function App() {
   return (
@@ -44,7 +46,8 @@ function App() {
       {/* <ReactExercise4 /> */}
       {/* <ReactExercise5/> */}
       {/* <ReactExercise6 /> */}
-      <ReactExercise7/>
+      {/* <ReactExercise7/> */}
+      <ReactExercise8/>
     </>
   );
 }
