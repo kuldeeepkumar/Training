@@ -7,10 +7,10 @@ import Questions from "./Questions";
 const Exercise2 = () => {
   return (
     <div>
-      {/* <ConditionalStatement/> */}
-      {/* <LoopingStatements /> */}
-      {/* <AdditionalControlFlowconcepts/> */}
-      < Questions/>
+      <ConditionalStatement />
+      <LoopingStatements />
+      <AdditionalControlFlowconcepts />
+      <Questions />
     </div>
   );
 };

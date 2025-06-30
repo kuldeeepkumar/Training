@@ -4,26 +4,34 @@ import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import NotFound from "./NotFound";
-import React from "react";
 
 function ReactExercise8() {
   return (
-    <BrowserRouter>
-      <div>
-        {/* Route Definitions */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+    <div>
+      {/* Navigation Links */}
+      <nav>
+        <Link to="/home" style={{ marginRight: "10px" }}>
+          Home
+        </Link>
+        <Link to="/about" style={{ marginRight: "10px" }}>
+          About
+        </Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
 
-          {/* Redirect example: redirecting /info to /about */}
-          <Route path="/info" element={<Navigate to="/about" replace />} />
+      {/* Route Definitions */}
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
 
-          {/* Fallback route for undefined paths */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+        {/* Redirect example: redirecting /info to /about */}
+        <Route path="/info" element={<Navigate to="/about" replace />} />
+
+        {/* Fallback route for undefined paths */}
+        <Route path="" element={<NotFound />} />
+      </Routes>
+    </div>
   );
 }
 
