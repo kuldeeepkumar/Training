@@ -16,8 +16,8 @@ const Classes = () => {
     }
   }
 
-  const person1 = new Person("Arash", 30);
-  person1.greet(); // Output: Hello, my name is Arash.
+  const person1 = new Person("Alice", 30);
+  person1.greet(); // Output: Hello, my name is Alice.
 
   return <div>Classes</div>;
 };

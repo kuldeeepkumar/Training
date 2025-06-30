@@ -77,3 +77,17 @@ p{
   font-size: 1.2em;
   margin-bottom: 1rem;
 } */
+
+.mainContainer{
+    justify-content: center;
+    margin:5px;
+}
+.cardButton{
+  margin: 5px;
+  border: solid rgb(31, 135, 219) 3px;
+  color:#535050
+}
+.cardButton:hover{
+  border-color:rgb(22, 75, 223);
+  color: black;
+}

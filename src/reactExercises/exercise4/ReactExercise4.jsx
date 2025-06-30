@@ -1,15 +1,11 @@
-// demo.js
-// This file demonstrates how to render dynamic lists in React using map()
-// and explains the importance of keys for optimizing rendering.
-
 import React from "react";
 
 // Example array of data
 const users = [
-  { id: 101, name: "Alice" },
-  { id: 102, name: "Bob" },
-  { id: 103, name: "Charlie" },
-  { id: 104, name: "Raaju" },
+  { id: 101, name: "Akash" },
+  { id: 102, name: "sumit" },
+  { id: 103, name: "Arsh" },
+  { id: 104, name: "Puneet" },
 ];
 
 // Functional component to display list of users
