@@ -25,6 +25,7 @@ import HomePage from "./HomePage";
 import Excercise6 from "./exercises/exercise6/Excercise6";
 import { Route, Routes } from "react-router-dom";
 import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
+import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";
 
 function App() {
   const javaScriptExercisesData = [
@@ -124,11 +125,13 @@ function App() {
       component: <ReactExercise9 />,
     },
   ];
+  const tailwindExercisesData = [
+    { routesName: "TailwindExercise1", component: <TailwindExercise1 /> },
+  ];
   return (
     <>
       {" "}
       <Routes>
-
         {javaScriptExercisesData.map((route) => (
           <Route
             key={route.routesName}
@@ -137,6 +140,13 @@ function App() {
           />
         ))}
         {reactExercisesData.map((route) => (
+          <Route
+            key={route.routesName}
+            path={`/${route.routesName}`}
+            element={route.component}
+          />
+        ))}
+        {tailwindExercisesData.map((route) => (
           <Route
             key={route.routesName}
             path={`/${route.routesName}`}
