@@ -2,7 +2,7 @@ import React from "react";
 
 // Example array of data
 const users = [
-  { id: 101, name: "Akash" },
+  { id: 101, name: "sumit" },
   { id: 102, name: "sumit" },
   { id: 103, name: "Arsh" },
   { id: 104, name: "Puneet" },
