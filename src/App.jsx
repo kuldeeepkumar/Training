@@ -147,14 +147,14 @@ function App() {
             element={route.component}
           />
         ))}
+        {tailwindExercisesData.map((route) => (
+          <Route
+            key={route.routesName}
+            path={`/${route.routesName}`}
+            element={route.component}
+          />
+        ))}
       </Routes>
-      {tailwindExercisesData.map((route) => (
-        <Route
-          key={route.routesName}
-          path={`/${route.routesName}`}
-          element={route.component}
-        />
-      ))}
     </>
   );
 }
