@@ -16,6 +16,5 @@ const Exercise7 = () => {
 
     </>
   )
-  
-
-
+} 
+export default Exercise7;
