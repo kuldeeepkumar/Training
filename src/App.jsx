@@ -1,8 +1,4 @@
-import {
-  BrowserRouter,
-  Route,
-  Routes
-} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Exercise1 from "./exercises/exercise1/Exercise1";
 import Exercise10 from "./exercises/exercise10/Exercise10";
@@ -28,6 +24,8 @@ import ReactExercise6 from "./reactExercises/exercise6/ReactExercise6";
 import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
+import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";
+import TodoApp from "./exercises/experiments/TodoApp";
 
 function App() {
   const javaScriptExercisesData = [
@@ -57,29 +55,30 @@ function App() {
     { routesName: "ReactExercise7", component: <ReactExercise7 /> },
     { routesName: "ReactExercise8", component: <ReactExercise8 /> },
     { routesName: "ReactExercise9", component: <ReactExercise9 /> },
-
   ];
 
   return (
-    <BrowserRouter>
-      <Routes>
-        {javaScriptExercisesData.map((route) => (
-          <Route
-            key={route.routesName}
-            path={route.routesName}
-            element={route.component}
-          />
-        ))}
-        {reactExercisesData.map((route) => (
-          <Route
-            key={route.routesName}
-            path={route.routesName}
-            element={route.component}
-          />
-        ))}
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Routes>
+    //     {javaScriptExercisesData.map((route) => (
+    //       <Route
+    //         key={route.routesName}
+    //         path={route.routesName}
+    //         element={route.component}
+    //       />
+    //     ))}
+    //     {reactExercisesData.map((route) => (
+    //       <Route
+    //         key={route.routesName}
+    //         path={route.routesName}
+    //         element={route.component}
+    //       />
+    //     ))}
+    //   </Routes>
+    // </BrowserRouter>
+  <TailwindExercise1/>
   );
 }
 
 export default App;
+
