@@ -1,6 +1,7 @@
 import React , {useState} from 'react'
+import "tailwindcss";
 import '../App.css'
-const buttons = () => {
+const Buttons = () => {
     const [count, setCount] = useState(0);
     const increment = () => {
         setCount(count + 1);
@@ -14,15 +15,15 @@ const buttons = () => {
 
   return (
     <div>
-      <div Class='container'>
-     <button onClick={increment} Class='inc'>Increment</button>
-     <button onClick={decrement} Class='dec'>Decrement</button>
-     <button onClick={reset} Class='res'>Reset</button>
+      <div className='container'>
+     <button onClick={increment} className='inc'>Increment</button>
+     <button onClick={decrement} className='dec'>Decrement</button>
+     <button onClick={reset} className='res'>Reset</button>
      </div>
      <h1>Count: {count}</h1>
-     <p>Click the buttons to change the count.</p> 
+     <p >Click the buttons to change the count.</p> 
     </div>
   )
 }
 
-export default buttons
+export default Buttons
