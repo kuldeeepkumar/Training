@@ -15,6 +15,9 @@ import ReactExercise4 from "./reactExercises/exercise4/ReactExercise4";
 import ReactExercise5 from "./reactExercises/exercise5/ReactExercise5";
 import ReactExercise6 from "./reactExercises/exercise6/ReactExercise6";
 import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
+import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
+import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
+
 
 
 function App() {
@@ -42,7 +45,11 @@ function App() {
     {/* <ReactExercise4/> */}
     {/* <ReactExercise5/> */}
     {/* <ReactExercise6/> */}
-    <ReactExercise7/>
+    {/* <ReactExercise7/> */}
+    {/* <ReactExercise8/> */}
+    {/* <ReactExercise9/> */}
+
+    {/* <HeaderComponent/> */}
     </>
   );
 }
