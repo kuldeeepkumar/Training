@@ -1,131 +1,157 @@
 import React from 'react'
 
 const Exercise5 = () => {
-// null
-    let car = null;
-    console.log(car);
-    console.log(typeof car);
- // undefined
-    let bike;
-    console.log(bike);
-      
-    function greet(){
-        console.log("hello");
-    }
-    let result = greet();
-    console.log(result);
-// NaN(not-a-number)
-     let x =0/0;
-     console.log(x);
-    
-     let y=parseInt ("hello");
-     console.log(y);
+  //null
+  console.log("null");
 
-     console.log(typeof NaN);
-     console.log(NaN === NaN);
+  let car = null;
+  console.log(car);
+  console.log(typeof car);
 
-// Array Destructuring
-     const color =['red','green','blue'];
-     const [first,second,third] = color;
+  //undefined
+  console.log("undefined");
 
-     console.log (first);
-     console.log(second);
-     console.log(third);
+  let bike;
+  console.log(bike);
 
-// skipping values
-     const numbers = [1,2,3,4];
-     const [a, , c] = numbers;
-      
-     console.log(a);
-     console.log(c);
+  function greet() {
+    console.log("Hello!");
+  }
+  let result = greet();
 
-// using rest....
-    const fruits =  ['apple','banana','cherry','date'];
-    const[f1, ...restFruits] = fruits;
-     
-    console.log(f1);
-    console.log(restFruits);
+  console.log(result);
 
-//object Destructuring
-    const person ={
-        name:'Alice',
-        age: 30,
-        job:'developer'
-    };
-    
-    const {name,age} = person;
-     
-    console.log(name);
-    console.log(age);
+  //NaN
 
-// renaming variables
-    const { name2:userName, age2:userAge}= person;
-    
-    console.log(userName);
-    console.log(userAge);
- 
-// renaming varibles using default value
-   const{name3,city='Unknown'}=person;
+  console.log("NaN");
 
-   console.log(city);
+  let x = 0 / 0;
+  console.log(x);
 
-//   nested destructuring with object
-   const user4 ={
-    id:1,
-    profile:{
-        username1:'john_doe',
-        email:'john@example.com'
-    }
-   };
-    
-   const{ profile: {username1} }=user4;
+  let y = parseInt("hello");
+  console.log(y);
 
-   console.log(username1);
+  console.log(typeof NaN);
+  console.log(NaN === NaN);
 
-//  Nested destructuring with array  
+  //Array Destructuring
 
-   const date =[1,[2,3]];
-    
-   const[d,[e,f]]=date;
-   console.log(d);
-   console.log(e);
-   console.log(f);
+  console.log("Array Destructuring");
 
+  const colors = ["red", "green", "blue"];
 
-// spread operator in Array
-    const arr1=[4,5,6];
-    const arr2=[...arr1,7,8];
-     
-    console.log(arr2);
+  const [first, second, third] = colors;
+  console.log(first);
+  console.log(second);
+  console.log(third);
 
-// spread operator in objects 
-    const obj1={a:1,b:2};
-    const obj2={...obj1,c:3};
+  //Skipping values
+  console.log("Skipping values");
 
-    console.log(obj2);
+  const numbers = [1, 2, 3, 4];
+  const [a, , c] = numbers;
+  console.log(a);
+  console.log(c);
 
-// spreading in function calls
-    const number=[10,20,30];
-    
-    function sum(x,y,z) {
-        return x+y+z;
-    }
-     console.log(sum(...number));
+  //using rest...
 
-// Rest parameter in functions
-    const arr3 =[8,9,10];
-    const arr4 =[...arr3,11,12];
+  console.log("using rest...");
 
-    console.log(arr4);
+  const fruits = ["apple", "banana", "cherry", "date"];
+  const [f1, ...restFruits] = fruits;
 
-// rest parameter in destructuring
-   const [first1, ...rest] =[20,30,40,50];
+  console.log(f1);
+  console.log(restFruits);
 
-   console.log(first1);
-   console.log(rest);
-     return (
-    <div><h1>Exercises5</h1>
-    </div>
-  )
+  //Object Destructuring
+
+  console.log("Object Destructuring");
+
+  const person = {
+    name: "Alice",
+    age: 30,
+    job: "Developer",
+  };
+
+  const { name, age } = person;
+
+  console.log(name);
+  console.log(age);
+
+  //Renaming Variables
+
+  console.log("Renaming Variables");
+
+  const { name: userName, age: userAge } = person;
+
+  console.log(userName);
+  console.log(userAge);
+
+  // Nested Destructuring
+
+  console.log("Nested Destructuring");
+
+  const user = {
+    id: 1,
+    profile: {
+      username: "john_doe",
+      email: "john@example.com",
+    },
+  };
+
+  const {
+    profile: { username },
+  } = user;
+  console.log(username);
+
+  //spread operator
+  //1. spreading in arrays
+  console.log("spreading in arrays");
+
+  const arr1 = [1, 2, 3];
+  const arr2 = [...arr1, 4, 5];
+
+  console.log(arr2);
+
+  //2. spreading in objects
+
+  console.log("spreading in objects");
+
+  const obj1 = { a: 1, b: 2 };
+  const obj2 = { ...obj1, c: 3 };
+
+  console.log(obj2);
+
+  //3.  spreading in function calls
+  console.log("spreading in function calls");
+
+  const digit = [10, 20, 30];
+
+  function sum(a, b, c) {
+    return a + b + c;
+  }
+
+  console.log(sum(...numbers));
+
+  //Rest parameter
+  //1. Rest in function
+
+  console.log("Rest in function");
+
+  const arr6 = [1, 2, 3];
+  const arr7 = [...arr6, 4, 5];
+  console.log(arr7);
+
+  //   //1. Rest in Destructuring
+  console.log("Rest in  Destructuring");
+  const [one, ...rest] = [10, 20, 30, 40];
+
+  console.log(one);
+  console.log(rest);
+  return <div>
+    <h1>Exercise 5</h1>
+    <p>Array Methods</p>
+  </div>;
 }
+
 export default Exercise5

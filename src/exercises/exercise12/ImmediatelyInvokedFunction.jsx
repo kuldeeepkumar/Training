@@ -11,7 +11,7 @@ const ImmediatelyInvokedFunction = () => {
   })();
 
   // console.log(privateVar); // Error: privateVar is not defined
-  return <div><h1>ImmediatelyInvokedFunction</h1></div>;
+  return <div>ImmediatelyInvokedFunction</div>;
 };
 
 export default ImmediatelyInvokedFunction;

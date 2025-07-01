@@ -15,8 +15,8 @@ const ReactExercise6 = () => {
 
       {show && (
         <div>
-          {/* <MountExample /> */}
-          {/* <UnmountExample /> */}
+          {/* <MountExample />
+         <UnmountExample /> */}
           <UpdateExample />
         </div>
       )}

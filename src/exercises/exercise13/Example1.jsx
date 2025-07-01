@@ -28,7 +28,7 @@ const Example1 = () => {
 
   fetchSinglePost();
 
-  return <div><h1>Example1</h1></div>
+  return <div>Example1</div>;
 };
 
 export default Example1;

@@ -1,40 +1,14 @@
-import AllMethods from "./Allmethods";
-import React from "react";
-
+import React from 'react'
+import Arrays from './Arrays'
+import AllMethods from './AllMethods'
 const Exercise4 = () => {
-  // PreDefine methods in array and objects
-
-  const fruits = ["apple", "banana", "cherry"];
-
-  fruits.push("orange");
-  console.log(fruits); // ["apple", "banana", "cherry", "orange"]
-
-  const person = {
-    name: "John",
-    age: 30,
-  };
-
-  console.log;
-  person.name; // John
-
-  const person2 = [
-    { name: "John", age: 30 },
-    { name: "Jane", age: 25 },
-    { name: "Mike", age: 35 },
-  ];
-  console.log("here is length", person2.length); // [{ name: "John", age: 30 }, { name: "Jane", age: 25 }, { name: "Mike", age: 35 }]
-
-  const numbers = [1, 2, 3, 4, 5];
-
-  const double = numbers.map((number) => number * 2);
-
-  console.log(double); // [2, 4, 6, 8, 10]
-
   return (
     <div>
-      <AllMethods />
+      <h1>Exercise4</h1>
+      <Arrays/>
+      <AllMethods/>
     </div>
-  );
-};
+  )
+}
 
-export default Exercise4;
+export default Exercise4

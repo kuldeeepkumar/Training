@@ -1,7 +1,4 @@
-// This component consumes the theme context without receiving props
-
 import React, { useContext } from "react";
-
 import { ThemeContext } from "./ThemeContext";
 
 function Header() {
@@ -13,7 +10,7 @@ function Header() {
     <header
       style={{
         backgroundColor: isDarkTheme ? "#333" : "#f5f5f5",
-        color: isDarkTheme ? "#fff" : "#000",
+        color: isDarkTheme ? "#fffd" : "#000",
         padding: "10px",
         textAlign: "center",
       }}>

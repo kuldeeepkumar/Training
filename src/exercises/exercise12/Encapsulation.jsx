@@ -31,7 +31,7 @@ const Encapsulation = () => {
   console.log("Current count (public method):", counter.getCount()); // Output: 1
   // console.log(counter.count); // Undefined: 'count' is private
 
-  return <div><h1>Encapsulation</h1></div>;
+  return <div>Encapsulation</div>;
 };
 
 export default Encapsulation;

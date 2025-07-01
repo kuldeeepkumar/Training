@@ -1,5 +1,3 @@
-// FormValidation.js
-
 import React, { useState } from "react";
 
 const FormValidation = () => {

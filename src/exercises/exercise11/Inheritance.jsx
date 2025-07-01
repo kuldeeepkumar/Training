@@ -33,7 +33,7 @@ const Inheritance = () => {
   const dog1 = new Dog("Buddy", "Golden Retriever");
   dog1.speak(); // Output: Buddy barks.
   dog1.showBreed(); // Output: Breed: Golden Retriever
-  return <div><h1>Inheritance</h1></div>;
+  return <div>Inheritance</div>;
 };
 
 export default Inheritance;

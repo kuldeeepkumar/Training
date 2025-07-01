@@ -7,6 +7,7 @@ import React from "react";
 const Exercise12 = () => {
   return (
     <>
+    <h1>Exercise12</h1>
       <Closure />
       <ImmediatelyInvokedFunction />
       <Encapsulation />
