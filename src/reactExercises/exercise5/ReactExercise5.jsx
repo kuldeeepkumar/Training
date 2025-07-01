@@ -13,5 +13,4 @@ const ReactExercise5 = () => {
     </>
   );
 };
-
 export default ReactExercise5;
