@@ -26,6 +26,7 @@ import HomePage from './HomePage';
 import { Route, Routes } from "react-router-dom";
 import ReactExercise9 from './reactExercises/exercise9/ReactExercise9';
 import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";
+import TailwindExercise2 from "./tailwindCss/exercise2/TailwindExercise2";
 
 function App() {
   
@@ -129,6 +130,7 @@ function App() {
   ];
      const tailwindExercisesData = [
     { routesName: "TailwindExercise1", component: <TailwindExercise1 /> },
+    { routesName: "TailwindExercise2", component: <TailwindExercise2 /> },
   ];
 
 
