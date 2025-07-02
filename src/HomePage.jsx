@@ -95,12 +95,16 @@ const HomePage = () => {
      {
       routesName: "ReactExercise9",
     },
+   
   ];
-  const handleClick=()=>
-  {
-    
-    setToggleClass(!toggleClass);
-  }
+  const tailwindExercises=[
+ { 
+      routesName: "TailwindExercise1"
+    },
+    { 
+      routesName: "TailwindExercise2"
+    },
+  ];
   return (
     <>
       <div>
@@ -131,6 +135,19 @@ const HomePage = () => {
           ))}
         </nav>
       </div>
+       <h2> Tailwind Exercises</h2>
+        <nav className="mainContainer">
+          {tailwindExercises.map((route,index) => (
+            
+            <button
+              key={route.routesName}
+         
+              onClick={() => navigation(`/${route.routesName}`)}
+              className={index % 2 === 0 ? "cardButtonUp" : "cardButtonDown"}>
+              {route.routesName}
+            </button>
+          ))}
+        </nav>
     </>
   );
 };
