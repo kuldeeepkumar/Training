@@ -27,6 +27,7 @@ import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
 import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";
+import TailwindExercise2 from "./tailwindCss/exercise2/TailwindExercise2";
 import TodoApp from "./exercises/experiments/TodoApp";
 
 function App() {
@@ -130,6 +131,7 @@ function App() {
 
   const tailwindExercisesData = [
     { routesName: "TailwindExercise1", component: <TailwindExercise1 /> },
+    { routesName: "TailwindExercise2", component: <TailwindExercise2 /> },
   ];
 
   return (
