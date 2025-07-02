@@ -23,6 +23,7 @@ import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import { useNavigate } from "react-router-dom";
 import TodoApp from "./exercises/experiments/TodoApp";
 import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
+import TailwindExercise2 from "./tailwindCss/exercise2/TailwindExercise2";
 
 const HomePage = () => {
   const navigation = useNavigate();
@@ -74,7 +75,11 @@ const HomePage = () => {
 
     { routesName: "ReactExercise9" },
   ];
-  const tailwindExecisesData = [{ routesName: "TailwindExercise1" }];
+  const tailwindExecisesData = [
+    { routesName: "TailwindExercise1" },
+    { routesName: "TailwindExercise2" },
+  ];
+
   return (
     <>
       <div>
