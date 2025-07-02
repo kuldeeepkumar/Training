@@ -5,9 +5,6 @@ import ReactExercise4 from './ReactExercise/exercise4/ReactExercise4';
 import ReactExercise5 from './ReactExercise/exercise5/ReactExercise5';
 import ReactExercise6 from './ReactExercise/exercise6/ReactExercise6';
 import ReactExercise7 from './ReactExercise/exercise7/ReactExercise7';
-
-
-
 import TodoApp from './exercises/experiments/TodoApp';
 import Exercise2 from './exercises/exercise2/Exercise2'
 import Exercise3 from './exercises/exercise3/Exercise3';
@@ -29,6 +26,7 @@ import ReactExercise9 from './ReactExercise/exercise9/ReactExercise9';
 import ReactExercise8 from './ReactExercise/exercise8/ReactExercise8';
 import HomePage from './HomePage';
 import TailwindExercise1 from './tailwindCss/exercise1/TailwindExercise1';
+import TailwindExercise2 from './tailwindCss/exercise2/TailwindExercise2';
 
 
 const App = () => {
@@ -131,7 +129,14 @@ const App = () => {
   ];
 
   const tailwindExercisesData = [
-    { routesName: "TailwindExercise1", component: <TailwindExercise1 /> },
+    {
+       routesName: "TailwindExercise1",
+       component: <TailwindExercise1 />
+      },
+      {
+       routesName: "TailwindExercise2",
+       component: <TailwindExercise2 />
+      },
   ];
 
   return (

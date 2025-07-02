@@ -1,0 +1,117 @@
+/* 0. CSS Variables */Add commentMore actions
+:root {
+  --main-color: #3498db;
+  --hover-color: #2c3e50;
+  --text-color: #fff;
+}
+
+/* 1. Container */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* 2. Title Styling */
+.title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* 3. Box Styling */
+.box {
+  background-color: lightgray;
+  border: 2px solid red;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/* 4. Flexbox Layout */
+.flexLayout {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.flexItem {
+  background-color: #eee;
+  padding: 10px;
+  flex: 1;
+  margin: 0 5px;
+}
+
+/* 5. Grid Layout */
+.gridLayout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.gridItem {
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 6. Responsive Design */
+.responsiveBox {
+  background-color: #fafafa;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .responsiveBox {
+    background-color: #cce5ff;
+  }
+}
+
+/* 7. Transition and Hover Effects */
+.transitionBox {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.transitionBox:hover {
+  background-color: green;
+}
+
+/* 8. Pseudo-classes and Pseudo-elements */
+.paragraph::first-line {
+  font-weight: bold;
+}
+
+.highlight {
+  color: blue;
+}
+
+.button {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: gray;
+}
+
+/* 9. Styling Forms */
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  display: block;
+}
+
+/* 10. CSS Variable Usage */
+.variableColorBox {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: 10px;
+  margin-top: 20px;
+}
