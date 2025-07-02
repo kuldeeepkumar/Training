@@ -1,4 +1,4 @@
-// This file creates the context and a provider to share theme valueAdd commentMore actionsAdd commentMore actions
+// This file creates the context and a provider to share theme value
 
 import React, { createContext, useState } from "react";
 
@@ -22,5 +22,3 @@ export function ThemeProvider({ children }) {
     </ThemeContext.Provider>
   );
 }
-
-export default ThemeContext;

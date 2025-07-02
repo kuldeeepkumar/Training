@@ -1,4 +1,4 @@
-// This component consumes the theme context without receiving propsAdd commentMore actionsAdd commentMore actions
+// This component consumes the theme context without receiving props
 
 import React, { useContext } from "react";
 
@@ -16,7 +16,8 @@ function Header() {
         color: isDarkTheme ? "#fff" : "#000",
         padding: "10px",
         textAlign: "center",
-      }}>
+      }}
+    >
       <h2>{isDarkTheme ? "Dark Mode" : "Light Mode"} Header</h2>
       <button onClick={toggleTheme}>Toggle Theme {name}</button>
     </header>

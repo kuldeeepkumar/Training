@@ -6,11 +6,11 @@ import Variables from './Variables'
 const Exercise1 = () => {
   return (
     <>
-      {/* <Datatypes/> */}
-      {/* <Opertors/> */}
+      <Datatypes/> 
+     <Opertors/>
       <Variables/>
       </>
   )
 }
 
-export default Exercise1
+export default Exercise1;
