@@ -6,7 +6,7 @@ const Website = () => {
   return (
     <>
     <div>
-    {/* <Registration/> */}
+    <Registration/>
     <Login/>
     </div>
     </>

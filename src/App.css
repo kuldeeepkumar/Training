@@ -148,3 +148,10 @@ font-family: castellar;
    border: 2px solid black;
   border-radius: 12px;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}

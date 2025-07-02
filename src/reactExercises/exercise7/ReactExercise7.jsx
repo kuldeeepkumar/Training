@@ -7,7 +7,7 @@ function ReactExercise7() {
     // Wrap your ReactExercise7 inside ThemeProvider to give access to context
     <ThemeProvider>
       <div>
-        <Header />
+        <Header/>
         <p style={{ padding: "20px" }}>
           This is a sample ReactExercise7 demonstrating Context API in React.
         </p>
