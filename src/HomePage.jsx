@@ -22,7 +22,8 @@ import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import { useNavigate } from "react-router-dom";
 import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
-import TailwindExercise1 from "./exercises/tailwindCss/exercise1/TailwindExercise1";
+import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1.jsx";
+import TailwindExercise2 from "./tailwindCss/exercise2/TailwindExercise2.jsx";
 
 const HomePage = () => {
   const navigation = useNavigate();
@@ -98,8 +99,14 @@ const HomePage = () => {
     {
       routesName: "TailwindExercise1",
     },
+    {
+      routesName: "TailwindExercise2",
+    },
   ];
-  const tailwindExecisesData = [{ routesName: "TailwindExercise1" }];
+  const tailwindExecisesData = [
+    { routesName: "TailwindExercise1" },
+    { routesName: "TailwindExercise2" },
+  ];
   return (
     <>
       <div>
