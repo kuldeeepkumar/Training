@@ -79,6 +79,9 @@ const HomePage = () => {
     {
       routesName: "TailwindExercise1",
     },
+    {
+      routesName: "TailwindExercise2",
+    },
   ];
   return (
     <>

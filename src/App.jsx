@@ -3,18 +3,18 @@ import "./App.css";
 import { BrowserRouter, Link, Route, Router, Routes } from "react-router-dom";
 
 import Exercise1 from "./exercises/exercise1/Exercise1";
-import Exercise10 from "./exercises/exercise10/Exercise10";
-import Exercise11 from "./exercises/exercise11/Exercise11";
-import Exercise12 from "./exercises/exercise12/Exercise12";
-import Exercise13 from "./exercises/exercise13/Exercise13";
 import Exercise2 from "./exercises/exercise2/Exercise2";
 import Exercise3 from "./exercises/exercise3/Exercise3";
 import Exercise4 from "./exercises/exercise4/Exercise4";
 import Exercise5 from "./exercises/exercise5/Exercise5";
 import Exercise6 from "./exercises/exercise6/Exercise6";
 import Exercise7 from "./exercises/exercise7/Exercise7";
-import Exercise8 from "./exercises/exercise8/Exercise8";
 import Exercise9 from "./exercises/exercise9/Exercise9";
+import Exercise8 from "./exercises/exercise8/Exercise8";
+import Exercise10 from "./exercises/exercise10/Exercise10";
+import Exercise11 from "./exercises/exercise11/Exercise11";
+import Exercise12 from "./exercises/exercise12/Exercise12";
+import Exercise13 from "./exercises/exercise13/Exercise13";
 import HomePage from "./HomePage";
 import React from "react";
 import ReactExercise1 from "./reactExersices/exercise1/ReactExercise1";
@@ -27,8 +27,9 @@ import ReactExercise7 from "./reactExersices/Exersice7/ReactExercise7";
 import ReactExercise8 from "./reactExersices/Exersice8/ReactExercise8";
 import ReactExercise9 from "./reactExersices/exercise9/ReactExercise9";
 import ReactExercise6 from "./reactExersices/exersice6/ReactExercise6";
-import TailwindExercise1 from "./TailwindCss/TailwindExercise1";
-import TodoApp from './experiments/experiment TodoApp';
+import TodoApp from "./experiments/experiment TodoApp";
+import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";
+import TailwindExercise2 from "./tailwindCss/exercise2/TalwindExercise2";
 
 function App() {
   const javaScriptExercisesData = [
@@ -135,6 +136,7 @@ function App() {
 
   const tailwindExercisesData = [
     { routesName: "TailwindExercise1", component: <TailwindExercise1 /> },
+    { routesName: "TailwindExercise2", component: <TailwindExercise2 /> },
   ];
 
   return (
