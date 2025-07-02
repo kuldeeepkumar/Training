@@ -30,6 +30,7 @@ import HomePage from './HomePage';
 import ReactExercise6 from './reactExercises/exercise6/ ReactExercise6';
 import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
 import TailwindExercise1 from './tailwindCss/exercise1/TailwindExercise';
+import TailwindExercise2 from "./tailwindCss/exercise2/TailwindExercise2";
 function App() {
   const javaScriptExercisesData = [
     {
@@ -133,8 +134,10 @@ function App() {
       component: <ReactExercise9/>,
     },
   ];
-    const tailwindExercisesData = [
+    
+  const tailwindExercisesData = [
     { routesName: "TailwindExercise1", component: <TailwindExercise1 /> },
+    { routesName: "TailwindExercise2", component: <TailwindExercise2 /> },
   ];
 
   return (
