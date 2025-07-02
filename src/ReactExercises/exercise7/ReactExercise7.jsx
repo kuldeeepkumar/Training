@@ -1,4 +1,4 @@
-w// This is the root component that wraps all children inside ThemeProviderAdd commentMore actions
+// This is the root component that wraps all children inside ThemeProviderAdd commentMore actions
 
 import Header from "./Header";
 import React from "react";
