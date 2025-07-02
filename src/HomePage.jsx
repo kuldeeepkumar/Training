@@ -101,7 +101,10 @@ const HomePage = () => {
       routesName: "ReactExercise9",
     },
   ];
-  const tailwindExecisesData = [{ routesName: "TailwindExercise1" }];
+  const tailwindExecisesData = [
+    { routesName: "TailwindExercise1" },
+    { routesName: "TailwindExercise2" },
+  ];
   return (
     <>
       <div>
@@ -133,7 +136,7 @@ const HomePage = () => {
         </nav>
       </div>
       {/* This Section code is repesenting Tailwind CSS Exercises */}
-    
+
       <div>
         <h2> Tailwind CSS Exercises</h2>
         <nav className="mainContainer">
