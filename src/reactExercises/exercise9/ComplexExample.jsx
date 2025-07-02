@@ -1,5 +1,3 @@
-// demo.js (Extended Example)
-
 import React, { useReducer } from "react";
 
 // Initial form state

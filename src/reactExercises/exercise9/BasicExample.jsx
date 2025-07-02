@@ -1,8 +1,5 @@
 import React, { useReducer } from "react";
-
-// Initial state object
 const initialState = { count: 0 };
-
 // Reducer function to update state based on action type
 function reducer(state, action) {
   switch (action.type) {
