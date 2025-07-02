@@ -1,5 +1,6 @@
 
 import { useNavigate } from "react-router-dom";
+import TailwindExercise2 from './tailwindCss/exercise2/TailwindExercise2';
 
 const HomePage = () => {
   const navigation = useNavigate();
@@ -73,7 +74,10 @@ const HomePage = () => {
       routesName: "ReactExercise9",
     },
   ];
-   const tailwindExecisesData = [{ routesName: "TailwindExercise1" }];
+   const tailwindExecisesData = [
+    { routesName: "TailwindExercise1" },
+               { routesName: "TailwindExercise2" },
+   ];
   return (
     <>
       <div>
