@@ -73,7 +73,10 @@ const HomePage = () => {
       routesName: "ReactExercise9",
     },
   ];
-  const tailwindExecisesData = [{ routesName: "TailwindExercise1" }];
+  const tailwindExecisesData = [
+    { routesName: "TailwindExercise1" },
+    { routesName: "TailwindExercise2" },
+  ];
   return (
     <>
       {/* This Section code is repesenting java script Exercises */}
