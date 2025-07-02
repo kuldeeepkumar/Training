@@ -22,6 +22,7 @@ import ReactExercise7 from "./ReactExercise/exercise7/ReactExercise7";
 import ReactExercise8 from "./ReactExercise/exercise8/ReactExercise8";
 import { useNavigate } from "react-router-dom";
 import TailwindExercise1 from './tailwindCss/exercise1/TailwindExercise1';
+import TailwindExercise2 from './tailwindCss/exercise2/TailwindExercise2';
 
 const HomePage = () => {
   const navigation = useNavigate();
@@ -94,10 +95,15 @@ const HomePage = () => {
     {
       routesName: "ReactExercise9",
     },
-    {
-      routesName: "TailwindExercise1",
-    },
   ];
+    const tailwindExercisesData = [
+    { routesName: "TailwindExercise1",
+       component: <TailwindExercise1 /> },
+    { routesName: "TailwindExercise2",
+       component: <TailwindExercise2 /> },
+  ];
+   
+  
   return (
     <>
       <div>
@@ -126,6 +132,21 @@ const HomePage = () => {
               {route.routesName}
             </button>
           ))}
+          </nav>
+          </div>
+          {/* This Section code is repesenting Tailwind CSS Exercises */}
+      <div>
+        <h2> Tailwind CSS Exercises</h2>
+        <nav className="mainContainer">
+          {tailwindExercisesData.map((route) => (
+            <button
+              key={route.routesName}
+              onClick={() => navigation(`/${route.routesName}`)}
+              className="cardButton">
+              {route.routesName}
+            </button>
+          ))}
+ 
         </nav>
       </div>
     </>
