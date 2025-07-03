@@ -1,0 +1,81 @@
+body{
+    background-color: #f4f6f8;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.heading {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+.input:hover{
+  border-color: black;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2da2f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    transform: scale(1.02);
+    background-color: #2970da;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todoText {
+    cursor: pointer;
+}
+
+.editBtn {
+    margin-right: 10px;
+    background-color: #ffc107;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.delBtn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
