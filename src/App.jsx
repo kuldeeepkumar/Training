@@ -24,6 +24,7 @@ import ReactExercise7 from './reactExercises/exercise7/ReactExercise7'
 import ReactExercise8 from './reactExercises/exercise8/ReactExercise8'
 import ReactExercise9 from './reactExercises/exercise9/ReactExercise9'
 import TailwindExercise1 from './tailwindCss/exercise1/TailwindExercise1'
+import TailwindExercise2 from './tailwindCss/exercise1/exercise2/TailwindExercise2'
 function App() {
   return (
     <>
@@ -51,7 +52,7 @@ function App() {
     <ReactExercise8/>
     <ReactExercise9/>
     <TailwindExercise1/>
-    </> 
+    <TailwindExercise2/>
   );
 }
 export default App
