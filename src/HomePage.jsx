@@ -92,44 +92,61 @@ const HomePage = () => {
     {
       routesName: "ReactExercise8",
     },
-     {
+    {
       routesName: "ReactExercise9",
     },
   ];
-  const handleClick=()=>
-  {
-    
-    setToggleClass(!toggleClass);
-  }
+  const tailwindExecisesData = [
+    { routesName: "TailwindExercise1" },
+    { routesName: "TailwindExercise2" },
+  ];
   return (
     <>
+      {/* This Section code is repesenting java script Exercises */}
       <div>
         <h2> Java Script Exercises</h2>
         <nav className="mainContainer">
-          {javaScriptExecisesData.map((route,index) => (
+          {javaScriptExecisesData.map((route) => (
             <button
               key={route.routesName}
-              onClick={() => navigation(`/${route.routesName}`) }
-              className={index % 2 === 0 ? "cardButtonUp" : "cardButtonDown"}>
+              onClick={() => navigation(`/${route.routesName}`)}
+              className="cardButton"
+            >
               {route.routesName}
             </button>
           ))}
         </nav>
       </div>
+      {/* This Section code is repesenting React Exercises */}
       <div>
         <h2> React Exercises</h2>
         <nav className="mainContainer">
-          {reactExecisesData.map((route,index) => (
-            
+          {reactExecisesData.map((route) => (
             <button
               key={route.routesName}
-         
               onClick={() => navigation(`/${route.routesName}`)}
-              className={index % 2 === 0 ? "cardButtonUp" : "cardButtonDown"}>
+              className="cardButton"
+            >
               {route.routesName}
             </button>
           ))}
         </nav>
+      </div>
+      {/* This Section code is repesenting Tailwind CSS Exercises */}
+      <div>
+        <h2> Tailwind CSS Exercises</h2>
+        <nav className="mainContainer">
+          {tailwindExecisesData.map((route) => (
+            <button
+              key={route.routesName}
+              onClick={() => navigation(`/${route.routesName}`)}
+              className="cardButton"
+            >
+              {route.routesName}
+            </button>
+          ))}
+        </nav>
+        s
       </div>
     </>
   );

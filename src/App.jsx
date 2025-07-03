@@ -1,8 +1,6 @@
-import {
-  BrowserRouter,
-  Route,
-  Routes
-} from "react-router-dom";
+import "./App.css";
+
+import { BrowserRouter, Link, Route, Router, Routes } from "react-router-dom";
 
 import Exercise1 from "./exercises/exercise1/Exercise1";
 import Exercise10 from "./exercises/exercise10/Exercise10";
@@ -29,56 +27,139 @@ import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
 import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";
+import TailwindExercise2 from "./tailwindCss/exercise2/TailwindExercise2";
+import TodoApp from "./exercises/experiments/TodoApp";
+
 function App() {
   const javaScriptExercisesData = [
-    { routesName: "/", component: <HomePage /> },
-    { routesName: "Exercise1", component: <Exercise1 /> },
-    { routesName: "Exercise2", component: <Exercise2 /> },
-    { routesName: "Exercise3", component: <Exercise3 /> },
-    { routesName: "Exercise4", component: <Exercise4 /> },
-    { routesName: "Exercise5", component: <Exercise5 /> },
-    { routesName: "Exercise6", component: <Exercise6 /> },
-    { routesName: "Exercise7", component: <Exercise7 /> },
-    { routesName: "Exercise8", component: <Exercise8 /> },
-    { routesName: "Exercise9", component: <Exercise9 /> },
-    { routesName: "Exercise10", component: <Exercise10 /> },
-    { routesName: "Exercise11", component: <Exercise11 /> },
-    { routesName: "Exercise12", component: <Exercise12 /> },
-    { routesName: "Exercise13", component: <Exercise13 /> },
+    {
+      routesName: "/",
+      component: <HomePage />,
+    },
+    {
+      routesName: "Exercise1",
+      component: <Exercise1 />,
+    },
+    {
+      routesName: "Exercise2",
+      component: <Exercise2 />,
+    },
+    {
+      routesName: "Exercise3",
+      component: <Exercise3 />,
+    },
+    {
+      routesName: "Exercise4",
+      component: <Exercise4 />,
+    },
+    {
+      routesName: "Exercise5",
+      component: <Exercise5 />,
+    },
+    {
+      routesName: "Exercise6",
+      component: <Exercise6 />,
+    },
+    {
+      routesName: "Exercise7",
+      component: <Exercise7 />,
+    },
+    {
+      routesName: "Exercise8",
+      component: <Exercise8 />,
+    },
+    {
+      routesName: "Exercise9",
+      component: <Exercise9 />,
+    },
+    {
+      routesName: "Exercise10",
+      component: <Exercise10 />,
+    },
+    {
+      routesName: "Exercise11",
+      component: <Exercise11 />,
+    },
+    {
+      routesName: "Exercise12",
+      component: <Exercise12 />,
+    },
+    {
+      routesName: "Exercise13",
+      component: <Exercise13 />,
+    },
   ];
 
   const reactExercisesData = [
-    { routesName: "ReactExercise1", component: <ReactExercise1 /> },
-    { routesName: "ReactExercise2", component: <ReactExercise2 /> },
-    { routesName: "ReactExercise3", component: <ReactExercise3 /> },
-    { routesName: "ReactExercise4", component: <ReactExercise4 /> },
-    { routesName: "ReactExercise5", component: <ReactExercise5 /> },
-    { routesName: "ReactExercise6", component: <ReactExercise6 /> },
-    { routesName: "ReactExercise7", component: <ReactExercise7 /> },
-    { routesName: "ReactExercise8", component: <ReactExercise8 /> },
-     { routesName: "ReactExercise9", component: <ReactExercise9 /> },
+    {
+      routesName: "ReactExercise1",
+      component: <ReactExercise1 />,
+    },
+    {
+      routesName: "ReactExercise2",
+      component: <ReactExercise2 />,
+    },
+    {
+      routesName: "ReactExercise3",
+      component: <ReactExercise3 />,
+    },
+    {
+      routesName: "ReactExercise4",
+      component: <ReactExercise4 />,
+    },
+    {
+      routesName: "ReactExercise5",
+      component: <ReactExercise5 />,
+    },
+    {
+      routesName: "ReactExercise6",
+      component: <ReactExercise6 />,
+    },
+    {
+      routesName: "ReactExercise7",
+      component: <ReactExercise7 />,
+    },
+    {
+      routesName: "ReactExercise8",
+      component: <ReactExercise8 />,
+    },
+    {
+      routesName: "ReactExercise9",
+      component: <ReactExercise9 />,
+    },
+  ];
+
+  const tailwindExercisesData = [
+    { routesName: "TailwindExercise1", component: <TailwindExercise1 /> },
+    { routesName: "TailwindExercise2", component: <TailwindExercise2 /> },
   ];
 
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     {javaScriptExercisesData.map((route) => (
-    //       <Route
-    //         key={route.routesName}
-    //         path={route.routesName}
-    //         element={route.component}
-    //       />
-    //     ))}
-    //     {reactExercisesData.map((route) => (
-    //       <Route
-    //         key={route.routesName}
-    //         path={route.routesName}
-    //         element={route.component}
-    //       />
-    //     ))}
-    //   </Routes>
-    // </BrowserRouter>
-    <TailwindExercise1/>
+    <>
+      <Routes>
+        {javaScriptExercisesData.map((route) => (
+          <Route
+            key={route.routesName}
+            path={`/${route.routesName}`}
+            element={route.component}
+          />
+        ))}
+        {reactExercisesData.map((route) => (
+          <Route
+            key={route.routesName}
+            path={`/${route.routesName}`}
+            element={route.component}
+          />
+        ))}
+        {tailwindExercisesData.map((route) => (
+          <Route
+            key={route.routesName}
+            path={`/${route.routesName}`}
+            element={route.component}
+          />
+        ))}
+      </Routes>
+    </>
   );
 }
 
