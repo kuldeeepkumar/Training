@@ -15,7 +15,7 @@ import Exercise4 from "./exercises/exercise4/Exercise4";
 import Exercise5 from "./exercises/exercise5/Exercise5";
 import Exercise6 from "./exercises/exercise6/Exercise6";
 import Exercise7 from "./exercises/exercise7/Exercise7";
-import Exercise8 from "./exercises/exercise8/Exercise8";    
+import Exercise8 from "./exercises/exercise8/Exercise8";
 import Exercise9 from "./exercises/exercise9/Exercise9";
 import HomePage from "./HomePage";
 import React from "react";
@@ -28,7 +28,8 @@ import ReactExercise6 from "./reactExercises/exercise6/ReactExercise6";
 import ReactExercise7 from "./reactExercises/exercise7/ReactExercise7";
 import ReactExercise8 from "./reactExercises/exercise8/ReactExercise8";
 import ReactExercise9 from "./reactExercises/exercise9/ReactExercise9";
-import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";  
+import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";
+import TailwindExercise2 from "./tailwindCss/exercise2/TailwindExercise2";
 function App() {
   const javaScriptExercisesData = [
     { routesName: "/", component: <HomePage /> },
@@ -57,28 +58,30 @@ function App() {
     { routesName: "ReactExercise7", component: <ReactExercise7 /> },
     { routesName: "ReactExercise8", component: <ReactExercise8 /> },
      { routesName: "ReactExercise9", component: <ReactExercise9 /> },
+       { routesName: "TailwindExercise1", component: <TailwindExercise1 /> },
+    { routesName: "TailwindExercise2", component: <TailwindExercise2 /> },
+     
   ];
 
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     {javaScriptExercisesData.map((route) => (
-    //       <Route
-    //         key={route.routesName}
-    //         path={route.routesName}
-    //         element={route.component}
-    //       />
-    //     ))}
-    //     {reactExercisesData.map((route) => (
-    //       <Route
-    //         key={route.routesName}
-    //         path={route.routesName}
-    //         element={route.component}
-    //       />
-    //     ))}
-    //   </Routes>
-    // </BrowserRouter>
-    <TailwindExercise1/>
+    <BrowserRouter>
+      <Routes>
+        {javaScriptExercisesData.map((route) => (
+          <Route
+            key={route.routesName}
+            path={route.routesName}
+            element={route.component}
+          />
+        ))}
+        {reactExercisesData.map((route) => (
+          <Route
+            key={route.routesName}
+            path={route.routesName}
+            element={route.component}
+          />
+        ))}
+      </Routes>
+     </BrowserRouter>
   );
 }
 

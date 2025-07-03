@@ -95,17 +95,26 @@ const HomePage = () => {
      {
       routesName: "ReactExercise9",
     },
+   
+  ];
+  const tailwindExercises=[
+ { 
+      routesName: "TailwindExercise1"
+    },
+    { 
+      routesName: "TailwindExercise2"
+    },
   ];
   return (
     <>
       <div>
         <h2> Java Script Exercises</h2>
         <nav className="mainContainer">
-          {javaScriptExecisesData.map((route) => (
+          {javaScriptExecisesData.map((route,index) => (
             <button
               key={route.routesName}
-              onClick={() => navigation(`/${route.routesName}`)}
-              className="cardButton">
+              onClick={() => navigation(`/${route.routesName}`) }
+              className={index % 2 === 0 ? "cardButtonUp" : "cardButtonDown"}>
               {route.routesName}
             </button>
           ))}
@@ -114,16 +123,31 @@ const HomePage = () => {
       <div>
         <h2> React Exercises</h2>
         <nav className="mainContainer">
-          {reactExecisesData.map((route) => (
+          {reactExecisesData.map((route,index) => (
+            
             <button
               key={route.routesName}
+         
               onClick={() => navigation(`/${route.routesName}`)}
-              className="cardButton">
+              className={index % 2 === 0 ? "cardButtonUp" : "cardButtonDown"}>
               {route.routesName}
             </button>
           ))}
         </nav>
       </div>
+       <h2> Tailwind Exercises</h2>
+        <nav className="mainContainer">
+          {tailwindExercises.map((route,index) => (
+            
+            <button
+              key={route.routesName}
+         
+              onClick={() => navigation(`/${route.routesName}`)}
+              className={index % 2 === 0 ? "cardButtonUp" : "cardButtonDown"}>
+              {route.routesName}
+            </button>
+          ))}
+        </nav>
     </>
   );
 };
