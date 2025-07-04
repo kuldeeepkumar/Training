@@ -78,12 +78,13 @@ p{
   margin-bottom: 1rem;
 } */
 
-.mainContainer{
-    justify-content: center;
-    margin:5px;
+.mainContainer {
+  justify-content: center;
+  margin: 5px;
 }
- .cardButtonUp,.cardButtonDown{
-    background: white;
+.cardButtonUp,
+.cardButtonDown {
+  background: white;
   color: #333;
   border: 2px solid #007bff;
   padding: 12px 20px;
@@ -91,26 +92,25 @@ p{
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-   background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
   transition: background 0.3s ease, transform 0.3s ease;
- }
-.cardButtonUp:hover{
-    transform: scale(1.05);
-    background: #007bff;
+}
+.cardButtonUp:hover {
+  transform: scale(1.05);
+  background: #007bff;
   color: white;
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
-    background: linear-gradient(135deg, #007bff, #0056b3);
+  background: linear-gradient(135deg, #007bff, #0056b3);
   color: #fff;
 }
-.cardButtonDown:hover{
-    transform: scale(1.05);
-    background: #007bff;
+.cardButtonDown:hover {
+  transform: scale(1.05);
+  background: #007bff;
   color: white;
   transform: translateY(5px);
   box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
-    background: linear-gradient(135deg, #007bff, #0056b3);
+  background: linear-gradient(135deg, #007bff, #0056b3);
   color: #fff;
 }
-  

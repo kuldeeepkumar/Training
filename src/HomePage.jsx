@@ -1,4 +1,4 @@
-import "./App.css"
+import "./App.css";
 import Exercise1 from "./exercises/exercise1/Exercise1";
 import Exercise10 from "./exercises/exercise10/Exercise10";
 import Exercise11 from "./exercises/exercise11/Exercise11";
@@ -102,52 +102,46 @@ const HomePage = () => {
   ];
   return (
     <>
-      {/* This Section code is repesenting java script Exercises */}
       <div>
         <h2> Java Script Exercises</h2>
         <nav className="mainContainer">
-          {javaScriptExecisesData.map((route) => (
+          {javaScriptExecisesData.map((route, index) => (
             <button
               key={route.routesName}
               onClick={() => navigation(`/${route.routesName}`)}
-              className="cardButton"
+              className={index % 2 === 0 ? "cardButtonUp" : "cardButtonDown"}
             >
               {route.routesName}
             </button>
           ))}
         </nav>
       </div>
-      {/* This Section code is repesenting React Exercises */}
       <div>
         <h2> React Exercises</h2>
         <nav className="mainContainer">
-          {reactExecisesData.map((route) => (
+          {reactExecisesData.map((route, index) => (
             <button
               key={route.routesName}
               onClick={() => navigation(`/${route.routesName}`)}
-              className="cardButton"
+              className={index % 2 === 0 ? "cardButtonUp" : "cardButtonDown"}
             >
               {route.routesName}
             </button>
           ))}
         </nav>
       </div>
-      {/* This Section code is repesenting Tailwind CSS Exercises */}
-      <div>
-        <h2> Tailwind CSS Exercises</h2>
-        <nav className="mainContainer">
-          {tailwindExecisesData.map((route) => (
-            <button
-              key={route.routesName}
-              onClick={() => navigation(`/${route.routesName}`)}
-              className="cardButton"
-            >
-              {route.routesName}
-            </button>
-          ))}
-        </nav>
-        s
-      </div>
+      <h2> Tailwind Exercises</h2>
+      <nav className="mainContainer">
+        {tailwindExecisesData.map((route, index) => (
+          <button
+            key={route.routesName}
+            onClick={() => navigation(`/${route.routesName}`)}
+            className={index % 2 === 0 ? "cardButtonUp" : "cardButtonDown"}
+          >
+            {route.routesName}
+          </button>
+        ))}
+      </nav>
     </>
   );
 };
