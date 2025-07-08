@@ -34,7 +34,4 @@ const Example2 = () => {
   createPost();
   return <div>Example2</div>;
 };
-
 export default Example2;
-
-

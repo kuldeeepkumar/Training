@@ -1,6 +1,5 @@
-// Import necessary librariesAdd commentMore actions
-
 import React from "react";
+// Import necessary libraries
 
 // ===============================
 // Functional Component - Basic

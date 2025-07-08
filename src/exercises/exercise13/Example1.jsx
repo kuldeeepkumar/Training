@@ -21,7 +21,7 @@ const Example1 = () => {
         console.log("Post title:", data.title);
       })
       .catch((error) => {
-        // Handle errors such as network failureAdd commentMore actions
+        // Handle errors such as network failure
         console.error("Fetch error:", error);
       });
   }

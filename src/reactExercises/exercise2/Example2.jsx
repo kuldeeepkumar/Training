@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Example2 = () => {
   // ----------- Example 2: Text Input Component -----------
 

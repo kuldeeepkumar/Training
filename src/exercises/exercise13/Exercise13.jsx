@@ -13,5 +13,4 @@ const Exercise13 = () => {
     </>
   );
 };
-
 export default Exercise13;

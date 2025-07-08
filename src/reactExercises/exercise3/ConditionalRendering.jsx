@@ -1,6 +1,3 @@
-// ConditionalRendering.jsAdd commentMore actions
-// This component demonstrates conditional rendering based on state and events
-
 import React, { useState } from "react";
 
 const ConditionalRendering = () => {
@@ -25,6 +22,9 @@ const ConditionalRendering = () => {
         {isVisible ? "Hide Message" : "Show Message"}
       </button>
       <br />
+      {isVisible && (
+        <p>This message is conditionally rendered based on button click.</p>
+      )}
       <br />
       <br />
 
@@ -47,9 +47,6 @@ const ConditionalRendering = () => {
       )}
 
       {/* Message appears only if isVisible is true */}
-      {isVisible && (
-        <p>This message is conditionally rendered based on button click.</p>
-      )}
     </div>
   );
 };

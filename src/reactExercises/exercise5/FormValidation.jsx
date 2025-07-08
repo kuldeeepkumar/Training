@@ -1,5 +1,3 @@
-// FormValidation.jsAdd commentMore actions
-
 import React, { useState } from "react";
 
 const FormValidation = () => {
