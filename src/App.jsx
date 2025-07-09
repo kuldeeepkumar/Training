@@ -25,6 +25,8 @@ import Exercise2 from './exercises/exercise2/Exercise2';
 import Exercise1 from './exercises/exercise1/Exercise1';
 import HomePage from "./HomePage";
 import HeaderComponent from "./CLASSROOM/HeaderComponent";
+import TailwindExercise1 from "./tailwindCss/exercise1/TailwindExercise1";
+import TailwindExercise2 from "./tailwindCss/exercise2/TailwindExercise2";
 
 
 
@@ -139,10 +141,10 @@ function App() {
 
   
 
-  // const tailwindExercisesData = [
-  //   { routesName: "TailwindExercise1", component: <TailwindExercise1 /> },
-  //   { routesName: "TailwindExercise2", component: <TailwindExercise2 /> },
-  // ];
+  const tailwindExercisesData = [
+    { routesName: "TailwindExercise1", component: <TailwindExercise1/> },
+    { routesName: "TailwindExercise2", component: <TailwindExercise2/> },
+  ];
 
   return (
     <>
@@ -161,14 +163,18 @@ function App() {
             element={route.component}
           />
         ))}
-        {/* {tailwindExercisesData.map((route) => (
+         {tailwindExercisesData.map((route) => (
           <Route
             key={route.routesName}
             path={`/${route.routesName}`}
             element={route.component}
           />
-        ))} */}
+        ))} 
       </Routes>
+
+
+
+      
     </>
   );
 }

@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body {
+  text-align: center;
+  background-color: rgba(127, 255, 212, 0.144);
+}
+
+/* Login Website Part */
+.headerSection {
+  padding: 10px;
+  font-family: castellar;
+}
+
+.ph {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pass {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.selectSection {
+  padding: 10px;
+  border-radius: 12px;
+  width: 28%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.loginButton {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+}
+
+/* Registration Website part */
+.header {
+  padding: 10px;
+  font-family: castellar;
+}
+
+.name {
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.mobile {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.pass1 {
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.cpass2{
+ padding: 10px;
+ border-radius: 8px; 
+}
+
+.address{
+  padding: 10px;
+ border-radius: 8px; 
+ width: 57%;
+ text-align: center;
+}
+
+.imagePart{
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 10px;
+  width: 57%;
+}
+
+.role{
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 10px;
+  width: 57%;
+  text-align: center;
+}
+
+.registrationPart{
+  border-radius: 8px;
+  padding: 10px;
+ background-color: darkblue;
+ color: white;
+}
+
+/*Working of React is Starting from here*/
+.formHeader{
+padding: 10px;
+font-family: castellar;
+}
+
+.formName{
+  padding: 10px;
+  border-radius: 8px;
+}
+.formEmail{
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.formGender{
+  padding: 10px;
+  border-radius: 8px;
+   border: 2px solid black;
+  border-radius: 12px;
+}

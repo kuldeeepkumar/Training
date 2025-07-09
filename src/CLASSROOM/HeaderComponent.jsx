@@ -41,6 +41,7 @@ const HeaderComponent = () => {
       </div>
     </nav>
    <FooterComponent/>
+
     </>
    
   )
